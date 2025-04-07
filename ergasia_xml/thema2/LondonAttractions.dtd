@@ -1,5 +1,5 @@
 <!--root kai title-->
-<!ELEMENT London_Sightseeing(Title, Special_Offers*, Attractions+, must_sees*)>
+<!ELEMENT London_Sightseeing(Title, Special_Offers*, Attractions+, must_sees?)>
 
 <!ELEMENT Title(#PCDATA)>
 
@@ -22,15 +22,15 @@ unit_price CDATA #REQUIRED
 price CDATA #REQUIRED
 >
 
-<!ELEMENT offer_includings(including*)>
-<!ELEMENT including EMPTY>
-<!ATTLIST including id ID #REQUIRED>
+<!ELEMENT offer_includings(Including*)>
+<!ELEMENT Including EMPTY>
+<!ATTLIST Including id ID #REQUIRED>
 
 <!--ό,τι έχει να κάνει με attractions-->
 <!ELEMENT Attractions(attraction+)>
 <!ELEMENT attraction (URL, small_decripion, attraction_title, spending_time, doing, includings?, Reservations?, Knowing_before?, Address, operating?, FAQS?, getting_there?)>
 <!ATTLIST attraction id_Attr ID #REQUIRED 
-booking (required | not_required) "not_required" #IMPLIED
+booking (required | not_required) "not_required"
 normal_value CDATA #IMPLIED
 unit_value CDATA #FIXED "£"
 in_offer IDREFS #IMPLIED
@@ -54,8 +54,8 @@ in_offer IDREFS #IMPLIED
 <!ELEMENT Reservations (#PCDATA | procedure | booking_notes)*>
 <!ELEMENT procedure (step*)>
 <!ELEMENT step (#PCDATA)>
-<!ATTLIST step id ID #IMPLIED>
-<!ELEMENT notes (#PCDATA)>
+<!ATTLIST step id ID #IMPLIED><!--τα 1,2,3... τα θεώρησα id-->
+<!ELEMENT booking_notes (#PCDATA)>
 
 <!ELEMENT Knowing_before (Getting_in?, Busy_tip?, note?, Disclaimer?, Accessibility?)>
 <!ATTLIST Knowing_before Title CDATA #FIXED "Know before you go">
