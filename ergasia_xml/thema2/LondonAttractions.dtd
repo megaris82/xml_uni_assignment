@@ -68,6 +68,7 @@ in_offer IDREFS #IMPLIED
 <!ELEMENT Address (#PCDATA)>
 <!ATTLIST Address Title CDATA #FIXED "Where you'll be">
 
+<!--ό,τι έχει να κάνει με ώρες λειτουργίας-->
 <!ELEMENT operating (openings+, closing?, Monday?, Tuesday?, Wednesday?, Thursday?, Friday?, Saturday?, Sunday?)>
 
 <!ELEMENT Monday EMPTY>
@@ -86,7 +87,7 @@ in_offer IDREFS #IMPLIED
 <!ATTLIST Sunday dayid ID #REQUIRED>
 <!ELEMENT Timing (#PCDATA)>
 
-<!--ό,τι έχει να κάνει με ώρες λειτουργίας-->
+
 <!ELEMENT openings (opening*)>
 <!ATTLIST openings
     variable_dates CDATA #IMPLIED
