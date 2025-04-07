@@ -1,0 +1,30 @@
+<!--root kai title-->
+<!ELEMENT London_Sightseeing(Title, Special_Offers*, Attractions+, must_sees*)>
+
+<!ELEMENT Title(#PCDATA)>
+
+<!--oti exei na kanei me special offers-->
+<!ELEMENT Special_Offers(offer+)>
+<!ELEMENT offer(#PCDATA | Special_Offer  | offer_includings)*>
+<!ATTLIST offer id ID #REQUIRED>
+
+<!ELEMENT Special_Offer (Adult , child)>
+<!ATTLIST Special_Offer id ID #REQUIRED days (1|2|3|4|5|6|7|10) #REQUIRED>
+<!ELEMENT Adult EMPTY>
+<!ATTLIST Adult unit_price CDATA #REQUIRED price CDATA #REQUIRED>
+<!ELEMENT child EMPTY>
+<!ATTLIST child age (5-15) #FIXED "5-15" unit_price CDATA #REQUIRED price CDATA #REQUIRED>
+
+<!ELEMENT offer_includings(including*)>
+<!ELEMENT including EMPTY>
+<!ATTLIST including id ID #REQUIRED>
+
+<!--oti exei na kanei me attractions-->
+
+<!--oti exei na kanei me kratiseis kai odigies-->
+
+<!--oti exei na kanei me ores leitourgias-->
+
+<!--oti exei na kanei me metakiniseis-->
+
+<!--oti exei na kanei me must see-->
