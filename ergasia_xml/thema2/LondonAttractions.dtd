@@ -3,28 +3,117 @@
 
 <!ELEMENT Title(#PCDATA)>
 
-<!--oti exei na kanei me special offers-->
+<!--ό,τι έχει να κάνει με special offers-->
 <!ELEMENT Special_Offers(offer+)>
 <!ELEMENT offer(#PCDATA | Special_Offer  | offer_includings)*>
 <!ATTLIST offer id ID #REQUIRED>
 
 <!ELEMENT Special_Offer (Adult , child)>
-<!ATTLIST Special_Offer id ID #REQUIRED days (1|2|3|4|5|6|7|10) #REQUIRED>
+<!ATTLIST Special_Offer id ID #REQUIRED 
+days (1|2|3|4|5|6|7|10) #REQUIRED
+>
 <!ELEMENT Adult EMPTY>
-<!ATTLIST Adult unit_price CDATA #REQUIRED price CDATA #REQUIRED>
+<!ATTLIST Adult unit_price CDATA #REQUIRED
+ price CDATA #REQUIRED
+>
 <!ELEMENT child EMPTY>
-<!ATTLIST child age (5-15) #FIXED "5-15" unit_price CDATA #REQUIRED price CDATA #REQUIRED>
+<!ATTLIST child age CDATA #FIXED "5-15" 
+unit_price CDATA #REQUIRED 
+price CDATA #REQUIRED
+>
 
 <!ELEMENT offer_includings(including*)>
 <!ELEMENT including EMPTY>
 <!ATTLIST including id ID #REQUIRED>
 
-<!--oti exei na kanei me attractions-->
+<!--ό,τι έχει να κάνει με attractions-->
+<!ELEMENT Attractions(attraction+)>
+<!ELEMENT attraction (URL, small_decripion, attraction_title, spending_time, doing, includings?, Reservations?, Knowing_before?, Address, operating?, FAQS?, getting_there?)>
+<!ATTLIST attraction id_Attr ID #REQUIRED 
+booking (required | not_required) "not_required" #IMPLIED
+normal_value CDATA #IMPLIED
+unit_value CDATA #FIXED "£"
+in_offer IDREFS #IMPLIED
+>
 
-<!--oti exei na kanei me kratiseis kai odigies-->
+<!ELEMENT URL (#PCDATA)>
+<!ELEMENT small_decripion (#PCDATA)>
+<!ELEMENT attraction_title (#PCDATA)>
+<!ELEMENT spending_time (#PCDATA)>
 
-<!--oti exei na kanei me ores leitourgias-->
+<!ELEMENT doing (Highlights* , Facts*)>
+<!ATTLIST doing Title CDATA #FIXED "What you'll do">
+<!ELEMENT Highlights (#PCDATA)>
+<!ELEMENT Facts (#PCDATA)>
 
-<!--oti exei na kanei me metakiniseis-->
+<!ELEMENT includings(including*)>
+<!ATTLIST includings Title CDATA #FIXED "What's included">
+<!ELEMENT including (#PCDATA)>
 
-<!--oti exei na kanei me must see-->
+<!--ό,τι έχει να κάνει με κρατήσεις και οδηγίες-->
+<!ELEMENT Reservations (#PCDATA | procedure | booking_notes)*>
+<!ELEMENT procedure (step*)>
+<!ELEMENT step (#PCDATA)>
+<!ATTLIST step id ID #IMPLIED>
+<!ELEMENT notes (#PCDATA)>
+
+<!ELEMENT Knowing_before (Getting_in?, Busy_tip?, note?, Disclaimer?, Accessibility?)>
+<!ATTLIST Knowing_before Title CDATA #FIXED "Know before you go">
+<!ELEMENT Getting_in (#PCDATA)>
+<!ELEMENT Busy_tip (#PCDATA)>
+<!ELEMENT note (#PCDATA)>
+<!ELEMENT Disclaimer (#PCDATA)>
+<!ELEMENT Accessibility (#PCDATA)>
+
+<!ELEMENT Address (#PCDATA)>
+<!ATTLIST Address Title CDATA #FIXED "Where you'll be">
+
+<!ELEMENT operating (openings+, closing?, Monday?, Tuesday?, Wednesday?, Thursday?, Friday?, Saturday?, Sunday?)>
+
+<!ELEMENT Monday EMPTY>
+<!ATTLIST Monday dayid ID #REQUIRED>
+<!ELEMENT Tuesday EMPTY>
+<!ATTLIST Tuesday dayid ID #REQUIRED>
+<!ELEMENT Wednesday (Timing)>
+<!ATTLIST Wednesday dayid ID #REQUIRED>
+<!ELEMENT Thursday (Timing)>
+<!ATTLIST Thursday dayid ID #REQUIRED>
+<!ELEMENT Friday (Timing)>
+<!ATTLIST Friday dayid ID #REQUIRED>
+<!ELEMENT Saturday (Timing)>
+<!ATTLIST Saturday dayid ID #REQUIRED>
+<!ELEMENT Sunday (Timing)>
+<!ATTLIST Sunday dayid ID #REQUIRED>
+<!ELEMENT Timing (#PCDATA)>
+
+<!--ό,τι έχει να κάνει με ώρες λειτουργίας-->
+<!ELEMENT openings (opening*)>
+<!ATTLIST openings
+    variable_dates CDATA #IMPLIED
+    days IDREFS #IMPLIED
+>
+<!ELEMENT opening (#PCDATA)>
+<!ATTLIST opening for CDATA #REQUIRED>
+
+<!ELEMENT closing (match_days*)>
+<!ATTLIST closing
+    specific_dates CDATA #IMPLIED
+    days IDREFS #IMPLIED
+>
+<!ELEMENT match_days (#PCDATA)>
+
+<!ELEMENT FAQS (FAQ*)>
+<!ELEMENT FAQ (question, answer)>
+<!ELEMENT question (#PCDATA)>
+<!ELEMENT answer (#PCDATA)>
+
+<!--ό,τι έχει να κάνει με μετακινήσεις-->
+<!ELEMENT getting_there (Buses?, Train?, Other?)>
+<!ATTLIST getting_there Title CDATA #FIXED "How to get there">
+<!ELEMENT Buses (#PCDATA)>
+<!ELEMENT Train (#PCDATA)>
+<!ELEMENT Other (#PCDATA)>
+
+<!--ό,τι έχει να κάνει με must see-->
+<!ELEMENT must_sees EMPTY>
+<!ATTLIST must_sees ids IDREFS #REQUIRED>
