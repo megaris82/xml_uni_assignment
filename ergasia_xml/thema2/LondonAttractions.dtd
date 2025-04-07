@@ -43,8 +43,10 @@ in_offer IDREFS #IMPLIED
 
 <!ELEMENT doing (Highlights* , Facts*)>
 <!ATTLIST doing Title CDATA #FIXED "What you'll do">
-<!ELEMENT Highlights (#PCDATA)>
-<!ELEMENT Facts (#PCDATA)>
+<!ELEMENT Highlights (Highlight+)>
+<!ELEMENT Highlight (#PCDATA)>
+<!ELEMENT Facts (Fact+)>
+<!ELEMENT Fact (#PCDATA)>
 
 <!ELEMENT includings(including*)>
 <!ATTLIST includings Title CDATA #FIXED "What's included">
