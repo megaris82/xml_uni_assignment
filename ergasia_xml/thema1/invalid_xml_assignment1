@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rental_company name="Makis renting" rating="10">
+    <carList>
+        <car id="car1">
+            <carModel transmission="manual" fuel="δενκαιει">Toyota Corolla</carModel><!--fuel="δενκαιει" μακαρι να υπήρχε αλλά δεν ορίζεται στο dtd-->
+            <capacity value="5"/>
+            <featureList>
+                <feature type="gps" extra_charge="yes">GPS Navigation</feature>
+                <feature type="aircondition1ng">Air Conditioning</feature><!-- λάθος type aircondition1ng-->
+            </featureList>
+            <priceList>
+                <price period="weekdays">50</price>
+                <price period="weekends">60</price>
+                <price period="holidays" extra="wrong">70</price> <!-- το attribute extra δεν ορίζεται στο dtd -->
+                <price period="weekdays">75</price> <!-- ύπαρξη του weekdays δύο φορές-->
+            </priceList>
+        </car>
+        <car id="car2">
+            <carModel transmission="automatic" fuel="electric">Tesla</carModel>
+            <capacity value="6"/> <!-- λάθος capacity -->
+            <featureList>
+                <feature type="gpz">GPS Navigation</feature> <!-- λάθος type gpz-->
+                <feature extra_charge="maybe">Unspecified Feature</feature> <!-- λάθος extra_charge maybe-->
+            </featureList>
+            <priceList>
+                <price period="weekdays">100</price>
+                <price period="weekends">120</price>
+                <!-- λείπει το period holidays-->
+                <price>150</price>
+            </priceList>
+        </car>
+    </carList>
+    <offerList>
+        <offer carIDs="car1 car3" discount="10%"><!-- car3 δεν υπάρχει στο carList -->
+            <offerRange>
+                <from>2025-04-11</from>
+                <to>2025-04-27</to>
+            </offerRange>
+        </offer>
+    </offerList>
+</rental_company>

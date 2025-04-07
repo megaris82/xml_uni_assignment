@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rental_company name="Best Rentals" rating="4.5">
+    <carList>
+        <car id="car1">
+            <carModel transmission="automatic" fuel="petrol">Toyota Corolla</carModel>
+            <capacity value="5"/>
+            <featureList>
+                <feature type="airconditioning" extra_charge="no">Air Conditioning</feature>
+                <feature type="gps" extra_charge="yes">GPS</feature>
+            </featureList>
+            <priceList>
+                <price period="weekdays">50</price>
+                <price period="weekends">60</price>
+                <price period="holidays">70</price>
+            </priceList>
+        </car>
+        <car id="car2">
+            <carModel transmission="manual" fuel="diesel">Ford Focus</carModel>
+            <capacity value="5"/>
+            <featureList>
+                <feature type="airconditioning" extra_charge="no">Air Conditioning</feature>
+            </featureList>
+            <priceList>
+                <price period="weekdays">45</price>
+                <price period="weekends">55</price>
+                <price period="holidays">65</price>
+            </priceList>
+        </car>
+    </carList>
+    <offerList>
+        <offer carIDs="car1 car2" discount="10%">
+            <offerRange>
+                <from>2023-12-01</from>
+                <to>2023-12-31</to>
+            </offerRange>
+        </offer>
+    </offerList>
+</rental_company>
