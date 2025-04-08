@@ -1,11 +1,11 @@
 <!--root kai title-->
-<!ELEMENT London_Sightseeing(Title, Special_Offers*, Attractions+, must_sees?)>
+<!ELEMENT London_Sightseeing (Title, Special_Offers*, Attractions+, must_sees?)>
 
-<!ELEMENT Title(#PCDATA)>
+<!ELEMENT Title (#PCDATA)>
 
 <!--ό,τι έχει να κάνει με special offers-->
-<!ELEMENT Special_Offers(offer+)>
-<!ELEMENT offer(#PCDATA | Special_Offer  | offer_includings)*>
+<!ELEMENT Special_Offers (offer+)>
+<!ELEMENT offer (#PCDATA | Special_Offer  | offer_includings)*>
 <!ATTLIST offer id ID #REQUIRED>
 
 <!ELEMENT Special_Offer (Adult , child)>
@@ -22,12 +22,12 @@ unit_price CDATA #REQUIRED
 price CDATA #REQUIRED
 >
 
-<!ELEMENT offer_includings(Including*)>
+<!ELEMENT offer_includings (#PCDATA | Including)*>
 <!ELEMENT Including EMPTY>
 <!ATTLIST Including id ID #REQUIRED>
 
 <!--ό,τι έχει να κάνει με attractions-->
-<!ELEMENT Attractions(attraction+)>
+<!ELEMENT Attractions (attraction+)>
 <!ELEMENT attraction (URL, small_decripion, attraction_title, spending_time, doing, includings?, Reservations?, Knowing_before?, Address, operating?, FAQS?, getting_there?)>
 <!ATTLIST attraction id_Attr ID #REQUIRED 
 booking (required | not_required) "not_required"
@@ -42,14 +42,14 @@ in_offer IDREFS #IMPLIED
 <!ELEMENT spending_time (#PCDATA)>
 
 <!ELEMENT doing (Highlights* , Facts*)>
-<!ATTLIST doing Title CDATA #FIXED "What you'll do">
+<!ATTLIST doing Title CDATA #FIXED "What youll do">
 <!ELEMENT Highlights (Highlight+)>
 <!ELEMENT Highlight (#PCDATA)>
 <!ELEMENT Facts (Fact+)>
 <!ELEMENT Fact (#PCDATA)>
 
-<!ELEMENT includings(including*)>
-<!ATTLIST includings Title CDATA #FIXED "What's included">
+<!ELEMENT includings (including*)>
+<!ATTLIST includings Title CDATA #FIXED "Whats included">
 <!ELEMENT including (#PCDATA)>
 
 <!--ό,τι έχει να κάνει με κρατήσεις και οδηγίες-->
@@ -68,7 +68,7 @@ in_offer IDREFS #IMPLIED
 <!ELEMENT Accessibility (#PCDATA)>
 
 <!ELEMENT Address (#PCDATA)>
-<!ATTLIST Address Title CDATA #FIXED "Where you'll be">
+<!ATTLIST Address Title CDATA #FIXED "Where youll be">
 
 <!--ό,τι έχει να κάνει με ώρες λειτουργίας-->
 <!ELEMENT operating (openings+, closing?, Monday?, Tuesday?, Wednesday?, Thursday?, Friday?, Saturday?, Sunday?)>

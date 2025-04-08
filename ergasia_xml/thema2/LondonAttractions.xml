@@ -1,2 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<London_Sightseeing>
+
+    <Title>THE LONDON PASS</Title>
+
+    <Special_Offers>
+        <offer id="1">The London Pass
+            <Special_Offer id="1" days="1">
+                <Adult unit_price="£" price="79"></Adult>
+                <child unit_price="£" price="39" age="5-15"></child>
+            </Special_Offer>
+            <offer_includings>
+                <Including id="1">Free cancellation within 30 days.</Including>
+                <Including id="2">Visit as many attractions as you like over the number of selected days (subject to our terms and conditions).</Including>
+                <Including id="3">Valid for the selected number of calendar days from first use.</Including>
+                <Including id="4">Our handy app itinerary helps you plan the perfect trip.</Including>
+                <Including id="5">There's no need to pick before you purchase. Just choose attractions as you go!</Including>
+                <Including id="6">If you don't save on your sightseeing, we'll refund you the difference!</Including>
+                <Including id="7">No need for multiple tickets - just scan the Go City app at each attraction.</Including>
+            </offer_includings>   
+        </offer>
+        <offer id="2">The London Pass Plus
+            <Special_Offer id="2" days="1">
+                <Adult unit_price="£" price="109"></Adult>
+                <child unit_price="£" price="79" age="5-15"></child>
+            </Special_Offer>
+            <offer_includings>
+                The London Pass Plus includes all London Pass attractions, as well as additional access to The View from The Shard, The London Eye, Madame Tussauds &amp; the Big Bus Hop-On Hop-Off Tour.
+                <Including id="1">Free cancellation within 30 days.</Including>
+                <Including id="2">Visit as many attractions as you like over the number of selected days (subject to our terms and conditions).</Including>
+                <Including id="3">Valid for the selected number of calendar days from first use.</Including>
+                <Including id="4">Our handy app itinerary helps you plan the perfect trip.</Including>
+                <Including id="5">There's no need to pick before you purchase. Just choose attractions as you go!</Including>
+                <Including id="6">If you don't save on your sightseeing, we'll refund you the difference!</Including>
+                <Including id="7">No need for multiple tickets - just scan the Go City app at each attraction.</Including>
+            </offer_includings>
+        </offer>
+    </Special_Offers>
+
+
+</London_Sightseeing>
