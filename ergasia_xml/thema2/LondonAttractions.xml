@@ -38,5 +38,102 @@
         </offer>
     </Special_Offers>
 
-
+    <Attractions>
+        <Attraction id_Attr="1" booking="required" normal_value="38.00" unit_value="£" in_offer="2">
+            <URL>https://londonpass.com/en/london-attractions/view-from-the-shard</URL>
+            <small_decription>Discover an architectural marvel and a symbol of modern London.</small_decription>
+            <Attraction_title>The View from The Shard</Attraction_title>
+            <spending_time>Up to an hour (&lt;1 hr)</spending_time>
+            <doing Title="What you'll do">From a 1970s office block to one of the world’s most distinguished buildings, ascend to London’s highest viewpoint at The View from The Shard.
+                Journey to a height of up to 800ft (244m); to the top of London’s tallest observation platform and premium visitor attraction, The View from The Shard. Formerly known as the London Bridge Tower, ‘The Shard’ was designed by famed architect, Renzo Piano. Piano, who is most famous for designing the Pompidou Centre in Paris, France, began designing The Shard in 2000. His design was fuelled by the desire to create a modern building that stood out amongst the London Skyline without appearing too overbearing. As such, the building resembles a large piece of glass pointing out of the ground, and thus, The Shard was aptly named.
+                Piano’s design has become a symbol of modern architecture in contemporary London. It incorporates both aesthetically and structurally unique features, drawing inspiration from the spires of different London churches. The building’s windows have a special glaze that reacts to light in a very intuitive way. Depending on the season or time of day, the glass can reflect different intensities of light, casting unique luminosity.
+                The entire building process took over three years to complete. In that time, the structure rose by 10 feet per day. Many of the glass panels were put in place before the building reached its terminal height of 1000 feet. By 2012, it officially became the tallest building in Europe.
+                The Shard offers a multitude of corporate, entertainment and dining facilities. Floors 2 to 28 of the building are used as office space rental areas. The 31st to 33rd floors are dedicated to restaurants. The five-star hotel, Shangri-La takes up a staggering 18 levels, from the 34th floor to the 52nd floor. Some can even call The Shard their home, as floors 53 to 65 are occupied by residential apartments.
+                The best viewing spot in The Shard is, of course, its pinnacle. Enjoy unparalleled views over London from the building’s multi-floor observatory on the 68th to 72nd floors.</doing>
+            <includings Title="What's included">
+                <including>Your pass includes entry to the indoor viewing platform on the 68th and 69th floor, the open-air Skydeck on the 72nd floor and a digital photo package, comprising four photos.</including>
+                <including>Once you’ve had your pass scanned, you’ll recieve an exclusive £5 per person retail credit voucher for use in the on-site gift shop (subject to a minimum spend of £20 per person).</including>
+            </includings>
+            <Reservations>
+                You must pre-book your time slot online before visiting. Tickets can only be booked online.
+                <procedure>
+                    <step id="1">Follow this link to the specific The London Pass booking page on The View from The Shard’s website.
+                        You will be unable to book using your pass via the main website.</step>
+                    <step id="2">Select the number of tickets you require.Remember, each person in your group must have their own pass.</step>
+                    <step id="3">Select your visit date and a timeslot for entry. Your pass must be valid on your chosen visit date.</step>
+                    <step id="4">Enter your pass numbers, separated with commas and then enter the promo code: GOCITY23</step>
+                    <step id="5">Finally, enter your details so your entry voucher can be emailed to you. </step>
+                </procedure>
+                You must pre-book your time slot online before visiting. Tickets can only be booked online.
+            </Reservations>
+            <Knowing_before Title="Know before you go">
+                <Getting_in>Simply show your pass &amp; booked timeslot entry voucher at the main admissions desk and you're good to go!</Getting_in>
+            </Knowing_before>
+            <Address Title="Where youl'l be">
+                Railway Approach, London, GB
+            </Address>
+            <operating>
+                <Monday dayid="1"/>
+                <Tuesday dayid="2"/>
+                <Wednesday dayid="3">
+                    <Timing>11AM-6PM</Timing>
+                </Wednesday>
+                <Thursday dayid="4">
+                    <Timing>11AM-6PM</Timing>
+                </Thursday>
+                <Friday dayid="5">
+                    <Timing>11AM-6PM</Timing>
+                </Friday>
+                <Saturday dayid="6">
+                    <Timing>11AM-6PM</Timing>
+                </Saturday>
+                <Sunday dayid="7">
+                    <Timing>11AM-6PM</Timing>
+                </Sunday>
+                <openings days="3, 4, 5, 6, 7"/>
+                <closing days="1, 2"/>
+            </operating>
+        </Attraction>
+        <Attraction id_Attr="2" booking="required" normal_value="42.00" unit_value="£" in_offer="2">
+            <URL>https://londonpass.com/en/london-attractions/london-eye</URL>
+            <small_decription>Discover an architectural marvel and a symbol of modern London.</small_decription>
+            <Attraction_title>The London Eye</Attraction_title>
+            <spending_time>Up to an hour (&lt;1 hr)</spending_time>
+            <doing Title="What you'll do">Are you looking to take your London experience to new heights? Take a ride on Europe’s tallest cantilevered observation wheel in the heart of the city – a must-do on your London vacation.
+                Originally constructed as a temporary exhibit to celebrate the new millennium, the London Eye offers panoramic views of the city’s skyline that stretches as far as 25 miles on a clear day. That’s to Windsor Castle!
+                Standing at an impressive 135 metres (443ft) high, the London Eye boasts 32 glass pods that represent each one of London’s boroughs. Step into the spacious capsule, that’s completely enclosed and climate-controlled, and be transported to the heights of the city.
+                Spot the grandeur of Buckingham Palace, the clock tower housing Big Ben, and the gothic structures of the Houses of Parliament. Gaze out at other famous silhouettes such as the Shard, the winding River Thames, and the majestic dome of St. Paul’s Cathedral. These sights become even more magical at sunset or when night falls, and the city lights begin to twinkle.</doing>
+            <includings Title="What's included">
+                <including>Your pass gives you access to a flight on The London Eye. Soaring 135 metres above the city, the observation wheel offers an unrivaled aerial tour of the historic skyline.</including>
+            </includings>
+            <Reservations>
+               You can book your spot up to 15 days in advance on the Go City Reservations Portal. You’ll need your order/pass number(s) and the email you used to purchase.
+                Please note!
+                Important: if you are travelling with children aged 2 to 4, although they won’t have a pass, they will still be charged admission by The London Eye. Tickets can be purchased at the self-service ticket kiosks in The London Eye main ticket office. Please allow extra time to purchase these tickets prior to your booked timeslot.
+                Plans changed?
+                Plans changed? No problem, in the Reservations Portal you can amend your booking up to 15 minutes prior to arrival.
+            </Reservations>
+            <Knowing_before Title="Know before you go">
+                <Getting_in>With your confirmed Go City reservation, make your way to Entrance A, located outside the London Eye - you can’t miss it, it’s a bright pink gazebo. Here, you'll have your pass scanned and validated. Keep your confirmation email handy in case you’re asked to show that as well. Once your pass has been validated, you’ll join the line for security before boarding your pod. Even with a confirmed timeslot, wait times from scanning to boarding can be up to 30 minutes.
+			</Getting_in>
+            </Knowing_before>
+            <Address Title="Where youl'l be">
+                Riverside Building, County Hall, Westminster Bridge Rd, London SE1 7PB, United Kingdom
+            </Address>
+            <operating>
+                <openings variable_dates="Opening hours vary. Check the The lastminute.com London Eye website for the most up-to-date hours."/>
+                <closing specific_dates="25 December &amp; 6 to 19 January 2025"/>
+            </operating>
+            <FAQS>
+                <FAQ>
+                    <question>What should I know about the lastminute.com London Eye?</question>
+                    <answer>The lastminute.com London Eye stands out as the world’s largest cantilevered observation wheel with a height of 135 metres. It was designed by Marks Barfield Architects and opened to the public in 2000. The structure has received more than 85 awards recognising its achievements in tourism, architecture, and engineering.</answer>
+                </FAQ>
+                <FAQ>
+                    <question>What sights can be seen from the lastmintue.com London Eye?</question>
+                    <answer>When you take a ride on the London Eye, you’ll have the opportunity to see prominent landmarks such as the Houses of Parliament, Buckingham Palace, the Shard and St Paul’s Cathedral. On clear days, your view may extend as far as Windsor Castle. You’ll also get a bird’s-eye-view of the Tate Modern, SEA LIFE Aquarium, and London’s Southbank area.</answer>
+                </FAQ>
+            </FAQS>
+        </Attraction>
+    </Attractions>
 </London_Sightseeing>

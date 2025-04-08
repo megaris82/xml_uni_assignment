@@ -27,9 +27,9 @@ price CDATA #REQUIRED
 <!ATTLIST Including id ID #REQUIRED>
 
 <!--ό,τι έχει να κάνει με attractions-->
-<!ELEMENT Attractions (attraction+)>
-<!ELEMENT attraction (URL, small_decripion, attraction_title, spending_time, doing, includings?, Reservations?, Knowing_before?, Address, operating?, FAQS?, getting_there?)>
-<!ATTLIST attraction id_Attr ID #REQUIRED 
+<!ELEMENT Attractions (Attraction+)>
+<!ELEMENT Attraction (URL, small_decripion, Attraction_title, spending_time, doing, includings?, Reservations?, Knowing_before?, Address, operating?, FAQS?, getting_there?)>
+<!ATTLIST Attraction id_Attr ID #REQUIRED 
 booking (required | not_required) "not_required"
 normal_value CDATA #IMPLIED
 unit_value CDATA #FIXED "£"
@@ -38,10 +38,10 @@ in_offer IDREFS #IMPLIED
 
 <!ELEMENT URL (#PCDATA)>
 <!ELEMENT small_decripion (#PCDATA)>
-<!ELEMENT attraction_title (#PCDATA)>
+<!ELEMENT Attraction_title (#PCDATA)>
 <!ELEMENT spending_time (#PCDATA)>
 
-<!ELEMENT doing (Highlights* , Facts*)>
+<!ELEMENT doing (#PCDATA | Highlights | Facts)*>
 <!ATTLIST doing Title CDATA #FIXED "What youll do">
 <!ELEMENT Highlights (Highlight+)>
 <!ELEMENT Highlight (#PCDATA)>
@@ -53,11 +53,11 @@ in_offer IDREFS #IMPLIED
 <!ELEMENT including (#PCDATA)>
 
 <!--ό,τι έχει να κάνει με κρατήσεις και οδηγίες-->
-<!ELEMENT Reservations (#PCDATA | procedure | booking_notes)*>
+<!ELEMENT Reservations (#PCDATA | procedure)*>
 <!ELEMENT procedure (step*)>
 <!ELEMENT step (#PCDATA)>
 <!ATTLIST step id ID #IMPLIED><!--τα 1,2,3... τα θεώρησα id-->
-<!ELEMENT booking_notes (#PCDATA)>
+
 
 <!ELEMENT Knowing_before (Getting_in?, Busy_tip?, note?, Disclaimer?, Accessibility?)>
 <!ATTLIST Knowing_before Title CDATA #FIXED "Know before you go">
