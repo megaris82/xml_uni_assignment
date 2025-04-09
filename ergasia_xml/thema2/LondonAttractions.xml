@@ -5,35 +5,35 @@
     <Title>THE LONDON PASS</Title>
 
     <Special_Offers>
-        <offer id="1">The London Pass
-            <Special_Offer id="1035" days="1">
+        <offer id="1035">The London Pass
+            <Special_Offer id="special1" days="1">
                 <Adult unit_price="£" price="79"></Adult>
                 <child unit_price="£" price="39" age="5-15"></child>
             </Special_Offer>
             <offer_includings>
-                <Including id="1">Free cancellation within 30 days.</Including>
-                <Including id="2">Visit as many attractions as you like over the number of selected days (subject to our terms and conditions).</Including>
-                <Including id="3">Valid for the selected number of calendar days from first use.</Including>
-                <Including id="4">Our handy app itinerary helps you plan the perfect trip.</Including>
-                <Including id="5">There's no need to pick before you purchase. Just choose attractions as you go!</Including>
-                <Including id="6">If you don't save on your sightseeing, we'll refund you the difference!</Including>
-                <Including id="7">No need for multiple tickets - just scan the Go City app at each attraction.</Including>
+                <Including id="offer1">Free cancellation within 30 days.</Including>
+                <Including id="offer2">Visit as many attractions as you like over the number of selected days (subject to our terms and conditions).</Including>
+                <Including id="offer3">Valid for the selected number of calendar days from first use.</Including>
+                <Including id="offer4">Our handy app itinerary helps you plan the perfect trip.</Including>
+                <Including id="offer5">There's no need to pick before you purchase. Just choose attractions as you go!</Including>
+                <Including id="offer6">If you don't save on your sightseeing, we'll refund you the difference!</Including>
+                <Including id="offer7">No need for multiple tickets - just scan the Go City app at each attraction.</Including>
             </offer_includings>   
         </offer>
-        <offer id="2">The London Pass Plus
-            <Special_Offer id="1036" days="1">
+        <offer id="1036">The London Pass Plus
+            <Special_Offer id="special2" days="1">
                 <Adult unit_price="£" price="109"></Adult>
                 <child unit_price="£" price="79" age="5-15"></child>
             </Special_Offer>
             <offer_includings>
                 The London Pass Plus includes all London Pass attractions, as well as additional access to The View from The Shard, The London Eye, Madame Tussauds &amp; the Big Bus Hop-On Hop-Off Tour.
-                <Including id="1">Free cancellation within 30 days.</Including>
-                <Including id="2">Visit as many attractions as you like over the number of selected days (subject to our terms and conditions).</Including>
-                <Including id="3">Valid for the selected number of calendar days from first use.</Including>
-                <Including id="4">Our handy app itinerary helps you plan the perfect trip.</Including>
-                <Including id="5">There's no need to pick before you purchase. Just choose attractions as you go!</Including>
-                <Including id="6">If you don't save on your sightseeing, we'll refund you the difference!</Including>
-                <Including id="7">No need for multiple tickets - just scan the Go City app at each attraction.</Including>
+                <Including id="offer1">Free cancellation within 30 days.</Including>
+                <Including id="offer2">Visit as many attractions as you like over the number of selected days (subject to our terms and conditions).</Including>
+                <Including id="offer3">Valid for the selected number of calendar days from first use.</Including>
+                <Including id="offer4">Our handy app itinerary helps you plan the perfect trip.</Including>
+                <Including id="offer5">There's no need to pick before you purchase. Just choose attractions as you go!</Including>
+                <Including id="offer6">If you don't save on your sightseeing, we'll refund you the difference!</Including>
+                <Including id="offer7">No need for multiple tickets - just scan the Go City app at each attraction.</Including>
             </offer_includings>
         </offer>
     </Special_Offers>
@@ -315,7 +315,7 @@
                 <Other>-</Other>
             </getting_there>
         </Attraction>
-        <Attraction id_Attr="6" normal_value="39.00" unit_value="£" in_offer="1035 1036">
+        <Attraction id_Attr="6" normal_value="39.00" unit_value="£" in_offer="1036">
             <URL>https://londonpass.com/en/london-attractions/hop-on-hop-off-bus-tour</URL>
             <small_decription>Sit back, relax, and take in the views of London with a Hop-On Hop-Off bus tour.</small_decription>
             <Attraction_title>1-Day Big Bus Hop-On Hop-Off Tour</Attraction_title>
@@ -369,6 +369,203 @@
                 <Train> Westminster</Train>
             </getting_there>
         </Attraction>
+        <Attraction id_Attr="7" normal_value="30.00" unit_value="£" in_offer="1035">
+            <URL>https://londonpass.com/en/london-attractions/westminster-abbey</URL>
+            <small_decription>Enjoy access to Westminster Abbey, the site of the Royal Wedding, Britain's official coronation church and UNESCO World Heritage Site.</small_decription>
+            <Attraction_title>Westminster Abbey</Attraction_title>
+            <spending_time>Up to an hour</spending_time>
+            <doing Title="What youll do">Just a short walk from the Thames, Westminster Abbey is a must-see and a significant structure in British history. This beautiful gothic church is a UNESCO World Heritage Site popular with many visitors to London. Complete with paintings, stained glass windows, and other religious artifacts, Westminster Abbey owns the most important collection of monumental sculpture anywhere in Britain.
+                <Highlights>
+                    <Highlight>The life of the abbey revolves around worship; Morning Prayer, Evensong, and the Eucharist. The services are open to the public of any religious denomination.</Highlight>
+                    <Highlight>Westminster Abbey has been actively musical since the monks of the tenth century, to the daily choir singers of today, the Choir of Westminster Abbey. The earliest pair of organs were installed in 1304 in the Lady Chapel. Some of the most celebrated British musicians, organists, singers and composers have been linked to the Abbey throughout their careers.</Highlight>
+                    <Highlight>Since the first established bell ringing group in 1255, the Brethren of the Guild of Westminster, the bell ringers of today are comprised of a volunteer group who ring on special occasions such as saint’s days, church festivals, and Royal and Abbey anniversaries.</Highlight>
+                    <Highlight>On top of the North Tower, constructed between 1722 and 1745, sits a flag pole that flies various flags throughout the year for different occasions. The flags consist of; the Commonwealth Nations, the Flag of St Peter, the Abbey Flag, the Union Flag, the Flags of the National Saints, the Royal Air Force Flag, and the Royal Standard.</Highlight>
+                </Highlights>
+                <Facts>
+                    <Fact>In 2011 it was the venue for the wedding of Prince William and Kate Middleton.</Fact>
+                    <Fact>It’s been the nation’s Coronation church since the crowning of William the Conqueror in 1066.</Fact>
+                    <Fact>The previous monarch, Queen Elizabeth II, was crowned on King Edward’s Chair, as has every monarch since 1308.</Fact>
+                    <Fact>There are 450 tombs and monuments in the Abbey.</Fact>
+                    <Fact>The Chapter House has one of the country's oldest doors dating back to 1050.</Fact>
+                    <Fact>If you look closely, the walls are littered with schoolboy graffiti from the 1700s-1800s.</Fact>
+                </Facts>
+            </doing>
+            <includings Title="Whats included">
+                <including>Includes a free multimedia guide</including>
+            </includings>
+            <Knowing_before Title="Know before you go">
+                <Getting_in>Enter via the North Green, which runs between the Abbey and Broad Sanctuary. Before entering the Abbey, you will pass through security/bag check. On busy days, it might be necessary to continue queuing after security. Your passes will be scanned and validated at a ticket booth inside the Abbey and you will be issued with a paper ticket as proof of admission.
+                            Pass customers do not need to pre-book but admission to the Abbey is always subject to availability. It’s a very popular attraction and wait times can be long. For the best experience, we recommend visiting in the early afternoon.
+                </Getting_in>
+            </Knowing_before>
+            <Address Title="Where youll be">
+               20 Deans Yard, Westminster, London, GB
+            </Address>
+            <operating>
+                <openings variable_dates="The Abbey is subject to many changes to its operating hours, for the most accurate information, please visit the Abbey's website. Please note that details of opening times from March 2025 onwards are not currently available.">
+                    <opening for="Monday to Friday">9.30AM to 3.30PM</opening>
+                    <opening for="Saturday">9.30AM to 3PM</opening>
+                    <opening for="Sunday">open for worship only</opening>
+                </openings>
+                 <closing>
+                    <match_days>18 April Good Friday CLOSED</match_days>
+                    <match_days>15 April CLOSED between 1PM - 2PM</match_days>
+                    <match_days>2 May CLOSED</match_days>
+                    <match_days>7 May CLOSED</match_days>
+                    <match_days>8 May CLOSED</match_days>
+                    <match_days>12 May LAST ADMISSION 12PM</match_days>
+                    <match_days>14 May CLOSED in the morning (Times TBC)</match_days>
+                    <match_days>15 May LAST ADMISSION 12PM</match_days>
+                    <match_days>16 May CLOSED in the afternoon (Times TBC)</match_days>
+                    <match_days>12 June CLOSED</match_days>
+                </closing>
+            </operating>
+            <getting_there Title="How to get there">
+                <Train>London Underground: St James's Park (District or Circle lines) or Westminster (District or Jubilee lines)</Train>
+            </getting_there>
+        </Attraction>
+        <Attraction id_Attr="8" normal_value="41.80" unit_value="£" in_offer="1035">
+            <URL>https://londonpass.com/en/london-attractions/london-zoo</URL>
+            <small_decription>With over 10,000 incredible animals and exciting and innovative exhibits, London Zoo is a great day out in the capital for all ages.</small_decription>
+            <Attraction_title>London Zoo</Attraction_title>
+            <spending_time>2-3 hours</spending_time>
+            <doing Title="What youll do">Set in leafy Regent’s Park amid heritage-listed buildings and beautiful gardens, London Zoo is an oasis in the heart of the capital. Homing over 10,000 animals plus hosting an array of seasonal live shows and fantastic, immersive exhibits, this is an unmissable attraction right in the heart of London.
+                Established in 1828 by the Zoological Society of London, London Zoo has become the main point of reference for animal experiences in London. The zoo is the oldest scientific zoo in the world, housing a variety of animals purely for scientific research. As such, it was only accessible to fellows of the Zoological Society of London. Later, in 1847 the museum was opened to the public to help fund the society's research.
+                Situated on the northern edge of Regents Park, the zoo’s 36 acres of land houses over 10,000 animals, making it, the most extensive collection in the UK. From vanished species such as the Quagga and Tasmanian tiger to animals currently on the IUCN Red List, the establishment is well known for its conservation efforts. In 2018, the zoo welcomed a newborn okapi and London Zoo was the first in the world to begin breeding the critically endangered Lake Oku clawed frog. These efforts have led to vital insights into the conditions these rare animals need to survive and have fueled their conservation initiatives with essential information.
+                Venture In with the Spiders at the Tiny Giants exhibit. The walk-through experience is the first of its kind in Europe, allowing you to come face-to-face with a host of arachnids and invertebrates. Head down to England’s largest penguin pool at Penguin Beach and watch the Humboldt penguins dive, swim, frolic and feed. Step into Africa and observe the elegance and grace of the giraffes from the viewing platform. Travel along lush pathways into the Gorilla Kingdom and view the magnificent family of western lowland gorillas native to the African rainforest.
+                Younger visitors can explore Animal Adventure, home to meerkats, llamas, and aardvarks, in an immersive animal experience designed for children, by children. London Zoo has been educating and inspiring visitors since opening to the public in 1847, it’s a great family day out right in the centre of Regent’s Park.
+                <Facts>
+                    <Fact>There are several listed buildings in the London Zoo and in the surrounding areas in Regents Park - one of the most peculiar is the traditional grade I listed telephone box at Penguin Beach, can you find it?</Fact>
+                    <Fact>The Casson elephant house’s roof was designed by Sir Hugh Casson. His design portrays a herd of elephants drinking from a watering hole.</Fact>
+                    <Fact>The much-loved Winnie-the-Pooh was inspired by a real-life black bear that lived at London Zoo from 1914 until her death in 1934. She was tame much, loved being handled, and was loved by all. You can find a statue of her in the zoo.</Fact>
+                    <Fact>The giraffe house is a grade II listed building and the oldest in the world. Today it is still used for its initial purpose, housing the zoo’s spectacular giraffe family.</Fact>
+                    <Fact>In 1949, the zoo was the first to rear a polar bear successfully. They named him Brumas. Brumas’ arrival resulted in attendance skyrocketing to over 3 million- a figure which is yet to be topped.</Fact>
+                </Facts>
+            </doing>
+            <includings Title="Whats included">
+                <including>Get involved with interactive experiences including Penguin Beach, Land of Lions, and Butterfly Paradise.</including>
+                <including>Learn about the science and history of hundreds of species and their habitats.</including>
+            </includings>
+            <Knowing_before Title="Know before you go">
+                <Getting_in>There's no need to book in advance. On arrival at the main gates, you'll need to go through a brief security check before heading to the ticket kiosks to have your pass checked and validated to gain admission.</Getting_in>
+                <note>Top tip: download the London Zoo app to plan your route and get the most out of your visit.</note><!--δεν θεωρώ ότι αποτελεί κάτι από τα υπόλοιπα-->
+            </Knowing_before>
+            <Address Title="Where youll be">
+               Outer Circle, Regent’s Park, London, GB
+            </Address>
+            <operating>
+                <openings variable_dates="We recommend checking the London Zoo website for any operational changes.">
+                    <opening for="March 29 to September 1">10AM to 6PM</opening>
+                    <opening for="September 2 to October 27">10AM to 5PM</opening>
+                    <opening for="October 28 to February 14, 2025">10AM to 4PM</opening>
+                </openings>
+                 <closing>
+                    <match_days>25 December annually</match_days>
+                    <match_days>20 to 24 January 2025</match_days>
+                    <match_days>27 to 31 January 2025</match_days>
+                </closing>
+            </operating>
+            <getting_there Title="How to get there">
+                <Train>Camden Town</Train>
+            </getting_there>
+        </Attraction>
+           <Attraction id_Attr="9" normal_value="41.80" unit_value="£" in_offer="1035">
+            <URL>https://londonpass.com/en/london-attractions/arsenal-stadium-tour</URL>
+            <small_decription>The Arsenal Stadium Tour takes visitors into some of the most intimate areas of the club and gives them a taste of what it is like on Match Day.</small_decription>
+            <Attraction_title>Arsenal Stadium Tour</Attraction_title>
+            <spending_time>Up to an hour</spending_time>
+            <doing Title="What youll do">Go behind-the-scenes and tour one of London’s most historic football clubs, Arsenal FC, at their home. Get ready to take your place in the home changing room, walk down the tunnel and soak up the atmosphere of a roaring crowd of 60,000 fans. In addition, catch a glimpse of the Directors Box and Diamond Club as you walk through the players’ tunnel and take in the pitchside views.
+                    Two new areas added to the Arsenal tours are the Head Coach’s office, where you can see where the manager preps before a game, and the Physio Room where players get their pre-match massages.
+                    Tour guests also have access to exclusive video content with Arsenal’s interactive shirt and tour cam features, including behind-the-scenes footage and player interviews.
+                    Arsenal has an incredible history dating back to 1886 when a group of workers from Woolwich Arsenal Armament Factory decided to form a football team. The squad called themselves Dial Square, after the sundial atop the entrance to the factory. The iconic red kit we know today manifested in 1895, two years before the team became professional. Fred Beardsley, Bill Parr and Charlie Bates left Nottingham Forest to join Dial Square, bringing their old red kit with them. The club decided that the most inexpensive way to kit out the whole team was to match their outfit to the same colour as the ex-Forest players.
+                <Facts>
+                    <Fact>The Arsenal Stadium goes by many names and is also known as ‘Ashburton Grove’.</Fact>
+                    <Fact>It is is the third-largest stadium in England, after Old Trafford and Wembley Stadium. It can hold around 60,000 visitors.</Fact>
+                    <Fact>The pitch size is 105 metres by 68 metres and the grass area is 13 metres by 76 metres in size.</Fact>
+                    <Fact>The surface of the pitch is covered by GrassMaster, a hybrid of grass and artificial fibres.</Fact>
+                </Facts>
+            </doing>
+            <includings Title="Whats included">
+                <including>Receive a pair of free Arsenal-branded headphones.</including>
+            </includings>
+            <Knowing_before Title="Know before you go">
+                <Getting_in>Present your pass at the tour entrance inside the shop. The Arsenal museum is situated opposite turnstile E in the Northern Triangle Building, next to the Ken Friar bridge. The stadium tours entrance is located within the Armoury Store.</Getting_in>
+                <Disclaimer>The stadium is a working building. As a result, both tour route and content are subject to change without notice. All tours are subject to availability and customers may need to wait for the next available time slot.</Disclaimer>
+            </Knowing_before>
+            <Address Title="Where youll be">
+                75 Drayton Park, London, GB
+            </Address>
+            <operating>
+                <openings for="Self-guided tours">
+                    <opening for="Monday to Saturday">9:30AM to 5PM (last departure 4PM)</opening>
+                    <opening for="Sunday">10AM to 4PM (last departure 3PM)</opening>
+                </openings>
+                <openings for="Museum (included in admission)">
+                    <opening for="Monday to Saturday">9:30AM to 5:30PM (last admission 5PM)</opening>
+                    <opening for="Sunday">10AM to 4:30PM (last admission 4PM)</opening>
+                </openings>
+                 <closing><!--αναφέρει ότι υπάρχει είσοδος μόνο στο μουσείο όταν παίζει η ομάδα, τα έβαλα ως match_days με έξτρα κείμενο-->
+                    <match_days>25 December - tours &amp; museum closed</match_days>
+                    <match_days>Tue 8 April: last admission 7PM museum only</match_days>
+                    <match_days>Sat 12 April: last admission 4:30PM museum only</match_days>
+                    <match_days>Tue 15 April: last admission 6:30PM museum only</match_days>
+                    <match_days>Sat 19 April: last admission 11:30AM museum only</match_days>
+                    <match_days>Sat 3 May: last admission 4:30PM</match_days>
+                    <match_days>Sat 10 May: last admission 11:30AM</match_days>
+                </closing>
+            </operating>
+            <getting_there Title="How to get there">
+                <Train>London Underground: take the Piccadilly line. Get off at Arsenal train station.</Train>
+            </getting_there>
+        </Attraction>
+         <Attraction id_Attr="10" normal_value="19.00" unit_value="£" in_offer="1035">
+            <URL>https://londonpass.com/en/london-attractions/royal-mews</URL>
+            <small_decription>Discover the royal working stables and British monarchy's grand collection of coaches and luxury cars.</small_decription>
+            <Attraction_title>Royal Mews</Attraction_title>
+            <spending_time>Up to an hour</spending_time>
+            <doing Title="What youll do">The Royal Mews is one of the finest working stables anywhere in the world and home to the royal collection of historic coaches and carriages, and the Windsor Greys and Cleveland Bays, the horses that pull the carriages. To this day, the stables are still responsible for all road travel arrangements for His Majesty The King and other members of the Royal Family.
+                The Royal Mews has been the location of the sovereign's road transport since 1760 when George III moved his carriage collection closer to his new home at Buckingham Palace. Since then, it has been updated by several monarchs in keeping with their changing transport needs.
+                Among the historic coaches and carriages on display are the spectacular Diamond Jubilee State Coach, and the Australian State Coach, which was given to Queen Elizabeth II as a gift from the Australian people. The most dazzling of all is the Gold State Coach, however, which has been used at every coronation since that of George IV in 1821, and which played a central role in the Platinum Jubilee celebrations in June 2022.
+                <Facts>
+                    <Fact>The Windsor Grey horses, used to pull the royal carriages, are so-called because they were kept at Windsor during Queen Victoria’s reign.</Fact>
+                    <Fact>Cleveland Bays, another type of horse used to pull the carriages, are one of the oldest breeds of horses in the UK.</Fact>
+                    <Fact>The Royal stables were originally located in Charing Cross, where the National Gallery is today.</Fact>
+                    <Fact>Queen Victoria took full advantage of the ample space at the Royal Mews. She kept up to 200 horses there at one point and also set up a school for the children of its employees.</Fact>
+                    <Fact>The Gold State Coach weighs almost four tonnes and needs eight horses to draw it. It never moves faster than walking speed.</Fact>
+                </Facts>
+            </doing>
+            <includings Title="Whats included">
+                <including>See the Gold State Coach, the grandest coach at the Royal Mews, first-hand.</including>
+                <including>Explore the home to historic royal carriages and one of the finest working stables in existence.</including>
+            </includings>
+            <Knowing_before Title="Know before you go">
+                <Getting_in>Present your pass at either of the ticket booths, located inside the main entrance on Buckingham Palace Road. Once your passes have been validated, you will be issued with a separate ticket, before passing through airport-style security to enter the inner courtyard.</Getting_in>
+                <Disclaimer>The Royal Mews operates on a pre-booked, timed ticketing basis. Go City customers are able to enter without having to book tickets in advance but are advised that admission is strictly subject to availability. You will be allocated the next available time-slot upon presentation of your pass at the admissions desk.</Disclaimer>
+            </Knowing_before>
+            <Address Title="Where youll be">
+                The Royal Mews, Buckingham Palace, London, GB
+            </Address>
+            <operating>
+                <openings for="13th March to 7th July and 1st September to 2nd November 2025">
+                    <opening for="Thursday to Monday">10AM - 5PM (last admission 4PM)</opening>
+                </openings>
+                <openings for="10th July to 31st August 2025">
+                    <opening for="Daily">10AM - 5PM (last admission 4PM)</opening>
+                </openings>
+                 <openings for="Good Friday 18 April 2025">
+                    <opening for="that date">open</opening>
+                </openings>
+                 <closing><!--αναφέρει ότι υπάρχει είσοδος μόνο στο μουσείο όταν παίζει η ομάδα, τα έβαλα ως match_days με έξτρα κείμενο-->
+                    <match_days>Tuesdays &amp; Wednesdays: closed</match_days>
+                    <match_days>24 &amp; 30 May 2025: closed</match_days>
+                    <match_days>2, 7 &amp; 14 June 2025: closed</match_days>
+                </closing>
+            </operating>
+            <getting_there Title="How to get there">
+                <Buses>Buckingham Palace Road</Buses>
+                <Train>Victoria</Train>
+            </getting_there>
+        </Attraction>
     </Attractions>
-    <Must_sees ids="1 6"/>
+    <Must_sees ids="1 6 7 8"/>
 </London_Sightseeing>

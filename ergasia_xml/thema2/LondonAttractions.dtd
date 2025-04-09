@@ -95,6 +95,7 @@ in_offer IDREFS #IMPLIED
 <!ATTLIST openings
     variable_dates CDATA #IMPLIED
     days IDREFS #IMPLIED
+    for CDATA #IMPLIED
 >
 <!ELEMENT opening (#PCDATA)>
 <!ATTLIST opening for CDATA #REQUIRED>
@@ -120,4 +121,4 @@ in_offer IDREFS #IMPLIED
 
 <!--ό,τι έχει να κάνει με must see-->
 <!ELEMENT Must_sees EMPTY>
-<!ATTLIST Must_sees ids IDREFS #REQUIRED>
+<!ATTLIST ust_sees ids IDREFS #REQUIRED>
