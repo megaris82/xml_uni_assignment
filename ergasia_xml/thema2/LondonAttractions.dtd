@@ -23,7 +23,7 @@ price CDATA #REQUIRED
 >
 
 <!ELEMENT offer_includings (#PCDATA | Including)*>
-<!ELEMENT Including EMPTY>
+<!ELEMENT Including (#PCDATA)>
 <!ATTLIST Including id ID #REQUIRED>
 
 <!--ό,τι έχει να κάνει με attractions-->

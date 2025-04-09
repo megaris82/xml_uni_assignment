@@ -5,7 +5,7 @@
     <Title>THE LONDON PASS</Title>
 
     <Special_Offers>
-        <offer id="1035">The London Pass
+        <offer id="i-1035">The London Pass
             <Special_Offer id="special1" days="1">
                 <Adult unit_price="£" price="79"></Adult>
                 <child unit_price="£" price="39" age="5-15"></child>
@@ -20,7 +20,7 @@
                 <Including id="offer7">No need for multiple tickets - just scan the Go City app at each attraction.</Including>
             </offer_includings>   
         </offer>
-        <offer id="1036">The London Pass Plus
+        <offer id="i-1036">The London Pass Plus
             <Special_Offer id="special2" days="1">
                 <Adult unit_price="£" price="109"></Adult>
                 <child unit_price="£" price="79" age="5-15"></child>
@@ -39,7 +39,7 @@
     </Special_Offers>
 
     <Attractions>
-        <Attraction id_Attr="1" booking="required" normal_value="38.00" unit_value="£" in_offer="1036">
+        <Attraction id_Attr="id1" booking="required" normal_value="38.00" unit_value="£" in_offer="i-1036">
             <URL>https://londonpass.com/en/london-attractions/view-from-the-shard</URL>
             <small_decription>Discover an architectural marvel and a symbol of modern London.</small_decription>
             <Attraction_title>The View from The Shard</Attraction_title>
@@ -94,7 +94,7 @@
                 <closing days="mon, tus"/>
             </operating>
         </Attraction>
-        <Attraction id_Attr="2" booking="required" normal_value="42.00" unit_value="£" in_offer="1036">
+        <Attraction id_Attr="id2" booking="required" normal_value="42.00" unit_value="£" in_offer="i-1036">
             <URL>https://londonpass.com/en/london-attractions/london-eye</URL>
             <small_decription>Discover an architectural marvel and a symbol of modern London.</small_decription>
             <Attraction_title>The London Eye</Attraction_title>
@@ -137,7 +137,7 @@
                 </FAQ>
             </FAQS>
         </Attraction>
-        <Attraction id_Attr="3" booking="required" normal_value="45.00" unit_value="£" in_offer="1036">
+        <Attraction id_Attr="id3" booking="required" normal_value="45.00" unit_value="£" in_offer="i-1036">
             <URL>https://londonpass.com/en/london-attractions/madame-tussauds-london</URL>
             <small_decription>Join A-listers, music icons and even royalty on the star-studded red carpet of Madame Tussauds.</small_decription>
             <Attraction_title>Madame Tussauds London</Attraction_title>
@@ -215,7 +215,7 @@
                 <Other>-</Other>
             </getting_there>
         </Attraction>
-        <Attraction id_Attr="4" normal_value="10.00" unit_value="£" in_offer="1035">
+        <Attraction id_Attr="id4" normal_value="10.00" unit_value="£" in_offer="i-1035">
             <URL>https://londonpass.com/en/london-attractions/household-cavalry-museum</URL>
             <small_decription>Unleash your inner equestrian and journey through centuries of royal tradition at The Household Cavalry Museum – where history comes to life in every hoofbeat!</small_decription>
             <Attraction_title>Household Cavalry Museum</Attraction_title>
@@ -268,7 +268,7 @@
                 <Other>-</Other>
             </getting_there>
         </Attraction>
-        <Attraction id_Attr="5" booking="not_required" normal_value="16.75" unit_value="£" in_offer="1035 1036">
+        <Attraction id_Attr="id5" booking="not_required" normal_value="16.75" unit_value="£" in_offer="i-1035 i-1036">
             <URL>https://londonpass.com/en/london-attractions/queens-iceskating-bowling</URL>
             <small_decription>QUEENS Skate Dine Bowl is the perfect entertainment venue, featuring ice skating, bowling, curling and arcades. Plus you can tuck into delicious food and drinks, brought to you by MEATliquor.</small_decription>
             <Attraction_title>QUEENS Skate Dine Bowl</Attraction_title>
@@ -315,7 +315,7 @@
                 <Other>-</Other>
             </getting_there>
         </Attraction>
-        <Attraction id_Attr="6" normal_value="39.00" unit_value="£" in_offer="1036">
+        <Attraction id_Attr="id6" normal_value="39.00" unit_value="£" in_offer="i-1036">
             <URL>https://londonpass.com/en/london-attractions/hop-on-hop-off-bus-tour</URL>
             <small_decription>Sit back, relax, and take in the views of London with a Hop-On Hop-Off bus tour.</small_decription>
             <Attraction_title>1-Day Big Bus Hop-On Hop-Off Tour</Attraction_title>
@@ -369,7 +369,7 @@
                 <Train> Westminster</Train>
             </getting_there>
         </Attraction>
-        <Attraction id_Attr="7" normal_value="30.00" unit_value="£" in_offer="1035">
+        <Attraction id_Attr="id7" normal_value="30.00" unit_value="£" in_offer="i-1035">
             <URL>https://londonpass.com/en/london-attractions/westminster-abbey</URL>
             <small_decription>Enjoy access to Westminster Abbey, the site of the Royal Wedding, Britain's official coronation church and UNESCO World Heritage Site.</small_decription>
             <Attraction_title>Westminster Abbey</Attraction_title>
@@ -424,7 +424,7 @@
                 <Train>London Underground: St James's Park (District or Circle lines) or Westminster (District or Jubilee lines)</Train>
             </getting_there>
         </Attraction>
-        <Attraction id_Attr="8" normal_value="41.80" unit_value="£" in_offer="1035">
+        <Attraction id_Attr="id8" normal_value="41.80" unit_value="£" in_offer="i-1035">
             <URL>https://londonpass.com/en/london-attractions/london-zoo</URL>
             <small_decription>With over 10,000 incredible animals and exciting and innovative exhibits, London Zoo is a great day out in the capital for all ages.</small_decription>
             <Attraction_title>London Zoo</Attraction_title>
@@ -469,7 +469,7 @@
                 <Train>Camden Town</Train>
             </getting_there>
         </Attraction>
-           <Attraction id_Attr="9" normal_value="41.80" unit_value="£" in_offer="1035">
+           <Attraction id_Attr="id9" normal_value="41.80" unit_value="£" in_offer="i-1035">
             <URL>https://londonpass.com/en/london-attractions/arsenal-stadium-tour</URL>
             <small_decription>The Arsenal Stadium Tour takes visitors into some of the most intimate areas of the club and gives them a taste of what it is like on Match Day.</small_decription>
             <Attraction_title>Arsenal Stadium Tour</Attraction_title>
@@ -518,7 +518,7 @@
                 <Train>London Underground: take the Piccadilly line. Get off at Arsenal train station.</Train>
             </getting_there>
         </Attraction>
-         <Attraction id_Attr="10" normal_value="19.00" unit_value="£" in_offer="1035">
+         <Attraction id_Attr="id10" normal_value="19.00" unit_value="£" in_offer="i-1035">
             <URL>https://londonpass.com/en/london-attractions/royal-mews</URL>
             <small_decription>Discover the royal working stables and British monarchy's grand collection of coaches and luxury cars.</small_decription>
             <Attraction_title>Royal Mews</Attraction_title>
@@ -567,5 +567,5 @@
             </getting_there>
         </Attraction>
     </Attractions>
-    <Must_sees ids="1 6 7 8"/>
+    <Must_sees ids="id1 id6 id7 id8"/>
 </London_Sightseeing>
