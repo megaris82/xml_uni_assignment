@@ -37,7 +37,7 @@ in_offer IDREFS #IMPLIED
 >
 
 <!ELEMENT URL (#PCDATA)>
-<!ELEMENT small_decripion (#PCDATA)>
+<!ELEMENT small_decription (#PCDATA)>
 <!ELEMENT Attraction_title (#PCDATA)>
 <!ELEMENT spending_time (#PCDATA)>
 
@@ -53,10 +53,11 @@ in_offer IDREFS #IMPLIED
 <!ELEMENT including (#PCDATA)>
 
 <!--ό,τι έχει να κάνει με κρατήσεις και οδηγίες-->
-<!ELEMENT Reservations (#PCDATA | procedure)*>
+<!ELEMENT Reservations (#PCDATA | procedure | booking_notes)*>
 <!ELEMENT procedure (step*)>
 <!ELEMENT step (#PCDATA)>
 <!ATTLIST step id ID #IMPLIED><!--τα 1,2,3... τα θεώρησα id-->
+<!ELEMENT booking_notes (#PCDATA)>
 
 
 <!ELEMENT Knowing_before (Getting_in?, Busy_tip?, note?, Disclaimer?, Accessibility?)>
@@ -118,5 +119,5 @@ in_offer IDREFS #IMPLIED
 <!ELEMENT Other (#PCDATA)>
 
 <!--ό,τι έχει να κάνει με must see-->
-<!ELEMENT must_sees EMPTY>
-<!ATTLIST must_sees ids IDREFS #REQUIRED>
+<!ELEMENT Must_sees EMPTY>
+<!ATTLIST Must_sees ids IDREFS #REQUIRED>
