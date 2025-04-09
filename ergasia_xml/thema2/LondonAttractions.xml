@@ -73,6 +73,8 @@
                 Railway Approach, London, GB
             </Address>
             <operating>
+                <openings days="wed thu fri sat sun"/>
+                <closing days="mon tus"/>
                 <Monday dayid="mon"/>
                 <Tuesday dayid="tus"/>
                 <Wednesday dayid="wed">
@@ -90,8 +92,6 @@
                 <Sunday dayid="sun">
                     <Timing>11AM-6PM</Timing>
                 </Sunday>
-                <openings days="wed, thu, fri, sat, sun"/>
-                <closing days="mon, tus"/>
             </operating>
         </Attraction>
         <Attraction id_Attr="id2" booking="required" normal_value="42.00" unit_value="£" in_offer="i-1036">
@@ -326,7 +326,7 @@
                     <Highlight>Westminster Abbey =&gt; Hop off here and explore the country’s coronation church since the 11th century. See the kaleidoscopic stained-glass windows, old paintings, and pews and find out about the final resting spots of famous royals, writers, and intellectuals</Highlight>
                     <Highlight>Tower Bridge =&gt; This bridge is one of the most iconic in the UK and when you hop off here, you’ll see why. Explore the Victorian engine room and ignore your fear of heights as you take to the elevated glass walkway above the river.</Highlight>
                     <Highlight>Buckingham Palace =&gt; Home to King Charles III, this is one of the few working palaces left in the world and a must-see on any visit to the capital. Hop off here and catch the Changing of the Guard before escaping the hustle and bustle with a stroll through Green Park.</Highlight>
-                    <Hightlight>Trafalgar Square =&gt; This famed London landmark is one of the city’s cultural hubs and hosts events, festival celebrations, rallies, and more. It’s also home to the National Gallery, one of the country’s most important art museums. Trafalgar Square is also a stone’s throw away from the Embankment, which is great for epic views along the river. Enjoy the ride with the London Big Bus Tour!</Hightlight>
+                    <Highlight>Trafalgar Square =&gt; This famed London landmark is one of the city’s cultural hubs and hosts events, festival celebrations, rallies, and more. It’s also home to the National Gallery, one of the country’s most important art museums. Trafalgar Square is also a stone’s throw away from the Embankment, which is great for epic views along the river. Enjoy the ride with the London Big Bus Tour!</Highlight>
                 </Highlights>
             </doing>
             <includings Title="Whats included">
