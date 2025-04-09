@@ -121,4 +121,4 @@ in_offer IDREFS #IMPLIED
 
 <!--ό,τι έχει να κάνει με must see-->
 <!ELEMENT Must_sees EMPTY>
-<!ATTLIST ust_sees ids IDREFS #REQUIRED>
+<!ATTLIST Must_sees ids IDREFS #REQUIRED>
