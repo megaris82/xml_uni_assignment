@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Root element -->
+    <xs:element name="London_Sightseeing">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Title" type="xs:string"/>
+                <xs:element name="Special_Offers" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="offer" maxOccurs="unbounded">
+                                <xs:complexType mixed="true">
+                                    <xs:sequence>
+                                        <xs:element name="Special_Offer" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Adult">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="unit_price" type="xs:string" use="required"/>
+                                                            <xs:attribute name="price" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="child">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="age" type="xs:string" fixed="5-15"/>
+                                                            <xs:attribute name="unit_price" type="xs:string" use="required"/>
+                                                            <xs:attribute name="price" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="id" type="xs:ID" use="required"/>
+                                                <xs:attribute name="days" type="xs:string" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="offer_includings" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Including" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="id" type="xs:ID" use="required"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Attractions" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Attraction" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="extra_attraction_info">
+                                            <xs:complexType>
+                                                <xs:attribute name="spending_time" type="xs:string" use="required"/>
+                                                <xs:attribute name="URL" type="xs:string" use="optional"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="small_decription" type="xs:string"/>
+                                        <xs:element name="Attraction_title" type="xs:string"/>
+                                        <xs:element name="doing" minOccurs="0">
+                                            <xs:complexType mixed="true">
+                                                <xs:sequence>
+                                                    <xs:element name="Highlights" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="Highlight" type="xs:string" maxOccurs="unbounded"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="Facts" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="Fact" type="xs:string" maxOccurs="unbounded"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="includings" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="including" type="xs:string" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="Title" type="xs:string" fixed="Whats included"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Reservations" minOccurs="0">
+                                            <xs:complexType mixed="true">
+                                                <xs:sequence>
+                                                    <xs:element name="procedure" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="step" maxOccurs="unbounded">
+                                                                    <xs:complexType>
+                                                                        <xs:simpleContent>
+                                                                            <xs:extension base="xs:string">
+                                                                                <xs:attribute name="id" type="xs:ID" use="optional"/>
+                                                                            </xs:extension>
+                                                                        </xs:simpleContent>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="booking_notes" type="xs:string" minOccurs="0"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Knowing_before" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Getting_in" type="xs:string" minOccurs="0"/>
+                                                    <xs:element name="Busy_tip" type="xs:string" minOccurs="0"/>
+                                                    <xs:element name="note" type="xs:string" minOccurs="0"/>
+                                                    <xs:element name="Disclaimer" type="xs:string" minOccurs="0"/>
+                                                    <xs:element name="Accessibility" type="xs:string" minOccurs="0"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="Title" type="xs:string" fixed="Know before you go"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Address">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="Title" type="xs:string" fixed="Where youll be"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="operating" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="openings" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="opening" maxOccurs="unbounded">
+                                                                    <xs:complexType>
+                                                                        <xs:simpleContent>
+                                                                            <xs:extension base="xs:string">
+                                                                                <xs:attribute name="for" type="xs:string" use="required"/>
+                                                                            </xs:extension>
+                                                                        </xs:simpleContent>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="variable_dates" type="xs:string" use="optional"/>
+                                                            <xs:attribute name="days" type="xs:IDREFS" use="optional"/>
+                                                            <xs:attribute name="for" type="xs:string" use="optional"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="closing" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="match_days" type="xs:string" maxOccurs="unbounded"/>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="specific_dates" type="xs:string" use="optional"/>
+                                                            <xs:attribute name="days" type="xs:IDREFS" use="optional"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="FAQS" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="FAQ" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="question" type="xs:string"/>
+                                                                <xs:element name="answer" type="xs:string"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="getting_there" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Buses" type="xs:string" minOccurs="0"/>
+                                                    <xs:element name="Train" type="xs:string" minOccurs="0"/>
+                                                    <xs:element name="Other" type="xs:string" minOccurs="0"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="Title" type="xs:string" fixed="How to get there"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id_Attr" type="xs:ID" use="required"/>
+                                    <xs:attribute name="booking" type="xs:string" default="not_required"/>
+                                    <xs:attribute name="normal_value" type="xs:string" use="optional"/>
+                                    <xs:attribute name="unit_value" type="xs:string" fixed="£"/>
+                                    <xs:attribute name="in_offer" type="xs:IDREFS" use="optional"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Must_sees" minOccurs="0">
+                    <xs:complexType>
+                        <xs:attribute name="ids" type="xs:IDREFS" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
