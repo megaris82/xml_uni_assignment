@@ -35,11 +35,17 @@ normal_value CDATA #IMPLIED
 unit_value CDATA #FIXED "£"
 in_offer IDREFS #IMPLIED
 >
+                                     <!-- εδω ειναι το θεμα 3 του dtd το extra_attraction_info δεν εχει παριεχωμενο
+                                      το spending_time ειναι requierd 
+                                      και το URL ειναι προαιρετικο -->
+<!ELEMENT extra_attraction_info EMPTY >
+<!ATTLIST extra_attraction_info 
+          spending_time CDATA #REQUIRED
+          URL CDATA #IMPLIED >
 
-<!ELEMENT URL (#PCDATA)>                        <!--URL  για την εικόνα  αυτο θα αλλξει καθος και το speding time στο θεμα 3(το εβαλα για να ειναι πιο ευκολο η αναγωριση του-->
+
 <!ELEMENT small_decription (#PCDATA)>
 <!ELEMENT Attraction_title (#PCDATA)>
-<!ELEMENT spending_time (#PCDATA)>              <!--spending time για την εικονα αυτο θα αλλαξει καθως και το URL στο θεμα 3(το εβαλα για να ειναι πιο ευκολο η αναγνωριση του)-->
 
 <!ELEMENT doing (#PCDATA | Highlights | Facts)*>
 <!ATTLIST doing Title CDATA #FIXED "What youll do">
