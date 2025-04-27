@@ -38,9 +38,12 @@
     </Special_Offers>
 
     <Attractions>
-        <Attraction id_Attr="id1" booking="required" normal_value="38.00" unit_value="£" in_offer="i-1036">   <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
-                                                                                                                    extra_attraction_info ...εχει μεσα το url-->
-         <extra_attraction_info  spending_time="up to hour (<1 hr)" URL="https://londonpass.com/en/london-attractions/view-from-the-shard"/>                                                                                                          
+        <Attraction id_Attr="id1" booking="required" normal_value="38.00" unit_value="£" in_offer="i-1036"
+          family-friendly = "3" place_type = "indoor">
+          <!--νεα προσθηκη για το θεμα 5 ειανι το family-friendly το οπιο ειναι 3 γιατι ειναι πληρος family_frinedly 
+            και η δευτερη προσθηκη ειναι το place_type που ειναι indoor -->   
+            
+            <extra_attraction_info  spending_time="up to hour (<1 hr)" URL="https://londonpass.com/en/london-attractions/view-from-the-shard"/>                                                                                                          
            
             <small_decription>Discover an architectural marvel and a symbol of modern London.</small_decription>
             <Attraction_title>The View from The Shard</Attraction_title>
@@ -94,8 +97,10 @@
                 </Sunday>
             </operating>
         </Attraction>
-        <Attraction id_Attr="id2" booking="required" normal_value="42.00" unit_value="£" in_offer="i-1036">  <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
-                                                                                                                    extra_attraction_info ...εχει μεσα το url-->
+        <Attraction id_Attr="id2" booking="required" normal_value="42.00" unit_value="£" in_offer="i-1036"
+          family-friendly = "3" place_type = "outdoors"> 
+          <!--νεα προσθηκη για το θεμα 5 ειανι το family-friendly το οπιο ειναι 3 γιατι ειναι πληρος family_frinedly 
+            και η δευτερη προσθηκη ειναι το place_type που ειναι outdoors -->
           <extra_attraction_info spending_time= "up to an hour (<1 hr)" URL= "https://londonpass.com/en/london-attractions/london-eye " />                                                                                                                                                                                                 
             <small_decription>Discover an architectural marvel and a symbol of modern London.</small_decription>
             <Attraction_title>The London Eye</Attraction_title>
@@ -137,9 +142,8 @@
                 </FAQ>
             </FAQS>
         </Attraction>
-        <Attraction id_Attr="id3" booking="required" normal_value="45.00" unit_value="£" in_offer="i-1036">     <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
-                                                                                                                    extra_attraction_info ...εχει μεσα το url-->
-
+        <Attraction id_Attr="id3" booking="required" normal_value="45.00" unit_value="£" in_offer="i-1036"
+            family-friendly = "3" place_type = "indoor">    
            <extra_attraction_info spending_time="1-2 hours" URL="https://londonpass.com/en/london-attractions/madame-tussauds-london"/> 
             <small_decription>Join A-listers, music icons and even royalty on the star-studded red carpet of Madame Tussauds.</small_decription>
             <Attraction_title>Madame Tussauds London</Attraction_title>
@@ -216,9 +220,11 @@
                 <Other>-</Other>
             </getting_there>
         </Attraction>
-        <Attraction id_Attr="id4" normal_value="10.00" unit_value="£" in_offer="i-1035">   <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
-                                                                                                                    extra_attraction_info ...εχει μεσα το url-->
-            <extra_attraction_info spending_time="up to an hour (<1 hr)" URL="https://londonpass.com/en/london-attractions/household-cavalry-museum"/>
+        <Attraction id_Attr="id4" normal_value="10.00" unit_value="£" in_offer="i-1035"
+           family-friendly = "3" place_type = "outdoors">  
+            <!--νεα προσθηκη για το θεμα 5 ειανι το family-friendly το οπιο ειναι 3 γιατι ειναι πληρος family_frinedly 
+                και η δευτερη προσθηκη ειναι το place_type που ειναι outdoors   --> 
+          <extra_attraction_info spending_time="up to an hour (<1 hr)" URL="https://londonpass.com/en/london-attractions/household-cavalry-museum"/>
  
             <small_decription>Unleash your inner equestrian and journey through centuries of royal tradition at The Household Cavalry Museum – where history comes to life in every hoofbeat!</small_decription>
             <Attraction_title>Household Cavalry Museum</Attraction_title>
@@ -270,8 +276,10 @@
                 <Other>-</Other>
             </getting_there>
         </Attraction>
-        <Attraction id_Attr="id5" booking="not_required" normal_value="16.75" unit_value="£" in_offer="i-1035 i-1036">  <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
-                                                                                                                    extra_attraction_info ...εχει μεσα το url-->
+        <Attraction id_Attr="id5" booking="not_required" normal_value="16.75" unit_value="£" in_offer="i-1035 i-1036"
+            family-friendly = "3" place_type = "indoor"> 
+            <!--νεα προσθηκη για το θεμα 5 ειανι το family-friendly το οπιο ειναι 3 γιατι ειναι πληρος family_frinedly 
+                και η δευτερη προσθηκη ειναι το place_type που ειναι indoor   -->
            <extra_attraction_info spending_time="up to an hour (<1 hr)" URL="https://londonpass.com/en/london-attractions/queens-iceskating-bowling"/>
 
             <small_decription>QUEENS Skate Dine Bowl is the perfect entertainment venue, featuring ice skating, bowling, curling and arcades. Plus you can tuck into delicious food and drinks, brought to you by MEATliquor.</small_decription>
@@ -318,9 +326,11 @@
                 <Other>-</Other>
             </getting_there>
         </Attraction>
-        <Attraction id_Attr="id6" normal_value="39.00" unit_value="£" in_offer="i-1036">        <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
-                                                                                                                    extra_attraction_info ...εχει μεσα το url-->
-          <extra_attraction_info spending_time="1-2 hours" URL="https://londonpass.com/en/london-attractions/hop-on-hop-off-bus-tour"/>
+        <Attraction id_Attr="id6" normal_value="39.00" unit_value="£" in_offer="i-1036"
+            family-friendly = "3" place_type = "outdoors"> 
+            <!--νεα προσθηκη για το θεμα 5 ειανι το family-friendly το οπιο ειναι 3 γιατι ειναι πληρος family_frinedly 
+                και η δευτερη προσθηκη ειναι το place_type που ειναι outdoors   -->
+         <extra_attraction_info spending_time="1-2 hours" URL="https://londonpass.com/en/london-attractions/hop-on-hop-off-bus-tour"/>
 
             <small_decription>Sit back, relax, and take in the views of London with a Hop-On Hop-Off bus tour.</small_decription>
             <Attraction_title>1-Day Big Bus Hop-On Hop-Off Tour</Attraction_title>
@@ -373,9 +383,9 @@
                 <Train> Westminster</Train>
             </getting_there>
         </Attraction>
-        <Attraction id_Attr="id7" normal_value="30.00" unit_value="£" in_offer="i-1035">    <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
-                                                                                                                    extra_attraction_info ...εχει μεσα το url-->
-                                                                                                            
+        <Attraction id_Attr="id7" normal_value="30.00" unit_value="£" in_offer="i-1035"
+            family-friendly = "0" place_type = "indoor">    
+
             <extra_attraction_info spending_time="Up to an hour" URL="https://londonpass.com/en/london-attractions/westminster-abbey"/>
 
             <small_decription>Enjoy access to Westminster Abbey, the site of the Royal Wedding, Britain's official coronation church and UNESCO World Heritage Site.</small_decription>
@@ -430,9 +440,10 @@
                 <Train>London Underground: St James's Park (District or Circle lines) or Westminster (District or Jubilee lines)</Train>
             </getting_there>
         </Attraction>
-        <Attraction id_Attr="id8" normal_value="41.80" unit_value="£" in_offer="i-1035">    <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
-                                                                                                                    extra_attraction_info ...εχει μεσα το url-->
-            <extra_attraction_info spending_time="2-3 hours" URL="https://londonpass.com/en/london-attractions/london-zoo"/>
+        <Attraction id_Attr="id8" normal_value="41.80" unit_value="£" in_offer="i-1035"
+            family-friendly = "3" place_type = "outdoors">   
+
+              <extra_attraction_info spending_time="2-3 hours" URL="https://londonpass.com/en/london-attractions/london-zoo"/>
            
             <small_decription>With over 10,000 incredible animals and exciting and innovative exhibits, London Zoo is a great day out in the capital for all ages.</small_decription>
             <Attraction_title>London Zoo</Attraction_title>
@@ -476,9 +487,9 @@
                 <Train>Camden Town</Train>
             </getting_there>
         </Attraction>
-           <Attraction id_Attr="id9" normal_value="41.80" unit_value="£" in_offer="i-1035">   <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
-                                                                                                                    extra_attraction_info ...εχει μεσα το url-->
-            <extra_attraction_info spending_time="Up to an hour" URL="https://londonpass.com/en/london-attractions/arsenal-stadium-tour"/>
+           <Attraction id_Attr="id9" normal_value="41.80" unit_value="£" in_offer="i-1035"
+            family-friendly = "3" place_type = "Indoor">  
+             <extra_attraction_info spending_time="Up to an hour" URL="https://londonpass.com/en/london-attractions/arsenal-stadium-tour"/>
           
             <small_decription>The Arsenal Stadium Tour takes visitors into some of the most intimate areas of the club and gives them a taste of what it is like on Match Day.</small_decription>
             <Attraction_title>Arsenal Stadium Tour</Attraction_title>
@@ -526,9 +537,9 @@
                 <Train>London Underground: take the Piccadilly line. Get off at Arsenal train station.</Train>
             </getting_there>
         </Attraction>
-         <Attraction id_Attr="id10" normal_value="19.00" unit_value="£" in_offer="i-1035">  <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
-                                                                                                                    extra_attraction_info ...εχει μεσα το url-->
-            <extra_attraction_info spending_time="Up to an hour" URL="https://londonpass.com/en/london-attractions/royal-mews"/>
+         <Attraction id_Attr="id10" normal_value="19.00" unit_value="£" in_offer="i-1035"
+           family-friendly = "3" place_type = "outdoors"> 
+             <extra_attraction_info spending_time="Up to an hour" URL="https://londonpass.com/en/london-attractions/royal-mews"/>
            
             <small_decription>Discover the royal working stables and British monarchy's grand collection of coaches and luxury cars.</small_decription>
             <Attraction_title>Royal Mews</Attraction_title>
