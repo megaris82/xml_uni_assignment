@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<London_Sightseeing>
 
     <Title>THE LONDON PASS</Title>
 
@@ -43,7 +44,7 @@
           <!--νεα προσθηκη για το θεμα 5 ειανι το family-friendly το οπιο ειναι 3 γιατι ειναι πληρος family_frinedly 
             και η δευτερη προσθηκη ειναι το place_type που ειναι indoor -->   
             
-            <extra_attraction_info  spending_time="up to hour (<1 hr)" URL="https://londonpass.com/en/london-attractions/view-from-the-shard"/>                                                                                                          
+            <extra_attraction_info  spending_time="up to hour (&lt;1 hr)" URL="https://londonpass.com/en/london-attractions/view-from-the-shard"/>                                                                                                          
            
             <small_decription>Discover an architectural marvel and a symbol of modern London.</small_decription>
             <Attraction_title>The View from The Shard</Attraction_title>
@@ -101,7 +102,7 @@
           family-friendly = "3" place_type = "outdoors"> 
           <!--νεα προσθηκη για το θεμα 5 ειανι το family-friendly το οπιο ειναι 3 γιατι ειναι πληρος family_frinedly 
             και η δευτερη προσθηκη ειναι το place_type που ειναι outdoors -->
-          <extra_attraction_info spending_time= "up to an hour (<1 hr)" URL= "https://londonpass.com/en/london-attractions/london-eye " />                                                                                                                                                                                                 
+          <extra_attraction_info spending_time= "up to an hour (&lt;1 hr)" URL= "https://londonpass.com/en/london-attractions/london-eye " />                                                                                                                                                                                                 
             <small_decription>Discover an architectural marvel and a symbol of modern London.</small_decription>
             <Attraction_title>The London Eye</Attraction_title>
             <doing Title="What youll do">Are you looking to take your London experience to new heights? Take a ride on Europe’s tallest cantilevered observation wheel in the heart of the city – a must-do on your London vacation.
@@ -224,7 +225,7 @@
            family-friendly = "3" place_type = "outdoors">  
             <!--νεα προσθηκη για το θεμα 5 ειανι το family-friendly το οπιο ειναι 3 γιατι ειναι πληρος family_frinedly 
                 και η δευτερη προσθηκη ειναι το place_type που ειναι outdoors   --> 
-          <extra_attraction_info spending_time="up to an hour (<1 hr)" URL="https://londonpass.com/en/london-attractions/household-cavalry-museum"/>
+          <extra_attraction_info spending_time="up to an hour (&lt;1 hr)" URL="https://londonpass.com/en/london-attractions/household-cavalry-museum"/>
  
             <small_decription>Unleash your inner equestrian and journey through centuries of royal tradition at The Household Cavalry Museum – where history comes to life in every hoofbeat!</small_decription>
             <Attraction_title>Household Cavalry Museum</Attraction_title>
@@ -280,7 +281,7 @@
             family-friendly = "3" place_type = "indoor"> 
             <!--νεα προσθηκη για το θεμα 5 ειανι το family-friendly το οπιο ειναι 3 γιατι ειναι πληρος family_frinedly 
                 και η δευτερη προσθηκη ειναι το place_type που ειναι indoor   -->
-           <extra_attraction_info spending_time="up to an hour (<1 hr)" URL="https://londonpass.com/en/london-attractions/queens-iceskating-bowling"/>
+           <extra_attraction_info spending_time="up to an hour (&lt;1 hr)" URL="https://londonpass.com/en/london-attractions/queens-iceskating-bowling"/>
 
             <small_decription>QUEENS Skate Dine Bowl is the perfect entertainment venue, featuring ice skating, bowling, curling and arcades. Plus you can tuck into delicious food and drinks, brought to you by MEATliquor.</small_decription>
             <Attraction_title>QUEENS Skate Dine Bowl</Attraction_title>
