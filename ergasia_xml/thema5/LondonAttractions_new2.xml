@@ -48,6 +48,15 @@
            
             <small_decription>Discover an architectural marvel and a symbol of modern London.</small_decription>
             <Attraction_title>The View from The Shard</Attraction_title>
+
+            <categories> 
+                <category> Modern &amp; Urban</category>
+            </categories>
+
+            <votes> 
+                <vote username= "user1" stars="5"> Amazing views of London!</vote>
+            </votes>
+
             <doing Title="What youll do">From a 1970s office block to one of the world’s most distinguished buildings, ascend to London’s highest viewpoint at The View from The Shard.
                 Journey to a height of up to 800ft (244m); to the top of London’s tallest observation platform and premium visitor attraction, The View from The Shard. Formerly known as the London Bridge Tower, ‘The Shard’ was designed by famed architect, Renzo Piano. Piano, who is most famous for designing the Pompidou Centre in Paris, France, began designing The Shard in 2000. His design was fuelled by the desire to create a modern building that stood out amongst the London Skyline without appearing too overbearing. As such, the building resembles a large piece of glass pointing out of the ground, and thus, The Shard was aptly named.
                 Piano’s design has become a symbol of modern architecture in contemporary London. It incorporates both aesthetically and structurally unique features, drawing inspiration from the spires of different London churches. The building’s windows have a special glaze that reacts to light in a very intuitive way. Depending on the season or time of day, the glass can reflect different intensities of light, casting unique luminosity.
