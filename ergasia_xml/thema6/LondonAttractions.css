@@ -1,0 +1,128 @@
+/* Γενικές ρυθμίσεις για τη σελίδα */
+London_Sightseeing {
+    display: block;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Στυλ για τον τίτλο της σελίδας */
+Title {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: #0073e6;
+    margin-bottom: 20px;
+}
+
+/* Στυλ για το container των αξιοθέατων */
+Attractions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Στυλ για κάθε αξιοθέατο */
+Attraction {
+    display: block;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+Attraction:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Τίτλος αξιοθέατου */
+Attraction_title {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+/* Μικρή περιγραφή */
+small_decription {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 15px;
+    display: block;
+}
+
+/* Εικόνα αξιοθέατου */
+Image {
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+}
+
+Image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Κατηγορίες */
+Category {
+    display: inline-block;
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+/* Ψήφοι */
+Vote {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Pseudo-elements για labels */
+Attraction_title::before {
+    content: "Τίτλος: ";
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+small_decription::before {
+    content: "Περιγραφή: ";
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+Vote::before {
+    content: "Ψήφοι: ";
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+/* Διακοσμητικό label για κάθε αξιοθέατο */
+Attraction::before {
+    content: "Αξιοθέατο";
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4CAF50;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
