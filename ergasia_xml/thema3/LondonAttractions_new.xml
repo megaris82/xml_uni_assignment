@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<London_Sightseeing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="LondonAttractions_new.xsd">
 
+<London_Sightseeing>
 
     <Title>THE LONDON PASS</Title>
 
@@ -42,7 +41,7 @@
     <Attractions>
         <Attraction id_Attr="id1" booking="required" normal_value="38.00" unit_value="£" in_offer="i-1036">   <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
                                                                                                                     extra_attraction_info ...εχει μεσα το url-->
-         <extra_attraction_info  spending_time="up to hour (<1 hr)" URL="https://londonpass.com/en/london-attractions/view-from-the-shard"/>                                                                                                          
+         <extra_attraction_info  spending_time="up to hour (&lt;1 hr)" URL="https://londonpass.com/en/london-attractions/view-from-the-shard"/>                                                                                                          
            
             <small_decription>Discover an architectural marvel and a symbol of modern London.</small_decription>
             <Attraction_title>The View from The Shard</Attraction_title>
@@ -98,7 +97,7 @@
         </Attraction>
         <Attraction id_Attr="id2" booking="required" normal_value="42.00" unit_value="£" in_offer="i-1036">  <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
                                                                                                                     extra_attraction_info ...εχει μεσα το url-->
-          <extra_attraction_info spending_time= "up to an hour (<1 hr)" URL= "https://londonpass.com/en/london-attractions/london-eye " />                                                                                                                                                                                                 
+          <extra_attraction_info spending_time= "up to an hour (&lt;1 hr)" URL= "https://londonpass.com/en/london-attractions/london-eye " />                                                                                                                                                                                                 
             <small_decription>Discover an architectural marvel and a symbol of modern London.</small_decription>
             <Attraction_title>The London Eye</Attraction_title>
             <doing Title="What youll do">Are you looking to take your London experience to new heights? Take a ride on Europe’s tallest cantilevered observation wheel in the heart of the city – a must-do on your London vacation.
@@ -220,7 +219,7 @@
         </Attraction>
         <Attraction id_Attr="id4" normal_value="10.00" unit_value="£" in_offer="i-1035">   <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
                                                                                                                     extra_attraction_info ...εχει μεσα το url-->
-            <extra_attraction_info spending_time="up to an hour (<1 hr)" URL="https://londonpass.com/en/london-attractions/household-cavalry-museum"/>
+            <extra_attraction_info spending_time="up to an hour (&lt;1 hr)" URL="https://londonpass.com/en/london-attractions/household-cavalry-museum"/>
  
             <small_decription>Unleash your inner equestrian and journey through centuries of royal tradition at The Household Cavalry Museum – where history comes to life in every hoofbeat!</small_decription>
             <Attraction_title>Household Cavalry Museum</Attraction_title>
@@ -274,7 +273,7 @@
         </Attraction>
         <Attraction id_Attr="id5" booking="not_required" normal_value="16.75" unit_value="£" in_offer="i-1035 i-1036">  <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
                                                                                                                     extra_attraction_info ...εχει μεσα το url-->
-           <extra_attraction_info spending_time="up to an hour (<1 hr)" URL="https://londonpass.com/en/london-attractions/queens-iceskating-bowling"/>
+           <extra_attraction_info spending_time="up to an hour (&lt;1 hr)" URL="https://londonpass.com/en/london-attractions/queens-iceskating-bowling"/>
 
             <small_decription>QUEENS Skate Dine Bowl is the perfect entertainment venue, featuring ice skating, bowling, curling and arcades. Plus you can tuck into delicious food and drinks, brought to you by MEATliquor.</small_decription>
             <Attraction_title>QUEENS Skate Dine Bowl</Attraction_title>
@@ -378,7 +377,7 @@
         <Attraction id_Attr="id7" normal_value="30.00" unit_value="£" in_offer="i-1035">    <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
                                                                                                                     extra_attraction_info ...εχει μεσα το url-->
                                                                                                             
-            <extra_attraction_info spending_time="Up to an hour" URL="https://londonpass.com/en/london-attractions/westminster-abbey"/>
+            <extra_attraction_info spending_time="Up to an hour(&lt;1)" URL="https://londonpass.com/en/london-attractions/westminster-abbey"/>
 
             <small_decription>Enjoy access to Westminster Abbey, the site of the Royal Wedding, Britain's official coronation church and UNESCO World Heritage Site.</small_decription>
             <Attraction_title>Westminster Abbey</Attraction_title>
@@ -480,7 +479,7 @@
         </Attraction>
            <Attraction id_Attr="id9" normal_value="41.80" unit_value="£" in_offer="i-1035">   <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
                                                                                                                     extra_attraction_info ...εχει μεσα το url-->
-            <extra_attraction_info spending_time="Up to an hour" URL="https://londonpass.com/en/london-attractions/arsenal-stadium-tour"/>
+            <extra_attraction_info spending_time="Up to an hour(&lt;1)" URL="https://londonpass.com/en/london-attractions/arsenal-stadium-tour"/>
           
             <small_decription>The Arsenal Stadium Tour takes visitors into some of the most intimate areas of the club and gives them a taste of what it is like on Match Day.</small_decription>
             <Attraction_title>Arsenal Stadium Tour</Attraction_title>
