@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE London_Sightseeing SYSTEM "LondonAttractions_new2.dtd">
+
+
+
 <London_Sightseeing>
 
     <Title>THE LONDON PASS</Title>
@@ -56,6 +60,8 @@
             <votes> 
                 <vote username= "user1" stars="5"> Amazing views of London!</vote>
             </votes>
+
+            <image src="shard_image">&shard_image;</image>  <!-- οι εικωνες ειναι στο dtd ως εντιτι εκει εχει διλωθει το shard image-->
 
             <doing Title="What youll do">From a 1970s office block to one of the world’s most distinguished buildings, ascend to London’s highest viewpoint at The View from The Shard.
                 Journey to a height of up to 800ft (244m); to the top of London’s tallest observation platform and premium visitor attraction, The View from The Shard. Formerly known as the London Bridge Tower, ‘The Shard’ was designed by famed architect, Renzo Piano. Piano, who is most famous for designing the Pompidou Centre in Paris, France, began designing The Shard in 2000. His design was fuelled by the desire to create a modern building that stood out amongst the London Skyline without appearing too overbearing. As such, the building resembles a large piece of glass pointing out of the ground, and thus, The Shard was aptly named.
@@ -124,6 +130,8 @@
             <vote username= "user2" stars="5"> Amazing views of London!</vote>
         </votes>
 
+            <image src="london_eye_image">&london_eye_image;</image> <!-- οι εικωνες ειναι στο dtd ως εντιτι εκει εχει διλωθει το london eye image-->
+
             <doing Title="What youll do">Are you looking to take your London experience to new heights? Take a ride on Europe’s tallest cantilevered observation wheel in the heart of the city – a must-do on your London vacation.
                 Originally constructed as a temporary exhibit to celebrate the new millennium, the London Eye offers panoramic views of the city’s skyline that stretches as far as 25 miles on a clear day. That’s to Windsor Castle!
                 Standing at an impressive 135 metres (443ft) high, the London Eye boasts 32 glass pods that represent each one of London’s boroughs. Step into the spacious capsule, that’s completely enclosed and climate-controlled, and be transported to the heights of the city.
@@ -176,6 +184,7 @@
                 <vote username= "user3" stars="5"> Amazing views of London!</vote>
             </votes>
 
+            <image src="madame_tussauds_image">&madame_tussauds_image;</image> <!-- οι εικωνες ειναι στο dtd ως εντιτι εκει εχει διλωθει το madame tussauds image-->
 
             <doing Title="What youll do">Lights, camera, action! Its your turn to step into the spotlight at the world-famous Madame Tussauds London. Discover the magical mix of glamour and history that has been mesmerising visitors since 1835.
                 Come face-to-face with the world’s most recognisable people in the varied zones, all offering a unique line-up and experience. Meet the King, Queen, Prince William and Kate Middleton in the Royal Palace Experience. Check out the Impossible Festival to party backstage with singing superstars like Lady Gaga and the iconic Ziggy Stardust persona of David Bowie. Visit the Marvel Hall of Heroes to say hi to your favourite Avengers and more. Finish up at an out-of-this-world Star Wars display, where you can step inside the Millennium Falcon and see the stars of the franchise.
@@ -267,6 +276,8 @@
                 <vote username= "user4" stars="5"> Amazing views of London!</vote>
             </votes>
 
+            <image src="household_cavalry_image">&household_cavalry_image;</image> <!-- οι εικωνες ειναι στο dtd ως εντιτι εκει εχει διλωθει το household cavalry image-->
+
             <doing Title="What youll do">The Household Cavalry Museum gets you up close to The King’s Mounted Bodyguard. Explore their history and discover more about their present-day role. The museum offers views into the working stables operated by the regiment and tells the story of The Household Cavalry through compelling personal testimonies, interactivity and rare artifacts.
                 The Household Cavalry Museum located at the Horse Guards in Whitehall is one of the most historic buildings in the city. Dating back to 1750, the building is still the headquarters of the Army in London. Visitors to the museum learn about the traditions of the Household Cavalry and experience the daily ceremony of the King’s Life Guard that has remained unchanged since its founding in 1660. The museum's location provides a unique backdrop that helps immerse visitors in the rich history and ongoing activities of the regiment.
                 Opened by Queen Elizabeth II in 2007, The Household Cavalry Museum offers a unique behind-the-scenes perspective on two vital British Army regiments - the Life Guards and the Blues &amp; Royals - and both the ceremonial and operational duties they perform. It offers a metaphorical and literal window into the prestigious history and everyday workings of the Household Cavalry, with a large glazed partition through which visitors see troopers tending to their horses in the original 18th century stables and a wealth of exhibitions covering the regiments’ history in theatres of conflict and during Royal ceremonial occasions.
@@ -333,6 +344,8 @@
                 <vote username= "user5" stars="5"> Amazing views of London!</vote>
             </votes>
 
+            <image src="queens_skete_image">&queens_skete_image;</image> <!-- οι εικωνες ειναι στο dtd ως εντιτι εκει εχει διλωθει το queens image--> 
+
             <doing Title="What youll do">Originally known as QUEENS Ice Club, QUEENS Skate Dine Bowl was opened back in 1930. Both it and The Grosvenor House Ice Skating Rink were conceived and created by architect Alfred Edwards. Since then, QUEENS has gone from strength to strength. It was the first ice rink to be used for ice skating televised by the BBC. More recently, it has featured on episodes of Made in Chelsea, and is also used as a practice rink for contenders on Dancing On Ice.
                 <Highlights>
                     <Highlight>Bowling =&gt; There are 12 bowling lanes, perfect for Queensway bowling with friends and family.</Highlight>
@@ -391,6 +404,8 @@
             <votes> 
                 <vote username= "user6" stars="5"> Amazing views of London!</vote>
             </votes>
+
+            <image src="big_bus_image">&big_bus_image;</image> <!-- οι εικωνες ειναι στο dtd ως εντιτι εκει εχει διλωθει το big bus image-->
 
             <doing Title="What youll do">Sit back, relax, and take in the views of London with a Hop-On Hop-Off bus tour and tick off Central London's top attractions and get to know the city a little better.If you’re ready to explore all that London has to offer, look no further than the Hop On Hop Off London tour. This London bus tour allows you to see all the iconic landmarks and attractions at your own pace. From the Tower of London to Buckingham Palace, the London Tour Bus ensures that you won’t miss a thing. With award-winning live guides and multilingual audio commentary, you can learn more about London’s rich history while taking in the sights. Don’t miss out on the opportunity to see the city in a whole new way with The London Pass®.
                 <Highlights>
@@ -456,6 +471,8 @@
             <vote> 
                 <vote username= "user7" stars="5"> Amazing views of London!</vote>
             </vote>
+
+            <image src="westminster_abbey_image">&westminster_abbey_image;</image> <!-- οι εικωνες ειναι στο dtd ως εντιτι εκει εχει διλωθει το westminster abbey image-->   
 
             <doing Title="What youll do">Just a short walk from the Thames, Westminster Abbey is a must-see and a significant structure in British history. This beautiful gothic church is a UNESCO World Heritage Site popular with many visitors to London. Complete with paintings, stained glass windows, and other religious artifacts, Westminster Abbey owns the most important collection of monumental sculpture anywhere in Britain.
                 <Highlights>
@@ -524,6 +541,8 @@
                 <vote username= "user8" stars="5"> Amazing views of London!</vote>
             </votes>
 
+            <image src="london_zoo_image">&london_zoo_image;</image> <!-- οι εικωνες ειναι στο dtd ως εντιτι εκει εχει διλωθει το london zoo image-->
+
             <doing Title="What youll do">Set in leafy Regent’s Park amid heritage-listed buildings and beautiful gardens, London Zoo is an oasis in the heart of the capital. Homing over 10,000 animals plus hosting an array of seasonal live shows and fantastic, immersive exhibits, this is an unmissable attraction right in the heart of London.
                 Established in 1828 by the Zoological Society of London, London Zoo has become the main point of reference for animal experiences in London. The zoo is the oldest scientific zoo in the world, housing a variety of animals purely for scientific research. As such, it was only accessible to fellows of the Zoological Society of London. Later, in 1847 the museum was opened to the public to help fund the society's research.
                 Situated on the northern edge of Regents Park, the zoo’s 36 acres of land houses over 10,000 animals, making it, the most extensive collection in the UK. From vanished species such as the Quagga and Tasmanian tiger to animals currently on the IUCN Red List, the establishment is well known for its conservation efforts. In 2018, the zoo welcomed a newborn okapi and London Zoo was the first in the world to begin breeding the critically endangered Lake Oku clawed frog. These efforts have led to vital insights into the conditions these rare animals need to survive and have fueled their conservation initiatives with essential information.
@@ -579,6 +598,8 @@
             <votes> 
                 <vote username= "user9" stars="5"> Amazing views of London!</vote>
             </votes>
+
+            <image src="arsenal_stadium_image">&arsenal_stadium_image;</image> <!-- οι εικωνες ειναι στο dtd ως εντιτι εκει εχει διλωθει το arsenal stadium image-->
 
             <doing Title="What youll do">Go behind-the-scenes and tour one of London’s most historic football clubs, Arsenal FC, at their home. Get ready to take your place in the home changing room, walk down the tunnel and soak up the atmosphere of a roaring crowd of 60,000 fans. In addition, catch a glimpse of the Directors Box and Diamond Club as you walk through the players’ tunnel and take in the pitchside views.
                     Two new areas added to the Arsenal tours are the Head Coach’s office, where you can see where the manager preps before a game, and the Physio Room where players get their pre-match massages.
