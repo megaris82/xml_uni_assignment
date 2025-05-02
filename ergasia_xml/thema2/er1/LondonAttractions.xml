@@ -11,13 +11,13 @@
                 <child unit_price="£" price="39" age="5-15"></child>
             </Special_Offer>
             <offer_includings>
-                <Including id="offer1">Free cancellation within 30 days.</Including>
-                <Including id="offer2">Visit as many attractions as you like over the number of selected days (subject to our terms and conditions).</Including>
-                <Including id="offer3">Valid for the selected number of calendar days from first use.</Including>
-                <Including id="offer4">Our handy app itinerary helps you plan the perfect trip.</Including>
-                <Including id="offer5">There's no need to pick before you purchase. Just choose attractions as you go!</Including>
-                <Including id="offer6">If you don't save on your sightseeing, we'll refund you the difference!</Including>
-                <Including id="offer7">No need for multiple tickets - just scan the Go City app at each attraction.</Including>
+                <Including id="offer1a">Free cancellation within 30 days.</Including>
+                <Including id="offer2a">Visit as many attractions as you like over the number of selected days (subject to our terms and conditions).</Including>
+                <Including id="offer3a">Valid for the selected number of calendar days from first use.</Including>
+                <Including id="offer4a">Our handy app itinerary helps you plan the perfect trip.</Including>
+                <Including id="offer5a">There's no need to pick before you purchase. Just choose attractions as you go!</Including>
+                <Including id="offer6a">If you don't save on your sightseeing, we'll refund you the difference!</Including>
+                <Including id="offer7a">No need for multiple tickets - just scan the Go City app at each attraction.</Including>
             </offer_includings>   
         </offer>
         <offer id="i-1036">The London Pass Plus
@@ -27,13 +27,13 @@
             </Special_Offer>
             <offer_includings>
                 The London Pass Plus includes all London Pass attractions, as well as additional access to The View from The Shard, The London Eye, Madame Tussauds &amp; the Big Bus Hop-On Hop-Off Tour.
-                <Including id="offer1">Free cancellation within 30 days.</Including>
-                <Including id="offer2">Visit as many attractions as you like over the number of selected days (subject to our terms and conditions).</Including>
-                <Including id="offer3">Valid for the selected number of calendar days from first use.</Including>
-                <Including id="offer4">Our handy app itinerary helps you plan the perfect trip.</Including>
-                <Including id="offer5">There's no need to pick before you purchase. Just choose attractions as you go!</Including>
-                <Including id="offer6">If you don't save on your sightseeing, we'll refund you the difference!</Including>
-                <Including id="offer7">No need for multiple tickets - just scan the Go City app at each attraction.</Including>
+                <Including id="offer1b">Free cancellation within 30 days.</Including>
+                <Including id="offer2b">Visit as many attractions as you like over the number of selected days (subject to our terms and conditions).</Including>
+                <Including id="offer3b">Valid for the selected number of calendar days from first use.</Including>
+                <Including id="offer4b">Our handy app itinerary helps you plan the perfect trip.</Including>
+                <Including id="offer5b">There's no need to pick before you purchase. Just choose attractions as you go!</Including>
+                <Including id="offer6b">If you don't save on your sightseeing, we'll refund you the difference!</Including>
+                <Including id="offer7b">No need for multiple tickets - just scan the Go City app at each attraction.</Including>
             </offer_includings>
         </offer>
     </Special_Offers>
@@ -341,7 +341,7 @@
                Tourist Bus Stop Westminster Bridge Road (eastbound), London, GB
             </Address>
             <operating>
-                <openings variable_dates=" For details of the route, stopping points, and days of operation, please visit the Big Bus website."/>>
+                <openings variable_dates=" For details of the route, stopping points, and days of operation, please visit the Big Bus website."/>
             </operating>
             <FAQS>
                 <FAQ>

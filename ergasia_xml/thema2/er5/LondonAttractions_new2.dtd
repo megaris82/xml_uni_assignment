@@ -30,7 +30,7 @@ price CDATA #REQUIRED
 
 <!--ό,τι έχει να κάνει με attractions-->     
 <!ELEMENT Attractions (Attraction+)>            <!-- εχουμε κανει μια νεα προσθικη στο attractions , το image ετσι με αυτον το τροπο γινετε υποχρεοτικο πεδιο σε καθε αξιοθεττο-->
-<!ELEMENT Attraction (URL, small_decripion, Attraction_title, spending_time, doing, includings?, Reservations?, Knowing_before?, Address, operating?, FAQS?, getting_there?, Image)>
+<!ELEMENT Attraction (extra_attraction_info, small_decripion,  Attraction_title, categories, votes, Image, doing, includings?, Reservations?, Knowing_before?, Address, operating?, FAQS?, getting_there?)>
 <!ATTLIST Attraction id_Attr ID #REQUIRED 
 booking (required | not_required) "not_required"
 normal_value CDATA #IMPLIED
@@ -57,7 +57,7 @@ place_type (indoor | outdoors) #REQUIRED
 <!ELEMENT category (#PCDATA)>
 
 <!ELEMENT votes (vote*)>
-<!ELEMENT vote (#PCDATA)>
+<!ELEMENT vote (#PCDATA)><!--το σχόλιο είναι προαιρετικά pc data-->
 <!ATTLIST vote 
     username CDATA #REQUIRED
     stars (1 | 2 | 3 | 4 | 5) #REQUIRED

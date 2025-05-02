@@ -1,5 +1,5 @@
 <!--root kai title-->
-<!ELEMENT London_Sightseeing (Title, Special_Offers*, Attractions+, must_sees?)>
+<!ELEMENT London_Sightseeing (Title, Special_Offers*, Attractions+, Must_sees?)>
 
 <!ELEMENT Title (#PCDATA)>
 
@@ -27,17 +27,18 @@ price CDATA #REQUIRED
 <!ATTLIST Including id ID #REQUIRED>               
 
 <!--ό,τι έχει να κάνει με attractions-->
-<!ELEMENT Attractions (Attraction+)>
-<!ELEMENT Attraction (URL, small_decripion, Attraction_title, spending_time, doing, includings?, Reservations?, Knowing_before?, Address, operating?, FAQS?, getting_there?)>
+<!ELEMENT Attractions (Attraction+)><!--προσθήκη extra attraction info στην αρχή-->
+<!ELEMENT Attraction (extra_attraction_info, small_decription, Attraction_title, doing, includings?, Reservations?, Knowing_before?, Address, operating?, FAQS?, getting_there?)>
 <!ATTLIST Attraction id_Attr ID #REQUIRED 
 booking (required | not_required) "not_required"
 normal_value CDATA #IMPLIED
 unit_value CDATA #FIXED "£"
 in_offer IDREFS #IMPLIED
 >
-                                     <!-- εδω ειναι το θεμα 3 του dtd το extra_attraction_info δεν εχει παριεχωμενο
-                                      το spending_time ειναι requierd 
-                                      και το URL ειναι προαιρετικο -->
+
+<!-- εδω ειναι το θεμα 3 του dtd το extra_attraction_info δεν εχει παριεχωμενο
+το spending_time ειναι requierd 
+και το URL ειναι προαιρετικο -->
 <!ELEMENT extra_attraction_info EMPTY >
 <!ATTLIST extra_attraction_info 
           spending_time CDATA #REQUIRED

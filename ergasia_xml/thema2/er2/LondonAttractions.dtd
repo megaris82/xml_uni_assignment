@@ -1,5 +1,5 @@
 <!--root kai title-->
-<!ELEMENT London_Sightseeing (Title, Special_Offers*, Attractions+, must_sees?)>
+<!ELEMENT London_Sightseeing (Title, Special_Offers*, Attractions+, Must_sees?)>
 
 <!ELEMENT Title (#PCDATA)>
 
@@ -28,7 +28,7 @@ price CDATA #REQUIRED
 
 <!--ό,τι έχει να κάνει με attractions-->
 <!ELEMENT Attractions (Attraction+)>
-<!ELEMENT Attraction (URL, small_decripion, Attraction_title, spending_time, doing, includings?, Reservations?, Knowing_before?, Address, operating?, FAQS?, getting_there?)>
+<!ELEMENT Attraction (URL, small_decription, Attraction_title, spending_time, doing, includings?, Reservations?, Knowing_before?, Address, operating?, FAQS?, getting_there?)>
 <!ATTLIST Attraction id_Attr ID #REQUIRED 
 booking (required | not_required) "not_required"
 normal_value CDATA #IMPLIED
