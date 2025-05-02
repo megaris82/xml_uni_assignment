@@ -1,0 +1,590 @@
+/*γενικα*/
+London_Sightseeing {
+    display: block;
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(0, 150, 0);
+    color: green;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/*τίτλος και special offers*/
+Title {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: lightgreen;
+    margin-bottom: 20px;
+}
+
+Special_Offers {
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(0, 214, 0);
+    border: 2px solid darkgreen;
+}
+
+offer {
+    display: block;
+    border: 2px solid darkgreen;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: lightgreen;
+}
+
+offer::before {
+    content: "Προσφορά: ";
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 5px;
+}
+
+Special_Offer {
+    display: block;
+    background-color: lightgreen;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+Special_Offer::before {
+    content: "Ειδική Προσφορά: ";
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+Adult, child {
+    display: block;
+    margin-left: 15px;
+    padding: 5px;
+    background-color: lightgreen;
+    color: green;
+}
+
+
+Adult::before {
+    content: "Ενήλικας: Τιμή = " attr(price) attr(unit_price);
+    font-weight: bold;
+}
+
+
+child::before {
+    content: "Παιδί: Τιμή = " attr(price) attr(unit_price) " | Ηλικία: " attr(age);
+    font-weight: bold;
+}
+
+
+offer_includings {
+    display: block;
+    margin-top: 10px;
+}
+
+offer_includings::before {
+    content: "Περιλαμβάνονται στην Προσφορά:";
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 5px;
+}
+
+Including {
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 20px;
+    color: green;
+}
+
+/*container για τα attractions*/
+Attractions {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);/*5 ανά γραμμή*/
+    gap: 20px;
+    justify-content: center;
+}
+/*attraction*/
+Attraction {
+    
+    display: block;
+    border: 2px solid darkgreen;
+    background-color: rgb(0, 214, 0);
+    padding: 20px;
+}
+
+Attraction_title {
+    background-color: lightgreen;
+    padding: 10px;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: darkgreen;
+    margin-bottom: 10px;
+}
+
+Attraction_title::before {
+    content: "Τίτλος: ";
+    font-weight: bold;
+    color: darkgreen;
+}
+
+Attraction::before {
+    content: "Αξιοθέατο \AID: " attr(id_Attr) "\AΚράτηση: " attr(booking) "\AΚανονική Τιμή: " attr(normal_value) attr(unit_value) "\AΠροσφορά: " attr(in_offer);
+    white-space: pre; /* Enables rendering of \A as a line break */
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: darkgreen;
+    background-color: lightgreen;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* περιγραφή και extra info */
+small_decription {
+    padding: 10px;
+    background-color:lightgreen;
+    color: green;
+    margin-bottom: 15px;
+    display: block;
+}
+
+small_decription::before {
+    content: "Περιγραφή: ";
+    font-weight: bold;
+    color: darkgreen;
+}
+
+extra_attraction_info {
+    display: block;
+    background-color: lightgreen;
+    padding: 8px;
+    margin-bottom: 10px;
+    color: darkgreen;
+}
+
+extra_attraction_info::before {
+    content: "Χρήσιμες Πληροφορίες: ";
+    font-weight: bold;
+}
+
+extra_attraction_info::after {
+    content: " (Διάρκεια: " attr(spending_time) ", URL: " attr(URL) ")";
+    font-style: italic;
+}
+
+/* doing και includiong */
+
+doing {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+doing::before {
+    content: attr(Title);
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 10px;
+}
+
+includings {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+includings::before {
+    content: attr(Title);
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+including {
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Reservations */
+Reservations {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: lightgreen;
+
+}
+Reservations::before {
+    content: "Κρατήσεις:";
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 10px;
+}
+step {
+    display: block;
+    margin-left: 15px;
+}
+step::before {
+    font-weight:bold;
+    font-size: 1.5em;
+    content: "- ";
+}
+
+/* knowing befrore*/
+
+Knowing_before {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: lightgreen;
+
+}
+Knowing_before::before {
+    content: attr(Title);
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 10px;
+}
+
+Getting_in {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: lightgreen;
+}
+Getting_in::before {
+    content: "Πρόσβαση:";
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 5px;
+}
+
+Busy_tip {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+Busy_tip::before {
+    content: "Συμβουλή για την πολυκοσμία:";
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 5px;
+}
+
+note {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: lightgreen;
+}
+note::before {
+    content: "Σημείωση:";
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 5px;
+}
+
+Disclaimer {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: lightgreen;
+}
+Disclaimer::before {
+    content: "Προειδοποίηση:";
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 5px;
+}
+
+Accessibility {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: lightgreen;
+}
+Accessibility::before {
+    content: "Προσβασιμότητα:";
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+/* addres  */
+Address {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: lightgreen;
+}
+Address::before {
+    content: attr(Title);
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* opearting */
+operating {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+operating::before {
+    content: "Ώρες λειτουργίας:";
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 10px;
+}
+
+openings {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+openings[for]::before {
+    content: attr(for) ":";
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 5px;
+}
+
+openings[days]::before {
+    content: "Ανοιχτά: " attr(days);
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 5px;
+}
+
+openings[variable_dates]::before {
+    content: attr(variable_dates);
+    display: block;
+    font-style: italic;
+    color: darkgreen;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+opening {
+    display: block;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    color: green;
+}
+
+opening::before {
+    content: "• ";
+    color: darkgreen;
+}
+
+opening[for]::before {
+    content: attr(for) ": ";
+    font-weight: bold;
+    color: darkgreen;
+}
+
+
+Timing::before {
+    content: "Ώρες: ";
+    font-weight: bold;
+    color: green;
+}
+
+/* closing  */
+closing {
+    display: block;
+}
+
+closing::before {
+    content: "Κλειστά:";
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 5px;
+}
+
+closing[days]::before {
+    content: "Κλειστά: " attr(days);
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 5px;
+}
+
+closing[specific_dates]::before {
+    content: "Κλειστά: " attr(specific_dates);
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 5px;
+}
+
+match_days {
+    display: block;
+    background-color: lightgreen;
+    color: green;
+}
+
+
+/* getting_there */
+getting_there {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: lightgreen;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+getting_there::before {
+    content: attr(Title);
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 10px;
+}
+
+Train::before {
+    content: "Train: ";
+}
+Buses::before {
+    content: "Buses: ";
+}
+Other::before {
+    content: "Other: ";
+}
+
+/* facts */
+Facts {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+Facts::before {
+    content: "Γεγονότα:";
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 10px;
+}
+
+Fact {
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* hghlights */
+Highlights {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+}
+Highlights::before {
+    content: "Σημεία ενδιαφέροντος:";
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 10px;
+}
+Highlight {
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* faqs */
+FAQS {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+FAQS::before {
+    content: "Συχνές Ερωτήσεις:";
+    font-weight: bold;
+    color: darkgreen;
+    display: block;
+    margin-bottom: 10px;
+}
+
+FAQ {
+    display: block;
+    margin-bottom: 12px;
+    padding: 8px;
+}
+
+question {
+    display: block;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 5px;
+}
+
+question::before {
+    content: "Ερώτηση: ";
+    font-weight: bold;
+    color: darkgreen;
+}
+
+answer {
+    display: block;
+    color: green;
+}
+
+answer::before {
+    content: "Απάντηση: ";
+    font-weight: bold;
+    color: darkgreen;
+}
+
+/* must see */
+Must_sees {
+    display: block;
+    transform: translateX(+50%);
+    width: 50%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: lightgreen;
+    color: green;
+    text-align: center; 
+    border: 2px solid darkgreen;
+}
+
+Must_sees::before {
+    align-items: center;
+    content: "Must-see τοποθεσίες:" attr(ids);
+    font-weight: bold;
+}

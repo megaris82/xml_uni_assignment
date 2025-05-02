@@ -1,5 +1,5 @@
 <!--root kai title-->
-<!ELEMENT London_Sightseeing (Title, Special_Offers*, Attractions+, must_sees?)>
+<!ELEMENT London_Sightseeing (Title, Special_Offers*, Attractions+, Must_sees?)>
 
 
 
@@ -30,7 +30,7 @@ price CDATA #REQUIRED
 
 <!--ό,τι έχει να κάνει με attractions-->     
 <!ELEMENT Attractions (Attraction+)>            <!-- εχουμε κανει μια νεα προσθικη στο attractions , το image ετσι με αυτον το τροπο γινετε υποχρεοτικο πεδιο σε καθε αξιοθεττο-->
-<!ELEMENT Attraction (extra_attraction_info, small_decripion,  Attraction_title, categories, votes, Image, doing, includings?, Reservations?, Knowing_before?, Address, operating?, FAQS?, getting_there?)>
+<!ELEMENT Attraction (extra_attraction_info, small_decription, Attraction_title, categories, votes, image, doing, includings?, Reservations?, Knowing_before?, Address, operating?, FAQS?, getting_there?)>
 <!ATTLIST Attraction id_Attr ID #REQUIRED 
 booking (required | not_required) "not_required"
 normal_value CDATA #IMPLIED
@@ -62,22 +62,21 @@ place_type (indoor | outdoors) #REQUIRED
     username CDATA #REQUIRED
     stars (1 | 2 | 3 | 4 | 5) #REQUIRED
 >
-            <!-- κανωνικα η φοτογριαγια σκετη ειανι avif (δεν εχω ιδεα τι ειναι αυτο) για αυτο τον λογο απλα θα βαλω κατελιξη jpg θα σε πεταει στην κανωνικη σελιδα -->
-<!NOTATION jpg SYSTEM "image/jpeg"> <!-- εδω ειναι η φοτογραγια θα εχει σημειογραφια και θα ειναι jpg  και θα χρισμοπιοι οντοτια-->
+<!NOTATION jpg SYSTEM "image/jpeg">
 
-<!ENTITY shard_image SYSTEM "https://londonpass.com/en/london-attractions/view-from-the-shard.jpg" NDATA jpg>
-<!ENTITY london_eye_image SYSTEM "https://londonpass.com/en/london-attractions/london-eye.jpg" NDATA jpg>  <!-- https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1920,g_auto/f_auto/q_auto/v1/MERLIN_WEB_BANNER_AND_THUMBNAILS_London_Eye_Clean_qn0g5n?_a=BAVAZGDX0 -->
-<!ENTITY madame_tussauds_image SYSTEM "https://londonpass.com/en/london-attractions/madame-tussauds.jpg" NDATA jpg> <!--https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1920,g_auto/f_auto/q_auto/v1/MERLIN_WEB_BANNER_AND_THUMBNAILS_Madame_Tussauds_Clean_utekyj?_a=BAVAZGDX0--> 
-<!ENTITY household_cavalry_image SYSTEM "https://londonpass.com/en/london-attractions/household-cavalry.jpg" NDATA jpg> <!--https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1920,g_auto/f_auto/q_auto/v1/gc-v1/london-pass/attractions/254?_a=BAVAZGDX0-->
-<!ENTITY queens_skete_image SYSTEM "https://londonpass.com/en/london-attractions/queens-iceskating-bowling.jpg" NDATA jpg> <!-- https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1920,g_auto/f_auto/q_auto/v1/gc-v1/london-pass/attractions/516?_a=BAVAZGDX0 -->
-<!ENTITY big_bus_image SYSTEM "https://londonpass.com/en/london-attractions/big-bus-tours.jpg" NDATA jpg> <!-- https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1920,g_auto/f_auto/q_auto/v1/gc-v1/london/BB_London_HOHO_with_St_Paul_s_-_Oct_2024_vvi5oo?_a=BAVAZGDX0 -->
-<!ENTITY westminster_abbey_image SYSTEM "https://londonpass.com/en/london-attractions/westminster-abbey.jpg" NDATA jpg> <!-- https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1920,g_auto/f_auto/q_auto/v1/gc-v1/london-pass/518?_a=BAVAZGDX0 -->
-<!ENTITY london_zoo_image SYSTEM "https://londonpass.com/en/london-attractions/zsl-london-zoo.jpg" NDATA jpg> <!-- https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1920,g_auto/f_auto/q_auto/v1/gc-v1/london-pass/attractions/647?_a=BAVAZGDX0-->
-<!ENTITY arsenal_stadium_image SYSTEM "https://londonpass.com/en/london-attractions/arsenal-stadium.jpg" NDATA jpg> <!--https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1920,g_auto/f_auto/q_auto/v1/gc-v1/london-pass/Aresenal%20Stadium%20Tour_0.jpeg?_a=BAVAZGDX0 -->
+<!ENTITY shard_image SYSTEM "https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1200,g_auto/f_auto/q_auto/v1/gc-v1/london-pass/Shard%20banner%20shutterstock_598564199?_a=BAVAZGDX0" NDATA jpg>
+<!ENTITY london_eye_image SYSTEM "https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1200,g_auto/f_auto/q_auto/v1/MERLIN_WEB_BANNER_AND_THUMBNAILS_London_Eye_Clean_qn0g5n?_a=BAVAZGDX0" NDATA jpg>  
+<!ENTITY madame_tussauds_image SYSTEM "https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1200,g_auto/f_auto/q_auto/v1/MERLIN_WEB_BANNER_AND_THUMBNAILS_Madame_Tussauds_Clean_utekyj?_a=BAVAZGDX0" NDATA jpg>
+<!ENTITY household_cavalry_image SYSTEM "https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1200,g_auto/f_auto/q_auto/v1/gc-v1/london-pass/attractions/254?_a=BAVAZGDX0" NDATA jpg> 
+<!ENTITY queens_skate_image SYSTEM "https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1200,g_auto/f_auto/q_auto/v1/gc-v1/london-pass/attractions/516?_a=BAVAZGDX0" NDATA jpg>
+<!ENTITY big_bus_image SYSTEM "https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1200,g_auto/f_auto/q_auto/v1/gc-v1/london/BB_London_HOHO_with_St_Paul_s_-_Oct_2024_vvi5oo?_a=BAVAZGDX0" NDATA jpg>
+<!ENTITY westminster_abbey_image SYSTEM "https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1200,g_auto/f_auto/q_auto/v1/gc-v1/london-pass/518?_a=BAVAZGDX0" NDATA jpg>
+<!ENTITY london_zoo_image SYSTEM "https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1200,g_auto/f_auto/q_auto/v1/gc-v1/london-pass/attractions/647?_a=BAVAZGDX0" NDATA jpg>
+<!ENTITY arsenal_stadium_image SYSTEM "https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1200,g_auto/f_auto/q_auto/v1/gc-v1/london-pass/Aresenal%20Stadium%20Tour_0.jpeg?_a=BAVAZGDX0" NDATA jpg>
+<!ENTITY royal_mews_image SYSTEM "https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1200,g_auto/f_auto/q_auto/v1/gc-v1/london-pass/attractions/377?_a=BAVAZGDX0" NDATA jpg>
 
-<!ELEMENT Image (#PCDATA)>
-<!ATTLIST Image src ENTITY #REQUIRED> <!-- Κάνουμε την πληροφορία υποχρεωτική με το #REQUIRED -->
-
+<!ELEMENT image EMPTY>
+<!ATTLIST image src ENTITY #REQUIRED>
 
 <!ELEMENT doing (#PCDATA | Highlights | Facts)*>
 <!ATTLIST doing Title CDATA #FIXED "What youll do">

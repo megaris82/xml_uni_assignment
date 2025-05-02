@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE London_Sightseeing SYSTEM "LondonAttractions_new2.dtd">
-
-
+<?xml-stylesheet type="text/css" href="LondonAttractions_new.css"?>
 
 <London_Sightseeing>
 
@@ -43,26 +41,11 @@
     </Special_Offers>
 
     <Attractions>
-        <Attraction id_Attr="id1" booking="required" normal_value="38.00" unit_value="£" in_offer="i-1036"
-          family-friendly = "3" place_type = "indoor">
-          <!--νεα προσθηκη για το θεμα 5 ειανι το family-friendly το οπιο ειναι 3 γιατι ειναι πληρος family_frinedly 
-            και η δευτερη προσθηκη ειναι το place_type που ειναι indoor -->   
-            
-            <extra_attraction_info  spending_time="up to hour (&lt;1 hr)" URL="https://londonpass.com/en/london-attractions/view-from-the-shard"/>                                                                                                          
+        <Attraction id_Attr="id1" booking="required" normal_value="38.00" unit_value="£" in_offer="i-1036">   <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 -->
+         <extra_attraction_info  spending_time="up to one hour (&lt;1 hr)" URL="https://londonpass.com/en/london-attractions/view-from-the-shard"/>                                                                                                          
            
             <small_decription>Discover an architectural marvel and a symbol of modern London.</small_decription>
             <Attraction_title>The View from The Shard</Attraction_title>
-
-            <categories> 
-                <category> Modern &amp; Urban</category>
-            </categories>
-
-            <votes> 
-                <vote username= "user1" stars="5"> Amazing views of London!</vote>
-            </votes>
-
-            <image src="shard_image"/>
-
             <doing Title="What youll do">From a 1970s office block to one of the world’s most distinguished buildings, ascend to London’s highest viewpoint at The View from The Shard.
                 Journey to a height of up to 800ft (244m); to the top of London’s tallest observation platform and premium visitor attraction, The View from The Shard. Formerly known as the London Bridge Tower, ‘The Shard’ was designed by famed architect, Renzo Piano. Piano, who is most famous for designing the Pompidou Centre in Paris, France, began designing The Shard in 2000. His design was fuelled by the desire to create a modern building that stood out amongst the London Skyline without appearing too overbearing. As such, the building resembles a large piece of glass pointing out of the ground, and thus, The Shard was aptly named.
                 Piano’s design has become a symbol of modern architecture in contemporary London. It incorporates both aesthetically and structurally unique features, drawing inspiration from the spires of different London churches. The building’s windows have a special glaze that reacts to light in a very intuitive way. Depending on the season or time of day, the glass can reflect different intensities of light, casting unique luminosity.
@@ -113,25 +96,12 @@
                 </Sunday>
             </operating>
         </Attraction>
-        <Attraction id_Attr="id2" booking="required" normal_value="42.00" unit_value="£" in_offer="i-1036"
-          family-friendly = "3" place_type = "outdoors"> 
-          <!--νεα προσθηκη για το θεμα 5 ειανι το family-friendly το οπιο ειναι 3 γιατι ειναι πληρος family_frinedly 
-            και η δευτερη προσθηκη ειναι το place_type που ειναι outdoors -->
+        
+        <Attraction id_Attr="id2" booking="required" normal_value="42.00" unit_value="£" in_offer="i-1036">  
+
           <extra_attraction_info spending_time= "up to an hour (&lt;1 hr)" URL= "https://londonpass.com/en/london-attractions/london-eye " />                                                                                                                                                                                                 
             <small_decription>Discover an architectural marvel and a symbol of modern London.</small_decription>
             <Attraction_title>The London Eye</Attraction_title>
-
-            <categories>
-                <category> Fun &amp; entertainment</category>
-                <category> Modern &amp; Urban</category>
-            </categories>
-
-            <votes>
-                <vote username= "user2" stars="5"> Amazing views of London!</vote>
-            </votes>
-
-            <image src="london_eye_image"/>
-
             <doing Title="What youll do">Are you looking to take your London experience to new heights? Take a ride on Europe’s tallest cantilevered observation wheel in the heart of the city – a must-do on your London vacation.
                 Originally constructed as a temporary exhibit to celebrate the new millennium, the London Eye offers panoramic views of the city’s skyline that stretches as far as 25 miles on a clear day. That’s to Windsor Castle!
                 Standing at an impressive 135 metres (443ft) high, the London Eye boasts 32 glass pods that represent each one of London’s boroughs. Step into the spacious capsule, that’s completely enclosed and climate-controlled, and be transported to the heights of the city.
@@ -170,22 +140,11 @@
                 </FAQ>
             </FAQS>
         </Attraction>
-        <Attraction id_Attr="id3" booking="required" normal_value="45.00" unit_value="£" in_offer="i-1036"
-            family-friendly = "3" place_type = "indoor">    
+        <Attraction id_Attr="id3" booking="required" normal_value="45.00" unit_value="£" in_offer="i-1036">     
+
            <extra_attraction_info spending_time="1-2 hours" URL="https://londonpass.com/en/london-attractions/madame-tussauds-london"/> 
             <small_decription>Join A-listers, music icons and even royalty on the star-studded red carpet of Madame Tussauds.</small_decription>
             <Attraction_title>Madame Tussauds London</Attraction_title>
-
-            <categories> 
-                <category> historic &amp; cultural</category>
-            </categories>
-
-            <votes> 
-                <vote username= "user3" stars="5"> Amazing views of London!</vote>
-            </votes>
-
-            <image src="madame_tussauds_image"/>
-
             <doing Title="What youll do">Lights, camera, action! Its your turn to step into the spotlight at the world-famous Madame Tussauds London. Discover the magical mix of glamour and history that has been mesmerising visitors since 1835.
                 Come face-to-face with the world’s most recognisable people in the varied zones, all offering a unique line-up and experience. Meet the King, Queen, Prince William and Kate Middleton in the Royal Palace Experience. Check out the Impossible Festival to party backstage with singing superstars like Lady Gaga and the iconic Ziggy Stardust persona of David Bowie. Visit the Marvel Hall of Heroes to say hi to your favourite Avengers and more. Finish up at an out-of-this-world Star Wars display, where you can step inside the Millennium Falcon and see the stars of the franchise.
                 Madame Tussauds promises to be a memorable trip into the world of fame for history hunters, glitz and glamour lovers and Royalty fans alike.
@@ -259,25 +218,12 @@
                 <Other>-</Other>
             </getting_there>
         </Attraction>
-        <Attraction id_Attr="id4" normal_value="10.00" unit_value="£" in_offer="i-1035"
-           family-friendly = "3" place_type = "outdoors">  
-            <!--νεα προσθηκη για το θεμα 5 ειανι το family-friendly το οπιο ειναι 3 γιατι ειναι πληρος family_frinedly 
-                και η δευτερη προσθηκη ειναι το place_type που ειναι outdoors   --> 
-          <extra_attraction_info spending_time="up to an hour (&lt;1 hr)" URL="https://londonpass.com/en/london-attractions/household-cavalry-museum"/>
+        <Attraction id_Attr="id4" normal_value="10.00" unit_value="£" in_offer="i-1035"> 
+
+            <extra_attraction_info spending_time="up to an hour (&lt;1 hr)" URL="https://londonpass.com/en/london-attractions/household-cavalry-museum"/>
  
             <small_decription>Unleash your inner equestrian and journey through centuries of royal tradition at The Household Cavalry Museum – where history comes to life in every hoofbeat!</small_decription>
             <Attraction_title>Household Cavalry Museum</Attraction_title>
-
-            <categories> 
-                <category> historic &amp; cultural</category>
-            </categories>
-
-            <votes> 
-                <vote username= "user4" stars="5"> Amazing views of London!</vote>
-            </votes>
-
-            <image src="household_cavalry_image"/>
-
             <doing Title="What youll do">The Household Cavalry Museum gets you up close to The King’s Mounted Bodyguard. Explore their history and discover more about their present-day role. The museum offers views into the working stables operated by the regiment and tells the story of The Household Cavalry through compelling personal testimonies, interactivity and rare artifacts.
                 The Household Cavalry Museum located at the Horse Guards in Whitehall is one of the most historic buildings in the city. Dating back to 1750, the building is still the headquarters of the Army in London. Visitors to the museum learn about the traditions of the Household Cavalry and experience the daily ceremony of the King’s Life Guard that has remained unchanged since its founding in 1660. The museum's location provides a unique backdrop that helps immerse visitors in the rich history and ongoing activities of the regiment.
                 Opened by Queen Elizabeth II in 2007, The Household Cavalry Museum offers a unique behind-the-scenes perspective on two vital British Army regiments - the Life Guards and the Blues &amp; Royals - and both the ceremonial and operational duties they perform. It offers a metaphorical and literal window into the prestigious history and everyday workings of the Household Cavalry, with a large glazed partition through which visitors see troopers tending to their horses in the original 18th century stables and a wealth of exhibitions covering the regiments’ history in theatres of conflict and during Royal ceremonial occasions.
@@ -326,26 +272,12 @@
                 <Other>-</Other>
             </getting_there>
         </Attraction>
-        <Attraction id_Attr="id5" booking="not_required" normal_value="16.75" unit_value="£" in_offer="i-1035 i-1036"
-            family-friendly = "3" place_type = "indoor"> 
-            <!--νεα προσθηκη για το θεμα 5 ειανι το family-friendly το οπιο ειναι 3 γιατι ειναι πληρος family_frinedly 
-                και η δευτερη προσθηκη ειναι το place_type που ειναι indoor   -->
+        <Attraction id_Attr="id5" booking="not_required" normal_value="16.75" unit_value="£" in_offer="i-1035 i-1036">  
+
            <extra_attraction_info spending_time="up to an hour (&lt;1 hr)" URL="https://londonpass.com/en/london-attractions/queens-iceskating-bowling"/>
 
             <small_decription>QUEENS Skate Dine Bowl is the perfect entertainment venue, featuring ice skating, bowling, curling and arcades. Plus you can tuck into delicious food and drinks, brought to you by MEATliquor.</small_decription>
             <Attraction_title>QUEENS Skate Dine Bowl</Attraction_title>
-            
-            <categories> 
-                <category> Fun &amp; entertainment</category>
-                <category> Modern &amp; Urban</category>
-            </categories>
-
-            <votes> 
-                <vote username= "user5" stars="5"> Amazing views of London!</vote>
-            </votes>
-            
-            <image src="queens_skate_image"/>
-
             <doing Title="What youll do">Originally known as QUEENS Ice Club, QUEENS Skate Dine Bowl was opened back in 1930. Both it and The Grosvenor House Ice Skating Rink were conceived and created by architect Alfred Edwards. Since then, QUEENS has gone from strength to strength. It was the first ice rink to be used for ice skating televised by the BBC. More recently, it has featured on episodes of Made in Chelsea, and is also used as a practice rink for contenders on Dancing On Ice.
                 <Highlights>
                     <Highlight>Bowling =&gt; There are 12 bowling lanes, perfect for Queensway bowling with friends and family.</Highlight>
@@ -388,25 +320,12 @@
                 <Other>-</Other>
             </getting_there>
         </Attraction>
-        <Attraction id_Attr="id6" normal_value="39.00" unit_value="£" in_offer="i-1036"
-            family-friendly = "3" place_type = "outdoors"> 
-            <!--νεα προσθηκη για το θεμα 5 ειανι το family-friendly το οπιο ειναι 3 γιατι ειναι πληρος family_frinedly 
-                και η δευτερη προσθηκη ειναι το place_type που ειναι outdoors   -->
-         <extra_attraction_info spending_time="1-2 hours" URL="https://londonpass.com/en/london-attractions/hop-on-hop-off-bus-tour"/>
+        <Attraction id_Attr="id6" normal_value="39.00" unit_value="£" in_offer="i-1036">        
+
+          <extra_attraction_info spending_time="1-2 hours" URL="https://londonpass.com/en/london-attractions/hop-on-hop-off-bus-tour"/>
 
             <small_decription>Sit back, relax, and take in the views of London with a Hop-On Hop-Off bus tour.</small_decription>
             <Attraction_title>1-Day Big Bus Hop-On Hop-Off Tour</Attraction_title>
-
-            <categories> 
-                <category> historic &amp; cultural</category>
-            </categories>
-
-            <votes> 
-                <vote username= "user6" stars="5"> Amazing views of London!</vote>
-            </votes>
-
-            <image src="big_bus_image"/>
-
             <doing Title="What youll do">Sit back, relax, and take in the views of London with a Hop-On Hop-Off bus tour and tick off Central London's top attractions and get to know the city a little better.If you’re ready to explore all that London has to offer, look no further than the Hop On Hop Off London tour. This London bus tour allows you to see all the iconic landmarks and attractions at your own pace. From the Tower of London to Buckingham Palace, the London Tour Bus ensures that you won’t miss a thing. With award-winning live guides and multilingual audio commentary, you can learn more about London’s rich history while taking in the sights. Don’t miss out on the opportunity to see the city in a whole new way with The London Pass®.
                 <Highlights>
                     <Highlight>Tower of London =&gt; A must-see London sight. Learn about the Tower’s wealth of history, dating back to the Norman Conquest. You’ll learn about the secrets and scandals of the court, and the role the Tower used to play as a palace, prison, armory, and menagerie.</Highlight>
@@ -456,24 +375,12 @@
                 <Train> Westminster</Train>
             </getting_there>
         </Attraction>
-        <Attraction id_Attr="id7" normal_value="30.00" unit_value="£" in_offer="i-1035"
-            family-friendly = "0" place_type = "indoor">    
+        <Attraction id_Attr="id7" normal_value="30.00" unit_value="£" in_offer="i-1035">    
 
-            <extra_attraction_info spending_time="Up to an hour (&lt;1)" URL="https://londonpass.com/en/london-attractions/westminster-abbey"/>
+            <extra_attraction_info spending_time="Up to an hour(&lt;1)" URL="https://londonpass.com/en/london-attractions/westminster-abbey"/>
 
             <small_decription>Enjoy access to Westminster Abbey, the site of the Royal Wedding, Britain's official coronation church and UNESCO World Heritage Site.</small_decription>
             <Attraction_title>Westminster Abbey</Attraction_title>
-
-            <categories> 
-                <category> historic &amp; cultural</category>
-            </categories>
-
-            <votes> 
-                <vote username= "user7" stars="4"> Amazing views of London!</vote>
-            </votes>
-
-            <image src="westminster_abbey_image"/>
-
             <doing Title="What youll do">Just a short walk from the Thames, Westminster Abbey is a must-see and a significant structure in British history. This beautiful gothic church is a UNESCO World Heritage Site popular with many visitors to London. Complete with paintings, stained glass windows, and other religious artifacts, Westminster Abbey owns the most important collection of monumental sculpture anywhere in Britain.
                 <Highlights>
                     <Highlight>The life of the abbey revolves around worship; Morning Prayer, Evensong, and the Eucharist. The services are open to the public of any religious denomination.</Highlight>
@@ -524,25 +431,12 @@
                 <Train>London Underground: St James's Park (District or Circle lines) or Westminster (District or Jubilee lines)</Train>
             </getting_there>
         </Attraction>
-        <Attraction id_Attr="id8" normal_value="41.80" unit_value="£" in_offer="i-1035"
-            family-friendly = "3" place_type = "outdoors">   
+        <Attraction id_Attr="id8" normal_value="41.80" unit_value="£" in_offer="i-1035"> 
 
-              <extra_attraction_info spending_time="2-3 hours" URL="https://londonpass.com/en/london-attractions/london-zoo"/>
+            <extra_attraction_info spending_time="2-3 hours" URL="https://londonpass.com/en/london-attractions/london-zoo"/>
            
             <small_decription>With over 10,000 incredible animals and exciting and innovative exhibits, London Zoo is a great day out in the capital for all ages.</small_decription>
             <Attraction_title>London Zoo</Attraction_title>
-
-            <categories> 
-                <category> nature &amp; outdoors</category>
-                <category> Fun &amp; entertainment</category>
-            </categories>
-
-            <votes> 
-                <vote username= "user8" stars="5"> Amazing views of London!</vote>
-            </votes>
-
-            <image src="london_zoo_image"/>
-
             <doing Title="What youll do">Set in leafy Regent’s Park amid heritage-listed buildings and beautiful gardens, London Zoo is an oasis in the heart of the capital. Homing over 10,000 animals plus hosting an array of seasonal live shows and fantastic, immersive exhibits, this is an unmissable attraction right in the heart of London.
                 Established in 1828 by the Zoological Society of London, London Zoo has become the main point of reference for animal experiences in London. The zoo is the oldest scientific zoo in the world, housing a variety of animals purely for scientific research. As such, it was only accessible to fellows of the Zoological Society of London. Later, in 1847 the museum was opened to the public to help fund the society's research.
                 Situated on the northern edge of Regents Park, the zoo’s 36 acres of land houses over 10,000 animals, making it, the most extensive collection in the UK. From vanished species such as the Quagga and Tasmanian tiger to animals currently on the IUCN Red List, the establishment is well known for its conservation efforts. In 2018, the zoo welcomed a newborn okapi and London Zoo was the first in the world to begin breeding the critically endangered Lake Oku clawed frog. These efforts have led to vital insights into the conditions these rare animals need to survive and have fueled their conservation initiatives with essential information.
@@ -583,24 +477,12 @@
                 <Train>Camden Town</Train>
             </getting_there>
         </Attraction>
-           <Attraction id_Attr="id9" normal_value="41.80" unit_value="£" in_offer="i-1035"
-            family-friendly = "3" place_type = "indoor">  
-             <extra_attraction_info spending_time="Up to an hour(&lt;1)" URL="https://londonpass.com/en/london-attractions/arsenal-stadium-tour"/>
+           <Attraction id_Attr="id9" normal_value="41.80" unit_value="£" in_offer="i-1035">   
+
+            <extra_attraction_info spending_time="Up to an hour(&lt;1)" URL="https://londonpass.com/en/london-attractions/arsenal-stadium-tour"/>
           
             <small_decription>The Arsenal Stadium Tour takes visitors into some of the most intimate areas of the club and gives them a taste of what it is like on Match Day.</small_decription>
             <Attraction_title>Arsenal Stadium Tour</Attraction_title>
-
-            <categories> 
-                <category> historic &amp; cultural</category>
-                <category> Fun &amp; entertainment</category>
-            </categories>
-
-            <votes> 
-                <vote username= "user9" stars="5"> Amazing views of London!</vote>
-            </votes>
-
-            <image src="arsenal_stadium_image"/>
-
             <doing Title="What youll do">Go behind-the-scenes and tour one of London’s most historic football clubs, Arsenal FC, at their home. Get ready to take your place in the home changing room, walk down the tunnel and soak up the atmosphere of a roaring crowd of 60,000 fans. In addition, catch a glimpse of the Directors Box and Diamond Club as you walk through the players’ tunnel and take in the pitchside views.
                     Two new areas added to the Arsenal tours are the Head Coach’s office, where you can see where the manager preps before a game, and the Physio Room where players get their pre-match massages.
                     Tour guests also have access to exclusive video content with Arsenal’s interactive shirt and tour cam features, including behind-the-scenes footage and player interviews.
@@ -645,23 +527,12 @@
                 <Train>London Underground: take the Piccadilly line. Get off at Arsenal train station.</Train>
             </getting_there>
         </Attraction>
-         <Attraction id_Attr="id10" normal_value="19.00" unit_value="£" in_offer="i-1035"
-           family-friendly = "3" place_type = "outdoors"> 
-             <extra_attraction_info spending_time="Up to an hour" URL="https://londonpass.com/en/london-attractions/royal-mews"/>
+         <Attraction id_Attr="id10" normal_value="19.00" unit_value="£" in_offer="i-1035">
+
+            <extra_attraction_info spending_time="Up to an hour" URL="https://londonpass.com/en/london-attractions/royal-mews"/>
            
             <small_decription>Discover the royal working stables and British monarchy's grand collection of coaches and luxury cars.</small_decription>
             <Attraction_title>Royal Mews</Attraction_title>
-
-            <categories>
-                <category> historic &amp; cultural</category>
-            </categories>
-
-            <votes> 
-                <vote username= "user10" stars="5">The royal mews were amazing!</vote>
-            </votes>
-
-            <image src="royal_mews_image"/>
-
             <doing Title="What youll do">The Royal Mews is one of the finest working stables anywhere in the world and home to the royal collection of historic coaches and carriages, and the Windsor Greys and Cleveland Bays, the horses that pull the carriages. To this day, the stables are still responsible for all road travel arrangements for His Majesty The King and other members of the Royal Family.
                 The Royal Mews has been the location of the sovereign's road transport since 1760 when George III moved his carriage collection closer to his new home at Buckingham Palace. Since then, it has been updated by several monarchs in keeping with their changing transport needs.
                 Among the historic coaches and carriages on display are the spectacular Diamond Jubilee State Coach, and the Australian State Coach, which was given to Queen Elizabeth II as a gift from the Australian people. The most dazzling of all is the Gold State Coach, however, which has been used at every coronation since that of George IV in 1821, and which played a central role in the Platinum Jubilee celebrations in June 2022.
