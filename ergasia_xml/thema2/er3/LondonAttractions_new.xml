@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<London_Sightseeing>
+
+    <Title>THE LONDON PASS</Title>
+
+    <Special_Offers>
+        <offer id="i-1035">The London Pass
+            <Special_Offer id="special1" days="1">
+                <Adult unit_price="£" price="79"></Adult>
+                <child unit_price="£" price="39" age="5-15"></child>
+            </Special_Offer>
+            <offer_includings>
+                <Including id="offer1">Free cancellation within 30 days.</Including>
+                <Including id="offer2">Visit as many attractions as you like over the number of selected days (subject to our terms and conditions).</Including>
+                <Including id="offer3">Valid for the selected number of calendar days from first use.</Including>
+                <Including id="offer4">Our handy app itinerary helps you plan the perfect trip.</Including>
+                <Including id="offer5">There's no need to pick before you purchase. Just choose attractions as you go!</Including>
+                <Including id="offer6">If you don't save on your sightseeing, we'll refund you the difference!</Including>
+                <Including id="offer7">No need for multiple tickets - just scan the Go City app at each attraction.</Including>
+            </offer_includings>   
+        </offer>
+        <offer id="i-1036">The London Pass Plus
+            <Special_Offer id="special2" days="1">
+                <Adult unit_price="£" price="109"></Adult>
+                <child unit_price="£" price="79" age="5-15"></child>
+            </Special_Offer>
+            <offer_includings>
+                The London Pass Plus includes all London Pass attractions, as well as additional access to The View from The Shard, The London Eye, Madame Tussauds &amp; the Big Bus Hop-On Hop-Off Tour.
+                <Including id="offer1">Free cancellation within 30 days.</Including>
+                <Including id="offer2">Visit as many attractions as you like over the number of selected days (subject to our terms and conditions).</Including>
+                <Including id="offer3">Valid for the selected number of calendar days from first use.</Including>
+                <Including id="offer4">Our handy app itinerary helps you plan the perfect trip.</Including>
+                <Including id="offer5">There's no need to pick before you purchase. Just choose attractions as you go!</Including>
+                <Including id="offer6">If you don't save on your sightseeing, we'll refund you the difference!</Including>
+                <Including id="offer7">No need for multiple tickets - just scan the Go City app at each attraction.</Including>
+            </offer_includings>
+        </offer>
+    </Special_Offers>
+
+    <Attractions>
+        <Attraction id_Attr="id1" booking="required" normal_value="38.00" unit_value="£" in_offer="i-1036">   <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
+                                                                                                                    extra_attraction_info ...εχει μεσα το url-->
+         <extra_attraction_info  spending_time="up to hour (&lt;1 hr)" URL="https://londonpass.com/en/london-attractions/view-from-the-shard"/>                                                                                                          
+           
+            <small_decription>Discover an architectural marvel and a symbol of modern London.</small_decription>
+            <Attraction_title>The View from The Shard</Attraction_title>
+            <doing Title="What youll do">From a 1970s office block to one of the world’s most distinguished buildings, ascend to London’s highest viewpoint at The View from The Shard.
+                Journey to a height of up to 800ft (244m); to the top of London’s tallest observation platform and premium visitor attraction, The View from The Shard. Formerly known as the London Bridge Tower, ‘The Shard’ was designed by famed architect, Renzo Piano. Piano, who is most famous for designing the Pompidou Centre in Paris, France, began designing The Shard in 2000. His design was fuelled by the desire to create a modern building that stood out amongst the London Skyline without appearing too overbearing. As such, the building resembles a large piece of glass pointing out of the ground, and thus, The Shard was aptly named.
+                Piano’s design has become a symbol of modern architecture in contemporary London. It incorporates both aesthetically and structurally unique features, drawing inspiration from the spires of different London churches. The building’s windows have a special glaze that reacts to light in a very intuitive way. Depending on the season or time of day, the glass can reflect different intensities of light, casting unique luminosity.
+                The entire building process took over three years to complete. In that time, the structure rose by 10 feet per day. Many of the glass panels were put in place before the building reached its terminal height of 1000 feet. By 2012, it officially became the tallest building in Europe.
+                The Shard offers a multitude of corporate, entertainment and dining facilities. Floors 2 to 28 of the building are used as office space rental areas. The 31st to 33rd floors are dedicated to restaurants. The five-star hotel, Shangri-La takes up a staggering 18 levels, from the 34th floor to the 52nd floor. Some can even call The Shard their home, as floors 53 to 65 are occupied by residential apartments.
+                The best viewing spot in The Shard is, of course, its pinnacle. Enjoy unparalleled views over London from the building’s multi-floor observatory on the 68th to 72nd floors.</doing>
+            <includings Title="Whats included">
+                <including>Your pass includes entry to the indoor viewing platform on the 68th and 69th floor, the open-air Skydeck on the 72nd floor and a digital photo package, comprising four photos.</including>
+                <including>Once you’ve had your pass scanned, you’ll recieve an exclusive £5 per person retail credit voucher for use in the on-site gift shop (subject to a minimum spend of £20 per person).</including>
+            </includings>
+            <Reservations>
+                You must pre-book your time slot online before visiting. Tickets can only be booked online.
+                <procedure>
+                    <step id="st1">Follow this link to the specific The London Pass booking page on The View from The Shard’s website.
+                        You will be unable to book using your pass via the main website.</step>
+                    <step id="st2">Select the number of tickets you require.Remember, each person in your group must have their own pass.</step>
+                    <step id="st3">Select your visit date and a timeslot for entry. Your pass must be valid on your chosen visit date.</step>
+                    <step id="st4">Enter your pass numbers, separated with commas and then enter the promo code: GOCITY23</step>
+                    <step id="st5">Finally, enter your details so your entry voucher can be emailed to you. </step>
+                </procedure>
+                You must pre-book your time slot online before visiting. Tickets can only be booked online.
+            </Reservations>
+            <Knowing_before Title="Know before you go">
+                <Getting_in>Simply show your pass &amp; booked timeslot entry voucher at the main admissions desk and you're good to go!</Getting_in>
+            </Knowing_before>
+            <Address Title="Where youll be">
+                Railway Approach, London, GB
+            </Address>
+            <operating>
+                <openings days="wed thu fri sat sun"/>
+                <closing days="mon tus"/>
+                <Monday dayid="mon"/>
+                <Tuesday dayid="tus"/>
+                <Wednesday dayid="wed">
+                    <Timing>11AM-6PM</Timing>
+                </Wednesday>
+                <Thursday dayid="thu">
+                    <Timing>11AM-6PM</Timing>
+                </Thursday>
+                <Friday dayid="fri">
+                    <Timing>11AM-6PM</Timing>
+                </Friday>
+                <Saturday dayid="sat">
+                    <Timing>11AM-6PM</Timing>
+                </Saturday>
+                <Sunday dayid="sun">
+                    <Timing>11AM-6PM</Timing>
+                </Sunday>
+            </operating>
+        </Attraction>
+        <Attraction id_Attr="id2" booking="required" normal_value="42.00" unit_value="£" in_offer="i-1036">  <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
+                                                                                                                    extra_attraction_info ...εχει μεσα το url-->
+          <extra_attraction_info spending_time= "up to an hour (&lt;1 hr)" URL= "https://londonpass.com/en/london-attractions/london-eye " />                                                                                                                                                                                                 
+            <small_decription>Discover an architectural marvel and a symbol of modern London.</small_decription>
+            <Attraction_title>The London Eye</Attraction_title>
+            <doing Title="What youll do">Are you looking to take your London experience to new heights? Take a ride on Europe’s tallest cantilevered observation wheel in the heart of the city – a must-do on your London vacation.
+                Originally constructed as a temporary exhibit to celebrate the new millennium, the London Eye offers panoramic views of the city’s skyline that stretches as far as 25 miles on a clear day. That’s to Windsor Castle!
+                Standing at an impressive 135 metres (443ft) high, the London Eye boasts 32 glass pods that represent each one of London’s boroughs. Step into the spacious capsule, that’s completely enclosed and climate-controlled, and be transported to the heights of the city.
+                Spot the grandeur of Buckingham Palace, the clock tower housing Big Ben, and the gothic structures of the Houses of Parliament. Gaze out at other famous silhouettes such as the Shard, the winding River Thames, and the majestic dome of St. Paul’s Cathedral. These sights become even more magical at sunset or when night falls, and the city lights begin to twinkle.</doing>
+            <includings Title="Whats included">
+                <including>Your pass gives you access to a flight on The London Eye. Soaring 135 metres above the city, the observation wheel offers an unrivaled aerial tour of the historic skyline.</including>
+            </includings>
+            <Reservations>
+               You can book your spot up to 15 days in advance on the Go City Reservations Portal. You’ll need your order/pass number(s) and the email you used to purchase.
+                
+                <booking_notes>Please note!
+                  Important: if you are travelling with children aged 2 to 4, although they won’t have a pass, they will still be charged admission by The London Eye. Tickets can be purchased at the self-service ticket kiosks in The London Eye main ticket office. Please allow extra time to purchase these tickets prior to your booked timeslot.
+                  Plans changed?
+                  No problem, in the Reservations Portal you can amend your booking up to 15 minutes prior to arrival.
+                </booking_notes>
+            </Reservations>
+            <Knowing_before Title="Know before you go">
+                <Getting_in>With your confirmed Go City reservation, make your way to Entrance A, located outside the London Eye - you can’t miss it, it’s a bright pink gazebo. Here, you'll have your pass scanned and validated. Keep your confirmation email handy in case you’re asked to show that as well. Once your pass has been validated, you’ll join the line for security before boarding your pod. Even with a confirmed timeslot, wait times from scanning to boarding can be up to 30 minutes.
+			</Getting_in>
+            </Knowing_before>
+            <Address Title="Where youll be">
+                Riverside Building, County Hall, Westminster Bridge Rd, London SE1 7PB, United Kingdom
+            </Address>
+            <operating>
+                <openings variable_dates="Opening hours vary. Check the The lastminute.com London Eye website for the most up-to-date hours."/>
+                <closing specific_dates="25 December &amp; 6 to 19 January 2025"/>
+            </operating>
+            <FAQS>
+                <FAQ>
+                    <question>What should I know about the lastminute.com London Eye?</question>
+                    <answer>The lastminute.com London Eye stands out as the world’s largest cantilevered observation wheel with a height of 135 metres. It was designed by Marks Barfield Architects and opened to the public in 2000. The structure has received more than 85 awards recognising its achievements in tourism, architecture, and engineering.</answer>
+                </FAQ>
+                <FAQ>
+                    <question>What sights can be seen from the lastmintue.com London Eye?</question>
+                    <answer>When you take a ride on the London Eye, you’ll have the opportunity to see prominent landmarks such as the Houses of Parliament, Buckingham Palace, the Shard and St Paul’s Cathedral. On clear days, your view may extend as far as Windsor Castle. You’ll also get a bird’s-eye-view of the Tate Modern, SEA LIFE Aquarium, and London’s Southbank area.</answer>
+                </FAQ>
+            </FAQS>
+        </Attraction>
+        <Attraction id_Attr="id3" booking="required" normal_value="45.00" unit_value="£" in_offer="i-1036">     <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
+                                                                                                                    extra_attraction_info ...εχει μεσα το url-->
+
+           <extra_attraction_info spending_time="1-2 hours" URL="https://londonpass.com/en/london-attractions/madame-tussauds-london"/> 
+            <small_decription>Join A-listers, music icons and even royalty on the star-studded red carpet of Madame Tussauds.</small_decription>
+            <Attraction_title>Madame Tussauds London</Attraction_title>
+            <doing Title="What youll do">Lights, camera, action! Its your turn to step into the spotlight at the world-famous Madame Tussauds London. Discover the magical mix of glamour and history that has been mesmerising visitors since 1835.
+                Come face-to-face with the world’s most recognisable people in the varied zones, all offering a unique line-up and experience. Meet the King, Queen, Prince William and Kate Middleton in the Royal Palace Experience. Check out the Impossible Festival to party backstage with singing superstars like Lady Gaga and the iconic Ziggy Stardust persona of David Bowie. Visit the Marvel Hall of Heroes to say hi to your favourite Avengers and more. Finish up at an out-of-this-world Star Wars display, where you can step inside the Millennium Falcon and see the stars of the franchise.
+                Madame Tussauds promises to be a memorable trip into the world of fame for history hunters, glitz and glamour lovers and Royalty fans alike.
+                <Highlights>
+                    <Highlight>Spirit of London Ride =&gt; Journey through the history of the city in this entertaining and educational ride in a traditional black cab.</Highlight>
+                    <Highlight>Kong: Skull Island =&gt; Wake the beast, hear his roar and unearth all of Skull Island’s secrets as you meet one of cinema’s most legendary animals.</Highlight>
+                    <Highlight>Marvel Universe 4D =&gt; Fight alongside your heroes, as this experience blends 3D film and real-world effects to put you in the heart of the battle.</Highlight>
+                    <Highlight>Chamber of Horrors =&gt; Get up close to some of Britain’s most notorious criminals as you uncover the secrets of the darker side of London’s past.</Highlight>
+                </Highlights>
+                <Facts>
+                    <Fact>Marie Tussaud’s first model was of Voltaire in 1777, after she had learned the art of wax modelling – meaning Madame Tussauds actually originates from the 18th Century.</Fact>
+                    <Fact>Since 1846 the world-renowned Chamber of Horrors display has been tingling the spines of visitors to London.</Fact>
+                    <Fact>Wax figure making is a very intricate process, artists must carefully measure the details and perfectly match things like hair and eye colour –
+                        the whole process can take up to half a year.</Fact>
+                    <Fact>Celebrities themselves often donate personal items to their figurines, pieces from their wardrobes or notable accessories that add to the realness.</Fact>
+                    <Fact>Regular up-keep is required on the models to make sure they stay lifelike. The artists touch up the wax, swap hairstyles and update them to reflect any changes to a celebrity's appearance.</Fact>
+                </Facts>
+            </doing>
+            <includings Title="Whats included">
+                <including>Explore eight zones with over 150 unique and lifelike figures.</including>
+            </includings>
+            <Reservations>
+                You can book your spot up to 15 days in advance on the Go City Reservations Portal. You'll need your order/pass number(s) and the email you used to purchase.
+                Plans changed?
+                No problem, in the Reservations Portal you can amend your booking up to 15 minutes prior to arrival.
+            </Reservations>
+            <Knowing_before Title="Know before you go">
+                <Getting_in>Just show your pass and booking confirmation email. Once you've had everything      
+                 scanned, you're good to go!
+                </Getting_in>
+                <Busy_tip>Please arrive at the time of your booking to minimise waiting times.</Busy_tip>
+                <note> Photography is fully encouraged, and selfie sticks are generally permitted, but 
+                        please be mindful of other visitors.
+                </note>
+            </Knowing_before>
+            <Address Title="Where youll be">
+               Marylebone Rd, London NW1 5LR, United Kingdom
+            </Address>
+            <operating>
+                <openings variable_dates="The opening times can vary, so for the most up-to-date hours, we recommend checking the Madame Tussauds London website."/>
+            </operating>
+            <FAQS>
+                <FAQ>
+                    <question>How long does Madame Tussauds in London take to look around?</question>
+                    <answer>There is no strict time limit on your visit, so you can explore at your own pace. Most people spend about two to three hours looking at all the exhibits and enjoying the immersive experiences.</answer>
+                </FAQ>
+                <FAQ>
+                    <question>Can I take pictures of the wax figures?</question>
+                    <answer>Of course! Photography is fully encouraged, and selfie sticks are generally permitted, but please be mindful of other visitors</answer>
+                </FAQ>
+                 <FAQ>
+                    <question>Is Madame Tussauds suitable for children?</question>
+                    <answer>Definitely, Madame Tussauds London is family-friendly, there are specific interactive exhibits and family-friendly zones to cater to younger visitors too.</answer>
+                </FAQ>
+                 <FAQ>
+                    <question>Can I buy gifts at Madame Tussauds London?</question>
+                    <answer>Sure, there are souvenir shops within the museum where you can purchase various Madame Tussauds-themed souvenirs, like keychains, mugs and other memorabilia.</answer>
+                </FAQ>
+                 <FAQ>
+                    <question>Is there a cloakroom at Madame Tussauds London?</question>
+                    <answer>Yes, there is a cloakroom available to use for a low price. Pushchairs can be stored here for free, as they are not allowed inside the museum.</answer>
+                </FAQ>
+                 <FAQ>
+                    <question>What else can I visit near Madame Tussauds London?</question>
+                    <answer>Madame Tussauds is close to lots of other popular London attractions like Regent’s Park, home of London Zoo, and only a 20-minute walk from Oxford Street.</answer>
+                </FAQ>
+            </FAQS>
+            <getting_there Title="How to get there">
+                <Buses>Bus numbers 2, 13, 27, 30, 74, 113, 139, 189, 205, 274 and 453 all stop within a five minutes walk.</Buses>
+                <Train>Baker Street (Bakerloo, Circle, Jubilee, Metropolitan and Hammersmith &amp; City lines) or Marylebone Station.</Train>
+                <Other>-</Other>
+            </getting_there>
+        </Attraction>
+        <Attraction id_Attr="id4" normal_value="10.00" unit_value="£" in_offer="i-1035">   <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
+                                                                                                                    extra_attraction_info ...εχει μεσα το url-->
+            <extra_attraction_info spending_time="up to an hour (&lt;1 hr)" URL="https://londonpass.com/en/london-attractions/household-cavalry-museum"/>
+ 
+            <small_decription>Unleash your inner equestrian and journey through centuries of royal tradition at The Household Cavalry Museum – where history comes to life in every hoofbeat!</small_decription>
+            <Attraction_title>Household Cavalry Museum</Attraction_title>
+            <doing Title="What youll do">The Household Cavalry Museum gets you up close to The King’s Mounted Bodyguard. Explore their history and discover more about their present-day role. The museum offers views into the working stables operated by the regiment and tells the story of The Household Cavalry through compelling personal testimonies, interactivity and rare artifacts.
+                The Household Cavalry Museum located at the Horse Guards in Whitehall is one of the most historic buildings in the city. Dating back to 1750, the building is still the headquarters of the Army in London. Visitors to the museum learn about the traditions of the Household Cavalry and experience the daily ceremony of the King’s Life Guard that has remained unchanged since its founding in 1660. The museum's location provides a unique backdrop that helps immerse visitors in the rich history and ongoing activities of the regiment.
+                Opened by Queen Elizabeth II in 2007, The Household Cavalry Museum offers a unique behind-the-scenes perspective on two vital British Army regiments - the Life Guards and the Blues &amp; Royals - and both the ceremonial and operational duties they perform. It offers a metaphorical and literal window into the prestigious history and everyday workings of the Household Cavalry, with a large glazed partition through which visitors see troopers tending to their horses in the original 18th century stables and a wealth of exhibitions covering the regiments’ history in theatres of conflict and during Royal ceremonial occasions.
+                This is a living museum, giving access to the heart of the modern working environment of a place the Household Cavalry has guarded for well over 350 years. The King’s Life Guard ceremony is performed here each morning, as is the daily afternoon inspection. The Household Cavalry Museum pairs the everyday activities at Horse Guards with a wealth of interactive exhibits, as well as personal testimonies from troopers regarding their training and responsibilities. There’s even the opportunity to try on the iconic uniform for yourself and dress like a cavalryman.
+                <Highlights>
+                    <Highlight>Horse Guards Parade =&gt; Horse Guards Clock faces out onto Whitehall and Horse Guards Parade. You can’t miss it during your visit to the Household Cavalry Museum. Before Big Ben, it was the primary public clock in the Westminster area.</Highlight>
+                </Highlights>
+                <Facts>
+                    <Fact>The afternoon inspection of guards and horses began in 1894 when Queen Victoria discovered the guards drinking and gambling instead of performing their protective duties. She doled out her punishment: the guards would be inspected at 4PM daily for the next 100 years.</Fact>
+                    <Fact>In 1994, when the royal punishment officially expired, Queen Elizabeth II elected to persist with the daily inspections because by then they were a firmly established tradition.</Fact>
+                    <Fact>Horse Guards Clock faces out onto Whitehall and Horse Guards Parade. You can’t miss it during your visit to the Household Cavalry Museum. Before Big Ben, it was the primary public clock in the Westminster area.</Fact>
+                </Facts>
+            </doing>
+            <includings Title="Whats included">
+                <including>Pay nothing at the door—simply show your pass.</including>
+                <including>See troopers performing their daily duties in the stables.</including>
+                <including>Dress up like a cavalryman.</including>
+                <including>See hourly sentry changes, daily morning guard changes and afternoon inspections.</including>
+            </includings>
+            <Knowing_before Title="Know before you go">
+                <Getting_in>Show your pass at the ticketing desk, inside the main entrance of the museum, to be scanned and validated. At busy times, you may be asked to wait for the next available time slot.</Getting_in>
+            </Knowing_before>
+            <Address Title="Where youll be">
+               Horse Guards, Whitehall, London, GB
+            </Address>
+            <operating>
+                <openings>
+                    <opening for="April to October">Daily from 10AM to 6PM (last admission 5PM)</opening>
+                    <opening for="November to March"> Wednesday to Sunday only from 10AM to 5PM (last admission 4PM)</opening>
+                    <opening for="Ceremonial Closures">Full list of dates and ceremonial closures can be found in: https://householdcavalry.co.uk/museum/museum-ceremonial-operating-hours/.</opening>
+                    <opening for="Monday 24th June">1PM – 6PM (last admission at 5PM)</opening>
+                    <opening for="Tuesday 25th June">1PM – 8PM (last admission at 5PM)</opening>
+                    <opening for="Wednesday 17th July">2PM – 6PM (last admission at 5PM)</opening>
+                    <opening for="Tuesday 25th June">1PM – 8PM (last admission at 5PM)</opening>
+                </openings>
+                <closing>
+                    <match_days>Good Friday</match_days>
+                    <match_days>London Marathon day</match_days>
+                    <match_days>6, 14 &amp; 16 May 2024</match_days>
+                    <match_days>24 to 26 December annually</match_days>
+                </closing>
+            </operating>
+            <getting_there Title="How to get there">
+                <Buses> Numbers 11, 12, 159, 24, 3, 453, 53, 87 and 88 all stop close to the attraction throughout the day.</Buses>
+                <Train>  Charing Cross Train or Underground - Bakerloo &amp; Northern line (6 minute walk), Westminister Underground - Jubilee, District &amp; Circle lines (6 minute walk)</Train>
+                <Other>-</Other>
+            </getting_there>
+        </Attraction>
+        <Attraction id_Attr="id5" booking="not_required" normal_value="16.75" unit_value="£" in_offer="i-1035 i-1036">  <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
+                                                                                                                    extra_attraction_info ...εχει μεσα το url-->
+           <extra_attraction_info spending_time="up to an hour (&lt;1 hr)" URL="https://londonpass.com/en/london-attractions/queens-iceskating-bowling"/>
+
+            <small_decription>QUEENS Skate Dine Bowl is the perfect entertainment venue, featuring ice skating, bowling, curling and arcades. Plus you can tuck into delicious food and drinks, brought to you by MEATliquor.</small_decription>
+            <Attraction_title>QUEENS Skate Dine Bowl</Attraction_title>
+            <doing Title="What youll do">Originally known as QUEENS Ice Club, QUEENS Skate Dine Bowl was opened back in 1930. Both it and The Grosvenor House Ice Skating Rink were conceived and created by architect Alfred Edwards. Since then, QUEENS has gone from strength to strength. It was the first ice rink to be used for ice skating televised by the BBC. More recently, it has featured on episodes of Made in Chelsea, and is also used as a practice rink for contenders on Dancing On Ice.
+                <Highlights>
+                    <Highlight>Bowling =&gt; There are 12 bowling lanes, perfect for Queensway bowling with friends and family.</Highlight>
+                    <Highlight>Incredible ice rink =&gt; Enjoy ice-skating, no matter the time of year! And you can even take to the ice in a go-kart for some Ice Karting, or try your hand at Curling.</Highlight>
+                    <Highlight>Food and drink &gt; For adults, they also have digital beer pong, and 'Liquor Lanes', which combine bowling and drinks. Liquor Lanes are separated from the 12 primary bowling lanes and can be booked for parties that include a private bar and sound system.</Highlight>
+                    <Highlight>Arcade =&gt; They have a host of arcade cabinets with classic video games like Street Fighter 2 and Donkey Kong that everyone can play.</Highlight>
+                </Highlights>
+            </doing>
+            <includings Title="Whats included">
+                <including>Your pass includes one session of ice-skating, also known as Queens ice skating.</including>
+                <including>Arcade games, bowling and food.</including>
+            </includings>
+            <Reservations>
+                <procedure>
+                    <step id="st6">Please email info@queens.london with your pass number to request a date and time for your ice skating experience. The team at Queen's will reconfirm your booking. </step>
+                </procedure>
+                <booking_notes>Please note: For large bookings of 19 or more people, please contact the Events Team at the venue by emailing events@queens.london.</booking_notes>
+            </Reservations>
+            <Knowing_before Title="Know before you go">
+                <Getting_in>Show your pass on arrival.</Getting_in>
+                <Busy_tip>This attraction is extremely popular and gets booked up fast. If this is one of your 'must-sees', please reserve your spot as soon as possible! You can book up to 10 days in advance of your visit. For the best experience we recommend visiting 2 hours after opening time.</Busy_tip>
+                <Disclaimer> For large bookings of 19 or more people, please contact the Events Team at the venue by emailing events@queens.london</Disclaimer>
+            </Knowing_before>
+            <Address Title="Where youll be">
+               17 Queensway, London, GB
+            </Address>
+            <operating>
+                <openings for="Bowling">
+                    <opening for="Daily">10AM-11PM</opening>
+                </openings>
+                <openings for="Ice skating">
+                    <opening for="Sunday, Monday, Wednesday">11AM - 1.30PM, 2PM - 4PM, 4.30PM - 6.30PM, 7PM - 10PM</opening>
+                    <opening for="Tuesday, Thursday">11AM - 1.30PM, 2PM - 4PM, 4.30PM - 6.30PM, 7PM - 10PM</opening>
+                    <opening for="Friday, Saturday">11AM - 1.30PM, 2PM - 4PM, 4.30PM - 6.30PM, 7PM - 11PM</opening>
+                </openings>
+            </operating>
+            <getting_there Title="How to get there">
+                <Buses> 70, 94, 148, N207</Buses>
+                <Train>Bayswater or Queensway</Train>
+                <Other>-</Other>
+            </getting_there>
+        </Attraction>
+        <Attraction id_Attr="id6" normal_value="39.00" unit_value="£" in_offer="i-1036">        <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
+                                                                                                                    extra_attraction_info ...εχει μεσα το url-->
+          <extra_attraction_info spending_time="1-2 hours" URL="https://londonpass.com/en/london-attractions/hop-on-hop-off-bus-tour"/>
+
+            <small_decription>Sit back, relax, and take in the views of London with a Hop-On Hop-Off bus tour.</small_decription>
+            <Attraction_title>1-Day Big Bus Hop-On Hop-Off Tour</Attraction_title>
+            <doing Title="What youll do">Sit back, relax, and take in the views of London with a Hop-On Hop-Off bus tour and tick off Central London's top attractions and get to know the city a little better.If you’re ready to explore all that London has to offer, look no further than the Hop On Hop Off London tour. This London bus tour allows you to see all the iconic landmarks and attractions at your own pace. From the Tower of London to Buckingham Palace, the London Tour Bus ensures that you won’t miss a thing. With award-winning live guides and multilingual audio commentary, you can learn more about London’s rich history while taking in the sights. Don’t miss out on the opportunity to see the city in a whole new way with The London Pass®.
+                <Highlights>
+                    <Highlight>Tower of London =&gt; A must-see London sight. Learn about the Tower’s wealth of history, dating back to the Norman Conquest. You’ll learn about the secrets and scandals of the court, and the role the Tower used to play as a palace, prison, armory, and menagerie.</Highlight>
+                    <Highlight>Westminster Abbey =&gt; Hop off here and explore the country’s coronation church since the 11th century. See the kaleidoscopic stained-glass windows, old paintings, and pews and find out about the final resting spots of famous royals, writers, and intellectuals</Highlight>
+                    <Highlight>Tower Bridge =&gt; This bridge is one of the most iconic in the UK and when you hop off here, you’ll see why. Explore the Victorian engine room and ignore your fear of heights as you take to the elevated glass walkway above the river.</Highlight>
+                    <Highlight>Buckingham Palace =&gt; Home to King Charles III, this is one of the few working palaces left in the world and a must-see on any visit to the capital. Hop off here and catch the Changing of the Guard before escaping the hustle and bustle with a stroll through Green Park.</Highlight>
+                    <Highlight>Trafalgar Square =&gt; This famed London landmark is one of the city’s cultural hubs and hosts events, festival celebrations, rallies, and more. It’s also home to the National Gallery, one of the country’s most important art museums. Trafalgar Square is also a stone’s throw away from the Embankment, which is great for epic views along the river. Enjoy the ride with the London Big Bus Tour!</Highlight>
+                </Highlights>
+            </doing>
+            <includings Title="Whats included">
+                <including>One calendar day Hop-On Hop-Off bus tour ticket to explore the capital at your leisure.</including>
+                <including>See some of London’s best attractions.</including>
+            </includings>
+            <Knowing_before Title="Know before you go">
+                <Getting_in>Just show your pass when boarding.A bus tour is a great way to see the top sights around London, however, we advise against using bus tours as a mode of transportation around the city. For more efficient transport - we'd suggest using London's public transport networks.</Getting_in>
+                <Accessibility>To avoid disappointment, Big Bus will need to confirm in advance whether your wheelchair can be accommodated on board. Please contact them in advance with information about your wheelchair, including an indication of the width and weight of the chair. Please note that mobility scooters cannot be accommodated on board buses due to size and weight.</Accessibility>
+            </Knowing_before>
+            <Address Title="Where youll be">
+               Tourist Bus Stop Westminster Bridge Road (eastbound), London, GB
+            </Address>
+            <operating>
+                <openings variable_dates=" For details of the route, stopping points, and days of operation, please visit the Big Bus website."/>>
+            </operating>
+            <FAQS>
+                <FAQ>
+                    <question>Can I get off and rejoin the bus tour at any stop?</question>
+                    <answer>Yes, you can hop on and off at any designated stop throughout the day.</answer>
+                </FAQ>
+                 <FAQ>
+                    <question>How long does the bus tour take to complete without hopping off?</question>
+                    <answer>The complete loop takes approximately two and a half hours, depending on traffic.</answer>
+                </FAQ>
+                 <FAQ>
+                    <question>Are the bus tours guided?</question>
+                    <answer>There is no live commentary but in-seat audio guides are included as part of your experience. They are available in English, French, German, Italian and Spanish.</answer>
+                </FAQ>
+                 <FAQ>
+                    <question>Are the buses wheelchair accessible?</question>
+                    <answer>To avoid disappointment, Big Bus will need to confirm in advance whether your wheelchair can be accommodated on board. Please contact them in advance with information about your wheelchair, including an indication of the width and weight of the chair.</answer>
+                </FAQ>
+                 <FAQ>
+                    <question>What attractions and landmarks can I see on the bus tour?</question>
+                    <answer>You will pass by and have the opportunity to hop off at top landmarks such as the Tower of London, Buckingham Palace, and Big Ben.</answer>
+                </FAQ>
+            </FAQS>
+            <getting_there Title="How to get there">
+                <Train> Westminster</Train>
+            </getting_there>
+        </Attraction>
+        <Attraction id_Attr="id7" normal_value="30.00" unit_value="£" in_offer="i-1035">    <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
+                                                                                                                    extra_attraction_info ...εχει μεσα το url-->
+                                                                                                            
+            <extra_attraction_info spending_time="Up to an hour(&lt;1)" URL="https://londonpass.com/en/london-attractions/westminster-abbey"/>
+
+            <small_decription>Enjoy access to Westminster Abbey, the site of the Royal Wedding, Britain's official coronation church and UNESCO World Heritage Site.</small_decription>
+            <Attraction_title>Westminster Abbey</Attraction_title>
+            <doing Title="What youll do">Just a short walk from the Thames, Westminster Abbey is a must-see and a significant structure in British history. This beautiful gothic church is a UNESCO World Heritage Site popular with many visitors to London. Complete with paintings, stained glass windows, and other religious artifacts, Westminster Abbey owns the most important collection of monumental sculpture anywhere in Britain.
+                <Highlights>
+                    <Highlight>The life of the abbey revolves around worship; Morning Prayer, Evensong, and the Eucharist. The services are open to the public of any religious denomination.</Highlight>
+                    <Highlight>Westminster Abbey has been actively musical since the monks of the tenth century, to the daily choir singers of today, the Choir of Westminster Abbey. The earliest pair of organs were installed in 1304 in the Lady Chapel. Some of the most celebrated British musicians, organists, singers and composers have been linked to the Abbey throughout their careers.</Highlight>
+                    <Highlight>Since the first established bell ringing group in 1255, the Brethren of the Guild of Westminster, the bell ringers of today are comprised of a volunteer group who ring on special occasions such as saint’s days, church festivals, and Royal and Abbey anniversaries.</Highlight>
+                    <Highlight>On top of the North Tower, constructed between 1722 and 1745, sits a flag pole that flies various flags throughout the year for different occasions. The flags consist of; the Commonwealth Nations, the Flag of St Peter, the Abbey Flag, the Union Flag, the Flags of the National Saints, the Royal Air Force Flag, and the Royal Standard.</Highlight>
+                </Highlights>
+                <Facts>
+                    <Fact>In 2011 it was the venue for the wedding of Prince William and Kate Middleton.</Fact>
+                    <Fact>It’s been the nation’s Coronation church since the crowning of William the Conqueror in 1066.</Fact>
+                    <Fact>The previous monarch, Queen Elizabeth II, was crowned on King Edward’s Chair, as has every monarch since 1308.</Fact>
+                    <Fact>There are 450 tombs and monuments in the Abbey.</Fact>
+                    <Fact>The Chapter House has one of the country's oldest doors dating back to 1050.</Fact>
+                    <Fact>If you look closely, the walls are littered with schoolboy graffiti from the 1700s-1800s.</Fact>
+                </Facts>
+            </doing>
+            <includings Title="Whats included">
+                <including>Includes a free multimedia guide</including>
+            </includings>
+            <Knowing_before Title="Know before you go">
+                <Getting_in>Enter via the North Green, which runs between the Abbey and Broad Sanctuary. Before entering the Abbey, you will pass through security/bag check. On busy days, it might be necessary to continue queuing after security. Your passes will be scanned and validated at a ticket booth inside the Abbey and you will be issued with a paper ticket as proof of admission.
+                            Pass customers do not need to pre-book but admission to the Abbey is always subject to availability. It’s a very popular attraction and wait times can be long. For the best experience, we recommend visiting in the early afternoon.
+                </Getting_in>
+            </Knowing_before>
+            <Address Title="Where youll be">
+               20 Deans Yard, Westminster, London, GB
+            </Address>
+            <operating>
+                <openings variable_dates="The Abbey is subject to many changes to its operating hours, for the most accurate information, please visit the Abbey's website. Please note that details of opening times from March 2025 onwards are not currently available.">
+                    <opening for="Monday to Friday">9.30AM to 3.30PM</opening>
+                    <opening for="Saturday">9.30AM to 3PM</opening>
+                    <opening for="Sunday">open for worship only</opening>
+                </openings>
+                 <closing>
+                    <match_days>18 April Good Friday CLOSED</match_days>
+                    <match_days>15 April CLOSED between 1PM - 2PM</match_days>
+                    <match_days>2 May CLOSED</match_days>
+                    <match_days>7 May CLOSED</match_days>
+                    <match_days>8 May CLOSED</match_days>
+                    <match_days>12 May LAST ADMISSION 12PM</match_days>
+                    <match_days>14 May CLOSED in the morning (Times TBC)</match_days>
+                    <match_days>15 May LAST ADMISSION 12PM</match_days>
+                    <match_days>16 May CLOSED in the afternoon (Times TBC)</match_days>
+                    <match_days>12 June CLOSED</match_days>
+                </closing>
+            </operating>
+            <getting_there Title="How to get there">
+                <Train>London Underground: St James's Park (District or Circle lines) or Westminster (District or Jubilee lines)</Train>
+            </getting_there>
+        </Attraction>
+        <Attraction id_Attr="id8" normal_value="41.80" unit_value="£" in_offer="i-1035">    <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
+                                                                                                                    extra_attraction_info ...εχει μεσα το url-->
+            <extra_attraction_info spending_time="2-3 hours" URL="https://londonpass.com/en/london-attractions/london-zoo"/>
+           
+            <small_decription>With over 10,000 incredible animals and exciting and innovative exhibits, London Zoo is a great day out in the capital for all ages.</small_decription>
+            <Attraction_title>London Zoo</Attraction_title>
+            <doing Title="What youll do">Set in leafy Regent’s Park amid heritage-listed buildings and beautiful gardens, London Zoo is an oasis in the heart of the capital. Homing over 10,000 animals plus hosting an array of seasonal live shows and fantastic, immersive exhibits, this is an unmissable attraction right in the heart of London.
+                Established in 1828 by the Zoological Society of London, London Zoo has become the main point of reference for animal experiences in London. The zoo is the oldest scientific zoo in the world, housing a variety of animals purely for scientific research. As such, it was only accessible to fellows of the Zoological Society of London. Later, in 1847 the museum was opened to the public to help fund the society's research.
+                Situated on the northern edge of Regents Park, the zoo’s 36 acres of land houses over 10,000 animals, making it, the most extensive collection in the UK. From vanished species such as the Quagga and Tasmanian tiger to animals currently on the IUCN Red List, the establishment is well known for its conservation efforts. In 2018, the zoo welcomed a newborn okapi and London Zoo was the first in the world to begin breeding the critically endangered Lake Oku clawed frog. These efforts have led to vital insights into the conditions these rare animals need to survive and have fueled their conservation initiatives with essential information.
+                Venture In with the Spiders at the Tiny Giants exhibit. The walk-through experience is the first of its kind in Europe, allowing you to come face-to-face with a host of arachnids and invertebrates. Head down to England’s largest penguin pool at Penguin Beach and watch the Humboldt penguins dive, swim, frolic and feed. Step into Africa and observe the elegance and grace of the giraffes from the viewing platform. Travel along lush pathways into the Gorilla Kingdom and view the magnificent family of western lowland gorillas native to the African rainforest.
+                Younger visitors can explore Animal Adventure, home to meerkats, llamas, and aardvarks, in an immersive animal experience designed for children, by children. London Zoo has been educating and inspiring visitors since opening to the public in 1847, it’s a great family day out right in the centre of Regent’s Park.
+                <Facts>
+                    <Fact>There are several listed buildings in the London Zoo and in the surrounding areas in Regents Park - one of the most peculiar is the traditional grade I listed telephone box at Penguin Beach, can you find it?</Fact>
+                    <Fact>The Casson elephant house’s roof was designed by Sir Hugh Casson. His design portrays a herd of elephants drinking from a watering hole.</Fact>
+                    <Fact>The much-loved Winnie-the-Pooh was inspired by a real-life black bear that lived at London Zoo from 1914 until her death in 1934. She was tame much, loved being handled, and was loved by all. You can find a statue of her in the zoo.</Fact>
+                    <Fact>The giraffe house is a grade II listed building and the oldest in the world. Today it is still used for its initial purpose, housing the zoo’s spectacular giraffe family.</Fact>
+                    <Fact>In 1949, the zoo was the first to rear a polar bear successfully. They named him Brumas. Brumas’ arrival resulted in attendance skyrocketing to over 3 million- a figure which is yet to be topped.</Fact>
+                </Facts>
+            </doing>
+            <includings Title="Whats included">
+                <including>Get involved with interactive experiences including Penguin Beach, Land of Lions, and Butterfly Paradise.</including>
+                <including>Learn about the science and history of hundreds of species and their habitats.</including>
+            </includings>
+            <Knowing_before Title="Know before you go">
+                <Getting_in>There's no need to book in advance. On arrival at the main gates, you'll need to go through a brief security check before heading to the ticket kiosks to have your pass checked and validated to gain admission.</Getting_in>
+                <note>Top tip: download the London Zoo app to plan your route and get the most out of your visit.</note><!--δεν θεωρώ ότι αποτελεί κάτι από τα υπόλοιπα-->
+            </Knowing_before>
+            <Address Title="Where youll be">
+               Outer Circle, Regent’s Park, London, GB
+            </Address>
+            <operating>
+                <openings variable_dates="We recommend checking the London Zoo website for any operational changes.">
+                    <opening for="March 29 to September 1">10AM to 6PM</opening>
+                    <opening for="September 2 to October 27">10AM to 5PM</opening>
+                    <opening for="October 28 to February 14, 2025">10AM to 4PM</opening>
+                </openings>
+                 <closing>
+                    <match_days>25 December annually</match_days>
+                    <match_days>20 to 24 January 2025</match_days>
+                    <match_days>27 to 31 January 2025</match_days>
+                </closing>
+            </operating>
+            <getting_there Title="How to get there">
+                <Train>Camden Town</Train>
+            </getting_there>
+        </Attraction>
+           <Attraction id_Attr="id9" normal_value="41.80" unit_value="£" in_offer="i-1035">   <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
+                                                                                                                    extra_attraction_info ...εχει μεσα το url-->
+            <extra_attraction_info spending_time="Up to an hour(&lt;1)" URL="https://londonpass.com/en/london-attractions/arsenal-stadium-tour"/>
+          
+            <small_decription>The Arsenal Stadium Tour takes visitors into some of the most intimate areas of the club and gives them a taste of what it is like on Match Day.</small_decription>
+            <Attraction_title>Arsenal Stadium Tour</Attraction_title>
+            <doing Title="What youll do">Go behind-the-scenes and tour one of London’s most historic football clubs, Arsenal FC, at their home. Get ready to take your place in the home changing room, walk down the tunnel and soak up the atmosphere of a roaring crowd of 60,000 fans. In addition, catch a glimpse of the Directors Box and Diamond Club as you walk through the players’ tunnel and take in the pitchside views.
+                    Two new areas added to the Arsenal tours are the Head Coach’s office, where you can see where the manager preps before a game, and the Physio Room where players get their pre-match massages.
+                    Tour guests also have access to exclusive video content with Arsenal’s interactive shirt and tour cam features, including behind-the-scenes footage and player interviews.
+                    Arsenal has an incredible history dating back to 1886 when a group of workers from Woolwich Arsenal Armament Factory decided to form a football team. The squad called themselves Dial Square, after the sundial atop the entrance to the factory. The iconic red kit we know today manifested in 1895, two years before the team became professional. Fred Beardsley, Bill Parr and Charlie Bates left Nottingham Forest to join Dial Square, bringing their old red kit with them. The club decided that the most inexpensive way to kit out the whole team was to match their outfit to the same colour as the ex-Forest players.
+                <Facts>
+                    <Fact>The Arsenal Stadium goes by many names and is also known as ‘Ashburton Grove’.</Fact>
+                    <Fact>It is is the third-largest stadium in England, after Old Trafford and Wembley Stadium. It can hold around 60,000 visitors.</Fact>
+                    <Fact>The pitch size is 105 metres by 68 metres and the grass area is 13 metres by 76 metres in size.</Fact>
+                    <Fact>The surface of the pitch is covered by GrassMaster, a hybrid of grass and artificial fibres.</Fact>
+                </Facts>
+            </doing>
+            <includings Title="Whats included">
+                <including>Receive a pair of free Arsenal-branded headphones.</including>
+            </includings>
+            <Knowing_before Title="Know before you go">
+                <Getting_in>Present your pass at the tour entrance inside the shop. The Arsenal museum is situated opposite turnstile E in the Northern Triangle Building, next to the Ken Friar bridge. The stadium tours entrance is located within the Armoury Store.</Getting_in>
+                <Disclaimer>The stadium is a working building. As a result, both tour route and content are subject to change without notice. All tours are subject to availability and customers may need to wait for the next available time slot.</Disclaimer>
+            </Knowing_before>
+            <Address Title="Where youll be">
+                75 Drayton Park, London, GB
+            </Address>
+            <operating>
+                <openings for="Self-guided tours">
+                    <opening for="Monday to Saturday">9:30AM to 5PM (last departure 4PM)</opening>
+                    <opening for="Sunday">10AM to 4PM (last departure 3PM)</opening>
+                </openings>
+                <openings for="Museum (included in admission)">
+                    <opening for="Monday to Saturday">9:30AM to 5:30PM (last admission 5PM)</opening>
+                    <opening for="Sunday">10AM to 4:30PM (last admission 4PM)</opening>
+                </openings>
+                 <closing><!--αναφέρει ότι υπάρχει είσοδος μόνο στο μουσείο όταν παίζει η ομάδα, τα έβαλα ως match_days με έξτρα κείμενο-->
+                    <match_days>25 December - tours &amp; museum closed</match_days>
+                    <match_days>Tue 8 April: last admission 7PM museum only</match_days>
+                    <match_days>Sat 12 April: last admission 4:30PM museum only</match_days>
+                    <match_days>Tue 15 April: last admission 6:30PM museum only</match_days>
+                    <match_days>Sat 19 April: last admission 11:30AM museum only</match_days>
+                    <match_days>Sat 3 May: last admission 4:30PM</match_days>
+                    <match_days>Sat 10 May: last admission 11:30AM</match_days>
+                </closing>
+            </operating>
+            <getting_there Title="How to get there">
+                <Train>London Underground: take the Piccadilly line. Get off at Arsenal train station.</Train>
+            </getting_there>
+        </Attraction>
+         <Attraction id_Attr="id10" normal_value="19.00" unit_value="£" in_offer="i-1035">  <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 προσεχε το 
+                                                                                                                    extra_attraction_info ...εχει μεσα το url-->
+            <extra_attraction_info spending_time="Up to an hour" URL="https://londonpass.com/en/london-attractions/royal-mews"/>
+           
+            <small_decription>Discover the royal working stables and British monarchy's grand collection of coaches and luxury cars.</small_decription>
+            <Attraction_title>Royal Mews</Attraction_title>
+            <doing Title="What youll do">The Royal Mews is one of the finest working stables anywhere in the world and home to the royal collection of historic coaches and carriages, and the Windsor Greys and Cleveland Bays, the horses that pull the carriages. To this day, the stables are still responsible for all road travel arrangements for His Majesty The King and other members of the Royal Family.
+                The Royal Mews has been the location of the sovereign's road transport since 1760 when George III moved his carriage collection closer to his new home at Buckingham Palace. Since then, it has been updated by several monarchs in keeping with their changing transport needs.
+                Among the historic coaches and carriages on display are the spectacular Diamond Jubilee State Coach, and the Australian State Coach, which was given to Queen Elizabeth II as a gift from the Australian people. The most dazzling of all is the Gold State Coach, however, which has been used at every coronation since that of George IV in 1821, and which played a central role in the Platinum Jubilee celebrations in June 2022.
+                <Facts>
+                    <Fact>The Windsor Grey horses, used to pull the royal carriages, are so-called because they were kept at Windsor during Queen Victoria’s reign.</Fact>
+                    <Fact>Cleveland Bays, another type of horse used to pull the carriages, are one of the oldest breeds of horses in the UK.</Fact>
+                    <Fact>The Royal stables were originally located in Charing Cross, where the National Gallery is today.</Fact>
+                    <Fact>Queen Victoria took full advantage of the ample space at the Royal Mews. She kept up to 200 horses there at one point and also set up a school for the children of its employees.</Fact>
+                    <Fact>The Gold State Coach weighs almost four tonnes and needs eight horses to draw it. It never moves faster than walking speed.</Fact>
+                </Facts>
+            </doing>
+            <includings Title="Whats included">
+                <including>See the Gold State Coach, the grandest coach at the Royal Mews, first-hand.</including>
+                <including>Explore the home to historic royal carriages and one of the finest working stables in existence.</including>
+            </includings>
+            <Knowing_before Title="Know before you go">
+                <Getting_in>Present your pass at either of the ticket booths, located inside the main entrance on Buckingham Palace Road. Once your passes have been validated, you will be issued with a separate ticket, before passing through airport-style security to enter the inner courtyard.</Getting_in>
+                <Disclaimer>The Royal Mews operates on a pre-booked, timed ticketing basis. Go City customers are able to enter without having to book tickets in advance but are advised that admission is strictly subject to availability. You will be allocated the next available time-slot upon presentation of your pass at the admissions desk.</Disclaimer>
+            </Knowing_before>
+            <Address Title="Where youll be">
+                The Royal Mews, Buckingham Palace, London, GB
+            </Address>
+            <operating>
+                <openings for="13th March to 7th July and 1st September to 2nd November 2025">
+                    <opening for="Thursday to Monday">10AM - 5PM (last admission 4PM)</opening>
+                </openings>
+                <openings for="10th July to 31st August 2025">
+                    <opening for="Daily">10AM - 5PM (last admission 4PM)</opening>
+                </openings>
+                 <openings for="Good Friday 18 April 2025">
+                    <opening for="that date">open</opening>
+                </openings>
+                 <closing><!--αναφέρει ότι υπάρχει είσοδος μόνο στο μουσείο όταν παίζει η ομάδα, τα έβαλα ως match_days με έξτρα κείμενο-->
+                    <match_days>Tuesdays &amp; Wednesdays: closed</match_days>
+                    <match_days>24 &amp; 30 May 2025: closed</match_days>
+                    <match_days>2, 7 &amp; 14 June 2025: closed</match_days>
+                </closing>
+            </operating>
+            <getting_there Title="How to get there">
+                <Buses>Buckingham Palace Road</Buses>
+                <Train>Victoria</Train>
+            </getting_there>
+        </Attraction>
+    </Attractions>
+    <Must_sees ids="id1 id6 id7 id8"/>
+</London_Sightseeing>

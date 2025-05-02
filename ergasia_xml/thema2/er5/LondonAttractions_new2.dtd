@@ -1,0 +1,162 @@
+<!--root kai title-->
+<!ELEMENT London_Sightseeing (Title, Special_Offers*, Attractions+, must_sees?)>
+
+
+
+<!ELEMENT Title (#PCDATA)>
+
+<!--ό,τι έχει να κάνει με special offers-->
+<!ELEMENT Special_Offers (offer+)>
+<!ELEMENT offer (#PCDATA | Special_Offer  | offer_includings)*>
+<!ATTLIST offer id ID #REQUIRED>
+
+<!ELEMENT Special_Offer (Adult , child)>
+<!ATTLIST Special_Offer id ID #REQUIRED 
+days (1|2|3|4|5|6|7|10) #REQUIRED
+>
+<!ELEMENT Adult EMPTY>
+<!ATTLIST Adult unit_price CDATA #REQUIRED
+ price CDATA #REQUIRED
+>
+<!ELEMENT child EMPTY>
+<!ATTLIST child age CDATA #FIXED "5-15" 
+unit_price CDATA #REQUIRED 
+price CDATA #REQUIRED
+>
+
+<!ELEMENT offer_includings (#PCDATA | Including)*>
+<!ELEMENT Including (#PCDATA)>
+<!ATTLIST Including id ID #REQUIRED>               
+
+<!--ό,τι έχει να κάνει με attractions-->     
+<!ELEMENT Attractions (Attraction+)>            <!-- εχουμε κανει μια νεα προσθικη στο attractions , το image ετσι με αυτον το τροπο γινετε υποχρεοτικο πεδιο σε καθε αξιοθεττο-->
+<!ELEMENT Attraction (URL, small_decripion, Attraction_title, spending_time, doing, includings?, Reservations?, Knowing_before?, Address, operating?, FAQS?, getting_there?, Image)>
+<!ATTLIST Attraction id_Attr ID #REQUIRED 
+booking (required | not_required) "not_required"
+normal_value CDATA #IMPLIED
+unit_value CDATA #FIXED "£"
+in_offer IDREFS #IMPLIED
+
+family-friendly (0 | 1 | 2 | 3) #IMPLIED
+place_type (indoor | outdoors) #REQUIRED
+>
+
+
+<!ELEMENT extra_attraction_info EMPTY >
+<!ATTLIST extra_attraction_info 
+          spending_time CDATA #REQUIRED
+          URL CDATA #IMPLIED >
+
+
+<!ELEMENT small_decription (#PCDATA)>
+<!ELEMENT Attraction_title (#PCDATA)>
+
+
+
+<!ELEMENT categories (category*)>
+<!ELEMENT category (#PCDATA)>
+
+<!ELEMENT votes (vote*)>
+<!ELEMENT vote (#PCDATA)>
+<!ATTLIST vote 
+    username CDATA #REQUIRED
+    stars (1 | 2 | 3 | 4 | 5) #REQUIRED
+>
+            <!-- κανωνικα η φοτογριαγια σκετη ειανι avif (δεν εχω ιδεα τι ειναι αυτο) για αυτο τον λογο απλα θα βαλω κατελιξη jpg θα σε πεταει στην κανωνικη σελιδα -->
+<!NOTATION jpg SYSTEM "image/jpeg"> <!-- εδω ειναι η φοτογραγια θα εχει σημειογραφια και θα ειναι jpg  και θα χρισμοπιοι οντοτια-->
+
+<!ENTITY shard_image SYSTEM "https://londonpass.com/en/london-attractions/view-from-the-shard.jpg" NDATA jpg>
+<!ENTITY london_eye_image SYSTEM "https://londonpass.com/en/london-attractions/london-eye.jpg" NDATA jpg>  <!-- https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1920,g_auto/f_auto/q_auto/v1/MERLIN_WEB_BANNER_AND_THUMBNAILS_London_Eye_Clean_qn0g5n?_a=BAVAZGDX0 -->
+<!ENTITY madame_tussauds_image SYSTEM "https://londonpass.com/en/london-attractions/madame-tussauds.jpg" NDATA jpg> <!--https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1920,g_auto/f_auto/q_auto/v1/MERLIN_WEB_BANNER_AND_THUMBNAILS_Madame_Tussauds_Clean_utekyj?_a=BAVAZGDX0--> 
+<!ENTITY household_cavalry_image SYSTEM "https://londonpass.com/en/london-attractions/household-cavalry.jpg" NDATA jpg> <!--https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1920,g_auto/f_auto/q_auto/v1/gc-v1/london-pass/attractions/254?_a=BAVAZGDX0-->
+<!ENTITY queens_skete_image SYSTEM "https://londonpass.com/en/london-attractions/queens-iceskating-bowling.jpg" NDATA jpg> <!-- https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1920,g_auto/f_auto/q_auto/v1/gc-v1/london-pass/attractions/516?_a=BAVAZGDX0 -->
+<!ENTITY big_bus_image SYSTEM "https://londonpass.com/en/london-attractions/big-bus-tours.jpg" NDATA jpg> <!-- https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1920,g_auto/f_auto/q_auto/v1/gc-v1/london/BB_London_HOHO_with_St_Paul_s_-_Oct_2024_vvi5oo?_a=BAVAZGDX0 -->
+<!ENTITY westminster_abbey_image SYSTEM "https://londonpass.com/en/london-attractions/westminster-abbey.jpg" NDATA jpg> <!-- https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1920,g_auto/f_auto/q_auto/v1/gc-v1/london-pass/518?_a=BAVAZGDX0 -->
+<!ENTITY london_zoo_image SYSTEM "https://londonpass.com/en/london-attractions/zsl-london-zoo.jpg" NDATA jpg> <!-- https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1920,g_auto/f_auto/q_auto/v1/gc-v1/london-pass/attractions/647?_a=BAVAZGDX0-->
+<!ENTITY arsenal_stadium_image SYSTEM "https://londonpass.com/en/london-attractions/arsenal-stadium.jpg" NDATA jpg> <!--https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1920,g_auto/f_auto/q_auto/v1/gc-v1/london-pass/Aresenal%20Stadium%20Tour_0.jpeg?_a=BAVAZGDX0 -->
+
+<!ELEMENT Image (#PCDATA)>
+<!ATTLIST Image src ENTITY #REQUIRED> <!-- Κάνουμε την πληροφορία υποχρεωτική με το #REQUIRED -->
+
+
+<!ELEMENT doing (#PCDATA | Highlights | Facts)*>
+<!ATTLIST doing Title CDATA #FIXED "What youll do">
+<!ELEMENT Highlights (Highlight+)>
+<!ELEMENT Highlight (#PCDATA)>
+<!ELEMENT Facts (Fact+)>
+<!ELEMENT Fact (#PCDATA)>
+
+<!ELEMENT includings (including*)>
+<!ATTLIST includings Title CDATA #FIXED "Whats included">
+<!ELEMENT including (#PCDATA)>
+
+<!--ό,τι έχει να κάνει με κρατήσεις και οδηγίες-->
+<!ELEMENT Reservations (#PCDATA | procedure | booking_notes)*>
+<!ELEMENT procedure (step*)>
+<!ELEMENT step (#PCDATA)>
+<!ATTLIST step id ID #IMPLIED><!--τα 1,2,3... τα θεώρησα id-->
+<!ELEMENT booking_notes (#PCDATA)>
+
+
+<!ELEMENT Knowing_before (Getting_in?, Busy_tip?, note?, Disclaimer?, Accessibility?)>
+<!ATTLIST Knowing_before Title CDATA #FIXED "Know before you go">
+<!ELEMENT Getting_in (#PCDATA)>
+<!ELEMENT Busy_tip (#PCDATA)>
+<!ELEMENT note (#PCDATA)>
+<!ELEMENT Disclaimer (#PCDATA)>
+<!ELEMENT Accessibility (#PCDATA)>
+
+<!ELEMENT Address (#PCDATA)>
+<!ATTLIST Address Title CDATA #FIXED "Where youll be">
+
+<!--ό,τι έχει να κάνει με ώρες λειτουργίας-->
+<!ELEMENT operating (openings+, closing?, Monday?, Tuesday?, Wednesday?, Thursday?, Friday?, Saturday?, Sunday?)>
+
+<!ELEMENT Monday EMPTY>
+<!ATTLIST Monday dayid ID #REQUIRED>
+<!ELEMENT Tuesday EMPTY>
+<!ATTLIST Tuesday dayid ID #REQUIRED>
+<!ELEMENT Wednesday (Timing)>
+<!ATTLIST Wednesday dayid ID #REQUIRED>
+<!ELEMENT Thursday (Timing)>
+<!ATTLIST Thursday dayid ID #REQUIRED>
+<!ELEMENT Friday (Timing)>
+<!ATTLIST Friday dayid ID #REQUIRED>
+<!ELEMENT Saturday (Timing)>
+<!ATTLIST Saturday dayid ID #REQUIRED>
+<!ELEMENT Sunday (Timing)>
+<!ATTLIST Sunday dayid ID #REQUIRED>
+<!ELEMENT Timing (#PCDATA)>
+
+
+<!ELEMENT openings (opening*)>
+<!ATTLIST openings
+    variable_dates CDATA #IMPLIED
+    days IDREFS #IMPLIED
+    for CDATA #IMPLIED
+>
+<!ELEMENT opening (#PCDATA)>
+<!ATTLIST opening for CDATA #REQUIRED>
+
+<!ELEMENT closing (match_days*)>
+<!ATTLIST closing
+    specific_dates CDATA #IMPLIED
+    days IDREFS #IMPLIED
+>
+<!ELEMENT match_days (#PCDATA)>
+
+<!ELEMENT FAQS (FAQ*)>
+<!ELEMENT FAQ (question, answer)>
+<!ELEMENT question (#PCDATA)>
+<!ELEMENT answer (#PCDATA)>
+
+<!--ό,τι έχει να κάνει με μετακινήσεις-->
+<!ELEMENT getting_there (Buses?, Train?, Other?)>
+<!ATTLIST getting_there Title CDATA #FIXED "How to get there">
+<!ELEMENT Buses (#PCDATA)>
+<!ELEMENT Train (#PCDATA)>
+<!ELEMENT Other (#PCDATA)>
+
+<!--ό,τι έχει να κάνει με must see-->
+<!ELEMENT Must_sees EMPTY>
+<!ATTLIST Must_sees ids IDREFS #REQUIRED>

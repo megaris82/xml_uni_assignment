@@ -1,0 +1,130 @@
+<!--root kai title-->
+<!ELEMENT London_Sightseeing (Title, Special_Offers*, Attractions+, must_sees?)>
+
+<!ELEMENT Title (#PCDATA)>
+
+<!--ό,τι έχει να κάνει με special offers-->
+<!ELEMENT Special_Offers (offer+)>
+<!ELEMENT offer (#PCDATA | Special_Offer  | offer_includings)*>
+<!ATTLIST offer id ID #REQUIRED>
+
+<!ELEMENT Special_Offer (Adult , child)>
+<!ATTLIST Special_Offer id ID #REQUIRED 
+days (1|2|3|4|5|6|7|10) #REQUIRED
+>
+<!ELEMENT Adult EMPTY>
+<!ATTLIST Adult unit_price CDATA #REQUIRED
+ price CDATA #REQUIRED
+>
+<!ELEMENT child EMPTY>
+<!ATTLIST child age CDATA #FIXED "5-15" 
+unit_price CDATA #REQUIRED 
+price CDATA #REQUIRED
+>
+
+<!ELEMENT offer_includings (#PCDATA | Including)*>
+<!ELEMENT Including (#PCDATA)>
+<!ATTLIST Including id ID #REQUIRED>               
+
+<!--ό,τι έχει να κάνει με attractions-->
+<!ELEMENT Attractions (Attraction+)>
+<!ELEMENT Attraction (URL, small_decripion, Attraction_title, spending_time, doing, includings?, Reservations?, Knowing_before?, Address, operating?, FAQS?, getting_there?)>
+<!ATTLIST Attraction id_Attr ID #REQUIRED 
+booking (required | not_required) "not_required"
+normal_value CDATA #IMPLIED
+unit_value CDATA #FIXED "£"
+in_offer IDREFS #IMPLIED
+>
+                                     <!-- εδω ειναι το θεμα 3 του dtd το extra_attraction_info δεν εχει παριεχωμενο
+                                      το spending_time ειναι requierd 
+                                      και το URL ειναι προαιρετικο -->
+<!ELEMENT extra_attraction_info EMPTY >
+<!ATTLIST extra_attraction_info 
+          spending_time CDATA #REQUIRED
+          URL CDATA #IMPLIED >
+
+
+<!ELEMENT small_decription (#PCDATA)>
+<!ELEMENT Attraction_title (#PCDATA)>
+
+<!ELEMENT doing (#PCDATA | Highlights | Facts)*>
+<!ATTLIST doing Title CDATA #FIXED "What youll do">
+<!ELEMENT Highlights (Highlight+)>
+<!ELEMENT Highlight (#PCDATA)>
+<!ELEMENT Facts (Fact+)>
+<!ELEMENT Fact (#PCDATA)>
+
+<!ELEMENT includings (including*)>
+<!ATTLIST includings Title CDATA #FIXED "Whats included">
+<!ELEMENT including (#PCDATA)>
+
+<!--ό,τι έχει να κάνει με κρατήσεις και οδηγίες-->
+<!ELEMENT Reservations (#PCDATA | procedure | booking_notes)*>
+<!ELEMENT procedure (step*)>
+<!ELEMENT step (#PCDATA)>
+<!ATTLIST step id ID #IMPLIED><!--τα 1,2,3... τα θεώρησα id-->
+<!ELEMENT booking_notes (#PCDATA)>
+
+
+<!ELEMENT Knowing_before (Getting_in?, Busy_tip?, note?, Disclaimer?, Accessibility?)>
+<!ATTLIST Knowing_before Title CDATA #FIXED "Know before you go">
+<!ELEMENT Getting_in (#PCDATA)>
+<!ELEMENT Busy_tip (#PCDATA)>
+<!ELEMENT note (#PCDATA)>
+<!ELEMENT Disclaimer (#PCDATA)>
+<!ELEMENT Accessibility (#PCDATA)>
+
+<!ELEMENT Address (#PCDATA)>
+<!ATTLIST Address Title CDATA #FIXED "Where youll be">
+
+<!--ό,τι έχει να κάνει με ώρες λειτουργίας-->
+<!ELEMENT operating (openings+, closing?, Monday?, Tuesday?, Wednesday?, Thursday?, Friday?, Saturday?, Sunday?)>
+
+<!ELEMENT Monday EMPTY>
+<!ATTLIST Monday dayid ID #REQUIRED>
+<!ELEMENT Tuesday EMPTY>
+<!ATTLIST Tuesday dayid ID #REQUIRED>
+<!ELEMENT Wednesday (Timing)>
+<!ATTLIST Wednesday dayid ID #REQUIRED>
+<!ELEMENT Thursday (Timing)>
+<!ATTLIST Thursday dayid ID #REQUIRED>
+<!ELEMENT Friday (Timing)>
+<!ATTLIST Friday dayid ID #REQUIRED>
+<!ELEMENT Saturday (Timing)>
+<!ATTLIST Saturday dayid ID #REQUIRED>
+<!ELEMENT Sunday (Timing)>
+<!ATTLIST Sunday dayid ID #REQUIRED>
+<!ELEMENT Timing (#PCDATA)>
+
+
+<!ELEMENT openings (opening*)>
+<!ATTLIST openings
+    variable_dates CDATA #IMPLIED
+    days IDREFS #IMPLIED
+    for CDATA #IMPLIED
+>
+<!ELEMENT opening (#PCDATA)>
+<!ATTLIST opening for CDATA #REQUIRED>
+
+<!ELEMENT closing (match_days*)>
+<!ATTLIST closing
+    specific_dates CDATA #IMPLIED
+    days IDREFS #IMPLIED
+>
+<!ELEMENT match_days (#PCDATA)>
+
+<!ELEMENT FAQS (FAQ*)>
+<!ELEMENT FAQ (question, answer)>
+<!ELEMENT question (#PCDATA)>
+<!ELEMENT answer (#PCDATA)>
+
+<!--ό,τι έχει να κάνει με μετακινήσεις-->
+<!ELEMENT getting_there (Buses?, Train?, Other?)>
+<!ATTLIST getting_there Title CDATA #FIXED "How to get there">
+<!ELEMENT Buses (#PCDATA)>
+<!ELEMENT Train (#PCDATA)>
+<!ELEMENT Other (#PCDATA)>
+
+<!--ό,τι έχει να κάνει με must see-->
+<!ELEMENT Must_sees EMPTY>
+<!ATTLIST Must_sees ids IDREFS #REQUIRED>
