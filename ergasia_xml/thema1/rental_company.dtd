@@ -9,7 +9,7 @@
 <!ATTLIST car id ID #REQUIRED>
 
 <!ELEMENT carModel (#PCDATA)>
-<!ATTLIST carModel
+<!ATTLIST carModel 
     transmission (automatic | manual) "automatic"
     fuel (petrol | diesel | electric) "petrol"
 >
@@ -19,8 +19,7 @@
 
 <!ELEMENT featureList (feature*)> <!-- έστω ότι μπορεί να μην έχει κανένα-->
 <!ELEMENT feature (#PCDATA)><!-- η ονομασία της ιδιότητας ως pcdata -->
-<!ATTLIST feature extra_charge (yes | no) "no"
-    >
+<!ATTLIST feature extra_charge (yes | no) "no">
 
 <!ELEMENT priceList (price+)>
 <!ELEMENT price (#PCDATA)>

@@ -9,7 +9,7 @@
                 <feature type="gps" extra_charge="yes">GPS Navigation</feature> <!--attribute type που δεν έχει οριστεί-->
                 <feature type="aircondition1ng">Air Conditioning</feature><!-- ομοίως-->
             </featureList>
-            <priceList>
+            <priceList> 
                 <price period="weekdays">50</price>
                 <price period="weekends">60</price>
                 <price period="holidays" extra="wrong">70</price> <!-- το attribute extra δεν ορίζεται στο dtd -->

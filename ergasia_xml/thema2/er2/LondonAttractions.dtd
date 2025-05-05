@@ -47,7 +47,7 @@ in_offer IDREFS #IMPLIED
 <!ELEMENT Highlight (#PCDATA)>
 <!ELEMENT Facts (Fact+)>
 <!ELEMENT Fact (#PCDATA)>
-
+ 
 <!ELEMENT includings (including*)>
 <!ATTLIST includings Title CDATA #FIXED "Whats included">
 <!ELEMENT including (#PCDATA)>

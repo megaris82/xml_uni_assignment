@@ -14,7 +14,7 @@
                 <price period="weekends">60</price>
                 <price period="holidays">70</price>
             </priceList>
-        </car>
+        </car> 
         <car id="car2">
             <carModel transmission="manual" fuel="diesel">Ford Focus</carModel>
             <capacity value="5"/>

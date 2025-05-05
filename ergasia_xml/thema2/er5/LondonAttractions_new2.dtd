@@ -61,7 +61,7 @@ place_type (indoor | outdoors) #REQUIRED
 <!ATTLIST vote 
     username CDATA #REQUIRED
     stars (1 | 2 | 3 | 4 | 5) #REQUIRED
->
+> 
 <!NOTATION jpg SYSTEM "image/jpeg">
 
 <!ENTITY shard_image SYSTEM "https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_3:1,w_1200,g_auto/f_auto/q_auto/v1/gc-v1/london-pass/Shard%20banner%20shutterstock_598564199?_a=BAVAZGDX0" NDATA jpg>

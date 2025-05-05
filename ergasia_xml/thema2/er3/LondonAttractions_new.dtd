@@ -11,7 +11,7 @@
 <!ELEMENT Special_Offer (Adult , child)>
 <!ATTLIST Special_Offer id ID #REQUIRED 
 days (1|2|3|4|5|6|7|10) #REQUIRED
->
+> 
 <!ELEMENT Adult EMPTY>
 <!ATTLIST Adult unit_price CDATA #REQUIRED
  price CDATA #REQUIRED

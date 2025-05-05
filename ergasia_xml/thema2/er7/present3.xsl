@@ -22,7 +22,7 @@
                     }
                     th {
                         background-color: lightblue;
-                    }
+                    } 
                 </style>
             </head>
             <body>

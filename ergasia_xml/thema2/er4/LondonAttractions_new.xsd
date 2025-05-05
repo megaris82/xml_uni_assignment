@@ -7,7 +7,7 @@
                 <!--special offers-->
                 <xs:element name="Special_Offers" minOccurs="0" maxOccurs="unbounded">
                     <xs:complexType>
-                        <xs:sequence>
+                        <xs:sequence> 
                             <xs:element name="offer" maxOccurs="unbounded">
                                 <xs:complexType mixed="true">
                                     <xs:sequence>

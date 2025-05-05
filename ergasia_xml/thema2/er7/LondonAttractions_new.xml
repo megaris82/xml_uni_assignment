@@ -20,7 +20,7 @@
                 <Including id="offer6a">If you don't save on your sightseeing, we'll refund you the difference!</Including>
                 <Including id="offer7a">No need for multiple tickets - just scan the Go City app at each attraction.</Including>
             </offer_includings>   
-        </offer>
+        </offer> 
         <offer id="i-1036">The London Pass Plus
             <Special_Offer id="special2" days="1">
                 <Adult unit_price="£" price="109"></Adult>

@@ -22,7 +22,7 @@
                         border-bottom: 1px solid;
                     }
                 </style>
-            </head>
+            </head> 
             <body>
                 <table>
                     <tr>

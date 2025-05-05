@@ -37,7 +37,7 @@
             </offer_includings>
         </offer>
     </Special_Offers>
-
+ 
     <Attractions>
         <Attraction id_Attr="id1" booking="required" normal_value="38.00" unit_value="£" in_offer="i-1036">   <!-- εδω θα υπαρξει η αλλλαγη για το θεμα 3 -->
          <extra_attraction_info  spending_time="up to hour (&lt;1 hr)" URL="https://londonpass.com/en/london-attractions/view-from-the-shard"/>                                                                                                          

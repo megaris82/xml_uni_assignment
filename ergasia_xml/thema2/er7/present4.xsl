@@ -25,7 +25,7 @@
                 </Attraction>
                 <br></br>
             </xsl:for-each>
-        </attractions_to_see>
+        </attractions_to_see> 
     </xsl:template>
 <!--προσθήκη των br για readability-->
 </xsl:stylesheet>

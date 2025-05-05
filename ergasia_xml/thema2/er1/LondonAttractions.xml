@@ -5,7 +5,7 @@
     <Title>THE LONDON PASS</Title>
 
     <Special_Offers>
-        <offer id="i-1035">The London Pass
+        <offer id="i-1035">The London Pass 
             <Special_Offer id="special1" days="1">
                 <Adult unit_price="£" price="79"></Adult>
                 <child unit_price="£" price="39" age="5-15"></child>
