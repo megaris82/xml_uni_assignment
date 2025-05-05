@@ -6,8 +6,8 @@
             <carModel transmission="automatic" fuel="petrol">Toyota Corolla</carModel>
             <capacity value="5"/>
             <featureList>
-                <feature type="airconditioning" extra_charge="no">Air Conditioning</feature>
-                <feature type="gps" extra_charge="yes">GPS</feature>
+                <feature extra_charge="no">Air Conditioning</feature>
+                <feature extra_charge="yes">GPS</feature>
             </featureList>
             <priceList>
                 <price period="weekdays">50</price>
@@ -19,7 +19,7 @@
             <carModel transmission="manual" fuel="diesel">Ford Focus</carModel>
             <capacity value="5"/>
             <featureList>
-                <feature type="airconditioning" extra_charge="no">Air Conditioning</feature>
+                <feature extra_charge="no">Air Conditioning</feature>
             </featureList>
             <priceList>
                 <price period="weekdays">45</price>

@@ -6,8 +6,8 @@
             <carModel transmission="manual" fuel="δενκαιει">Toyota Corolla</carModel><!--fuel="δενκαιει" μακαρι να υπήρχε αλλά δεν ορίζεται στο dtd-->
             <capacity value="5"/>
             <featureList>
-                <feature type="gps" extra_charge="yes">GPS Navigation</feature>
-                <feature type="aircondition1ng">Air Conditioning</feature><!-- λάθος type aircondition1ng-->
+                <feature type="gps" extra_charge="yes">GPS Navigation</feature> <!--attribute type που δεν έχει οριστεί-->
+                <feature type="aircondition1ng">Air Conditioning</feature><!-- ομοίως-->
             </featureList>
             <priceList>
                 <price period="weekdays">50</price>
@@ -20,7 +20,7 @@
             <carModel transmission="automatic" fuel="electric">Tesla</carModel>
             <capacity value="6"/> <!-- λάθος capacity -->
             <featureList>
-                <feature type="gpz">GPS Navigation</feature> <!-- λάθος type gpz-->
+                <feature extra_charge="for_sure">GPS Navigation</feature> <!-- λάθος extra_charge for_sure-->
                 <feature extra_charge="maybe">Unspecified Feature</feature> <!-- λάθος extra_charge maybe-->
             </featureList>
             <priceList>

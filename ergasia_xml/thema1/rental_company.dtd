@@ -1,45 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT rental_company (carList, offerList)>
+<!ATTLIST rental_company
+    name CDATA #REQUIRED
+    rating CDATA #REQUIRED
+>
 
-<!DOCTYPE rental_company [
-    <!ELEMENT rental_company (carList, offerList)>
-    <!ATTLIST rental_company 
-        name CDATA #REQUIRED
-        rating CDATA #REQUIRED
+<!ELEMENT carList (car+)>
+<!ELEMENT car (carModel, capacity, featureList, priceList)>
+<!ATTLIST car id ID #REQUIRED>
+
+<!ELEMENT carModel (#PCDATA)>
+<!ATTLIST carModel
+    transmission (automatic | manual) "automatic"
+    fuel (petrol | diesel | electric) "petrol"
+>
+
+<!ELEMENT capacity EMPTY>
+<!ATTLIST capacity value (2 | 4 | 5 | 7) #REQUIRED>
+
+<!ELEMENT featureList (feature*)> <!-- έστω ότι μπορεί να μην έχει κανένα-->
+<!ELEMENT feature (#PCDATA)><!-- η ονομασία της ιδιότητας ως pcdata -->
+<!ATTLIST feature extra_charge (yes | no) "no"
     >
 
-    <!ELEMENT carList (car+)>
-    <!ELEMENT car (carModel, capacity, featureList, priceList)>
-    <!ATTLIST car id ID #REQUIRED>
+<!ELEMENT priceList (price+)>
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price period (weekdays | weekends | holidays) #REQUIRED>
 
-    <!ELEMENT carModel (#PCDATA)>
-    <!ATTLIST carModel 
-        transmission ("automatic" | "manual") "automatic"
-        fuel ("petrol" | "diesel" | "electric") "petrol"
-    >
-
-    <!ELEMENT capacity ANY>
-    <!ATTLIST capacity value (2 | 4 | 5 | 7) #REQUIRED>
-
-    <!ELEMENT featureList (feature*)> <!-- έστω ότι μπορεί να μην έχει κανένα-->
-    <!ELEMENT feature (#PCDATA)>
-    <!ATTLIST feature 
-        type (airconditioning | gps ) #IMPLIED
-        extra_charge (yes | no) "no"
-    >
-
-    <!ELEMENT priceList (price+)>
-    <!ELEMENT price (#PCDATA)>
-    <!ATTLIST price 
-      period (weekdays | weekends | holidays) #REQUIRED
-    >
-
-    <!ELEMENT offerList (offer*)>
-    <!ELEMENT offer (offerRange)>
-    <!ATTLIST offer 
-        carIDs IDREFS #REQUIRED
-        discount CDATA #REQUIRED
-    >
-    <!ELEMENT offerRange (from, to)>
-    <!ELEMENT from (#PCDATA)>
-    <!ELEMENT to (#PCDATA)>
-]>
+<!ELEMENT offerList (offer*)>
+<!ELEMENT offer (offerRange)>
+<!ATTLIST offer
+    carIDs IDREFS #REQUIRED
+    discount CDATA #REQUIRED
+>
+<!ELEMENT offerRange (from, to)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT to (#PCDATA)>
