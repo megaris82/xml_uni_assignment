@@ -95,6 +95,7 @@ in_offer IDREFS #IMPLIED
 <!ATTLIST Saturday dayid ID #REQUIRED>
 <!ELEMENT Sunday (Timing)>
 <!ATTLIST Sunday dayid ID #REQUIRED>
+
 <!ELEMENT Timing (#PCDATA)>
 
 

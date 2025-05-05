@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE London_Sightseeing SYSTEM "LondonAttractions_new.dtd">
-
-<London_Sightseeing>
+<London_Sightseeing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="LondonAttractions_new.xsd">
 
     <Title>THE LONDON PASS</Title>
 

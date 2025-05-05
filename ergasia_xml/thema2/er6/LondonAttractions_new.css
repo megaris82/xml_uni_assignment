@@ -130,10 +130,10 @@ Attraction_title::before {
     font-weight: bold;
     color: darkgreen;
 }
-
+/* τα attributed του attraction */
 Attraction::before {
     content: "Αξιοθέατο \AID: " attr(id_Attr) "\AΚράτηση: " attr(booking) "\AΚανονική Τιμή: " attr(normal_value) attr(unit_value) "\AΠροσφορά: " attr(in_offer);
-    white-space: pre; /* Enables rendering of \A as a line break */
+    white-space: pre; /*για το \Α*/
     display: block;
     font-size: 1.5em;
     font-weight: bold;
@@ -217,7 +217,7 @@ including {
     margin-left: 20px;
 }
 
-/* Reservations */
+/* reservations*/
 Reservations {
     display: block;
     margin-top: 15px;
@@ -242,7 +242,7 @@ step::before {
     content: "- ";
 }
 
-/* knowing befrore*/
+/* knowing befrore */
 
 Knowing_before {
     display: block;
